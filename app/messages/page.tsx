@@ -39,7 +39,7 @@ import {
 } from "@/components/ui/dialog"
 import { Textarea } from "@/components/ui/textarea"
 import Link from "next/link"
-import { useMessages } from "@/hooks/useMessages"
+import { useMessages } from "@/hooks/useMessages.tsx"
 import { useLanguage } from "@/contexts/LanguageContext"
 
 export default function MessagesPage() {

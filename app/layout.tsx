@@ -2,7 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
-import { MessagesProvider } from "@/hooks/useMessages"
+import { MessagesProvider } from "@/hooks/useMessages.tsx"
 import { LanguageProvider } from "@/contexts/LanguageContext"
 
 const inter = Inter({ subsets: ["latin"] })
