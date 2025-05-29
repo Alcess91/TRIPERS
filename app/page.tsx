@@ -1,7 +1,15 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Globe, MapPin, MessageCircle, Users, Plane, Camera, Heart } from "lucide-react"
+import {
+  Globe,
+  MapPin,
+  MessageCircle,
+  Users,
+  Plane,
+  Camera,
+  Heart,
+} from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { useState, useEffect } from "react"
@@ -17,7 +25,11 @@ export default function HomePage() {
     { icon: Heart, color: "from-red-400 to-rose-500", delay: 3 },
   ]
 
-  const rotatingTexts = ["Découvrez des lieux uniques", "Planifiez votre prochain voyage", "Partagez vos aventures"]
+  const rotatingTexts = [
+    "Découvrez des lieux uniques",
+    "Planifiez votre prochain voyage",
+    "Partagez vos aventures",
+  ]
 
   const backgroundColors = [
     "from-orange-500 via-pink-500 to-purple-500",
@@ -26,18 +38,29 @@ export default function HomePage() {
   ]
 
   const [currentTextIndex, setCurrentTextIndex] = useState(0)
+  const [iconPositions, setIconPositions] = useState<
+    { x: number; y: number }[]
+  >([])
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCurrentTextIndex((prevIndex) => (prevIndex + 1) % rotatingTexts.length)
+      setCurrentTextIndex(
+        (prevIndex) => (prevIndex + 1) % rotatingTexts.length
+      )
     }, 3000)
-
     return () => clearInterval(intervalId)
+  }, [])
+
+  useEffect(() => {
+    const positions = floatingIcons.map(() => ({
+      x: Math.random() * window.innerWidth,
+      y: Math.random() * window.innerHeight,
+    }))
+    setIconPositions(positions)
   }, [])
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-100 via-pink-50 via-purple-50 via-cyan-50 to-emerald-50 flex flex-col items-center justify-start relative overflow-hidden">
-      {/* Header avec texte rotatif coloré - SANS le logo TRIPERS */}
       <motion.div
         className={`bg-gradient-to-r ${backgroundColors[currentTextIndex]} px-4 py-3 shadow-lg w-full`}
         key={currentTextIndex}
@@ -46,59 +69,55 @@ export default function HomePage() {
         transition={{ duration: 0.5 }}
       >
         <div className="flex items-center justify-center max-w-7xl mx-auto">
-          <motion.h1
-            className="text-lg font-semibold text-white transition-all duration-500"
-            initial={{ scale: 0.9 }}
-            animate={{ scale: 1 }}
-            transition={{ duration: 0.3 }}
-          >
+          <motion.h1 className="text-lg font-semibold text-white">
             {rotatingTexts[currentTextIndex]}
           </motion.h1>
         </div>
       </motion.div>
 
-      {/* Icônes flottantes animées */}
-      {floatingIcons.map((item, index) => (
-        <motion.div
-          key={index}
-          className={`absolute w-16 h-16 rounded-full bg-gradient-to-r ${item.color} flex items-center justify-center shadow-lg`}
-          initial={{
-            opacity: 0,
-            scale: 0,
-            x: Math.random() * window.innerWidth,
-            y: Math.random() * window.innerHeight,
-          }}
-          animate={{
-            opacity: [0, 1, 1, 0],
-            scale: [0, 1, 1, 0],
-            y: [0, -50, -100, -150],
-            rotate: [0, 180, 360],
-          }}
-          transition={{
-            duration: 4,
-            delay: item.delay,
-            repeat: Number.POSITIVE_INFINITY,
-            repeatDelay: 2,
-          }}
-        >
-          <item.icon className="h-8 w-8 text-white" />
-        </motion.div>
-      ))}
+      {iconPositions.length === floatingIcons.length &&
+        floatingIcons.map((item, index) => (
+          <motion.div
+            key={index}
+            className={`absolute w-16 h-16 rounded-full bg-gradient-to-r ${item.color} flex items-center justify-center shadow-lg`}
+            initial={{
+              opacity: 0,
+              scale: 0,
+              x: iconPositions[index].x,
+              y: iconPositions[index].y,
+            }}
+            animate={{
+              opacity: [0, 1, 1, 0],
+              scale: [0, 1, 1, 0],
+              y: [0, -50, -100, -150],
+              rotate: [0, 180, 360],
+            }}
+            transition={{
+              duration: 4,
+              delay: item.delay,
+              repeat: Infinity,
+              repeatDelay: 2,
+            }}
+          >
+            <item.icon className="h-8 w-8 text-white" />
+          </motion.div>
+        ))}
 
-      {/* Contenu principal */}
       <motion.div
         initial={{ scale: 0.5, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 1, ease: "easeOut" }}
+        transition={{ duration: 1 }}
         className="text-center z-10 mt-24"
       >
-        {/* Logo principal avec animation */}
-        <motion.div initial={{ y: -50 }} animate={{ y: 0 }} transition={{ duration: 1, delay: 0.5 }} className="mb-8">
+        <motion.div
+          initial={{ y: -50 }}
+          animate={{ y: 0 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          className="mb-8"
+        >
           <div className="text-8xl md:text-9xl font-bold bg-gradient-to-r from-orange-500 via-pink-500 via-purple-500 via-cyan-500 to-emerald-500 text-transparent bg-clip-text mb-4 animate-pulse">
             TRIPERS
           </div>
-
-          {/* Sous-titre animé */}
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -109,7 +128,6 @@ export default function HomePage() {
           </motion.p>
         </motion.div>
 
-        {/* Cercles colorés animés autour du logo */}
         <div className="relative">
           {[...Array(6)].map((_, i) => (
             <motion.div
@@ -135,13 +153,12 @@ export default function HomePage() {
               transition={{
                 duration: 2,
                 delay: i * 0.2,
-                repeat: Number.POSITIVE_INFINITY,
+                repeat: Infinity,
               }}
             />
           ))}
         </div>
 
-        {/* Indicateur de chargement coloré */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -160,7 +177,7 @@ export default function HomePage() {
                 transition={{
                   duration: 1,
                   delay: i * 0.2,
-                  repeat: Number.POSITIVE_INFINITY,
+                  repeat: Infinity,
                 }}
               />
             ))}
@@ -168,7 +185,6 @@ export default function HomePage() {
           <p className="text-gray-600">Préparation de votre voyage...</p>
         </motion.div>
 
-        {/* Bouton d'accès rapide */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -183,7 +199,6 @@ export default function HomePage() {
         </motion.div>
       </motion.div>
 
-      {/* Particules de fond */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(20)].map((_, i) => (
           <motion.div
@@ -200,7 +215,7 @@ export default function HomePage() {
             transition={{
               duration: 3 + Math.random() * 2,
               delay: Math.random() * 2,
-              repeat: Number.POSITIVE_INFINITY,
+              repeat: Infinity,
             }}
           />
         ))}
