@@ -1,7 +1,12 @@
 "use client"
 
-import type React from "react"
-import { useState, useEffect, createContext, useContext } from "react"
+import {
+  useState,
+  useEffect,
+  createContext,
+  useContext,
+  ReactNode,
+} from "react"
 
 // Interface User synchronisée avec la base de données
 interface User {
@@ -33,7 +38,7 @@ interface AuthContextType {
   login: (
     email: string,
     password: string,
-    userType?: "traveler" | "guide",
+    userType?: "traveler" | "guide"
   ) => Promise<{ success: boolean; error?: string }>
   register: (
     email: string,
@@ -45,7 +50,7 @@ interface AuthContextType {
       lastName?: string
       language?: string
       hobbies?: string
-    },
+    }
   ) => Promise<{ success: boolean; error?: string }>
   logout: () => Promise<void>
   updateProfile: (profileData: Partial<User>) => Promise<{ success: boolean; error?: string }>
@@ -53,7 +58,7 @@ interface AuthContextType {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
-export function AuthProvider({ children }: { children: React.ReactNode }) {
+export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null)
   const [loading, setLoading] = useState(true)
 
@@ -75,9 +80,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   }
 
-  const login = async (email: string, password: string, userType: "traveler" | "guide" = "traveler") => {
+  const login = async (
+    email: string,
+    password: string,
+    userType: "traveler" | "guide" = "traveler"
+  ) => {
     try {
-      // Validation côté client (mais aussi côté serveur)
       if (!email?.trim() || !password?.trim()) {
         return { success: false, error: "Email et mot de passe requis" }
       }
@@ -122,19 +130,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       lastName?: string
       language?: string
       hobbies?: string
-    },
+    }
   ) => {
     try {
-      // Validation côté client (redondante avec le serveur pour UX)
-      if (!email?.trim()) {
-        return { success: false, error: "Email requis" }
-      }
-      if (!password?.trim() || password.length < 6) {
+      if (!email?.trim()) return { success: false, error: "Email requis" }
+      if (!password?.trim() || password.length < 6)
         return { success: false, error: "Mot de passe requis (minimum 6 caractères)" }
-      }
-      if (!name?.trim()) {
-        return { success: false, error: "Nom requis" }
-      }
+      if (!name?.trim()) return { success: false, error: "Nom requis" }
 
       const payload = {
         email: email.trim().toLowerCase(),
@@ -164,7 +166,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       if (data.success && data.user) {
         setUser(data.user)
 
-        // Stocker les données d'onboarding côté client
         if (typeof window !== "undefined") {
           localStorage.setItem(
             "onboardingData",
@@ -174,7 +175,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
               language: additionalInfo?.language || "fr",
               interests: additionalInfo?.hobbies ? additionalInfo.hobbies.split(", ") : [],
               userType: role,
-            }),
+            })
           )
         }
 
@@ -192,8 +193,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     try {
       await fetch("/api/auth/logout", { method: "POST" })
       setUser(null)
-
-      // Nettoyer le localStorage
       if (typeof window !== "undefined") {
         localStorage.removeItem("onboardingData")
       }
@@ -205,11 +204,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const updateProfile = async (profileData: Partial<User>) => {
     try {
-      if (!user) {
-        return { success: false, error: "Utilisateur non connecté" }
-      }
+      if (!user) return { success: false, error: "Utilisateur non connecté" }
 
-      // Filtrer les champs autorisés côté client aussi
       const allowedFields = [
         "avatar_url",
         "location",
@@ -246,7 +242,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         return { success: false, error: data.error || "Erreur de mise à jour du profil" }
       }
 
-      // Mettre à jour l'utilisateur local avec les nouvelles données
       setUser((prev) => {
         if (!prev) return null
         return {
