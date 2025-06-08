@@ -4,18 +4,20 @@ import type React from "react"
 
 import { useState } from "react"
 import { useRouter } from "next/navigation"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { useAuth } from "@/hooks/useAuth"
 import { Globe, MapPin } from "lucide-react"
+import { useAuth } from "@/hooks/useAuth"
+import { useLanguage } from "@/contexts/LanguageContext"
 
 export default function AuthPage() {
+  const { t } = useLanguage()
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState("")
   const [userType, setUserType] = useState<"traveler" | "guide">("traveler")
-  const { login, register } = useAuth()
+  const { login } = useAuth()
   const router = useRouter()
 
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -33,30 +35,7 @@ export default function AuthPage() {
       // Rediriger vers la page appropriée selon le type d'utilisateur
       router.push(userType === "traveler" ? "/explore" : "/guide-dashboard")
     } else {
-      setError(result.error || "Erreur de connexion")
-    }
-
-    setIsLoading(false)
-  }
-
-  const handleRegister = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setIsLoading(true)
-    setError("")
-
-    const formData = new FormData(e.currentTarget)
-    const email = formData.get("email") as string
-    const password = formData.get("password") as string
-    const name = formData.get("name") as string
-    const role = userType === "traveler" ? "user" : "guide"
-
-    const result = await register(email, password, name, role)
-
-    if (result.success) {
-      // Rediriger vers la page appropriée selon le type d'utilisateur
-      router.push(userType === "traveler" ? "/explore" : "/guide-dashboard")
-    } else {
-      setError(result.error || "Erreur d'inscription")
+      setError(result.error || "Connection error")
     }
 
     setIsLoading(false)
@@ -70,7 +49,7 @@ export default function AuthPage() {
           <div className="text-4xl font-bold bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 text-transparent bg-clip-text mb-2">
             TRIPERS
           </div>
-          <p className="text-gray-600">Connectez-vous avec des guides locaux</p>
+          <p className="text-gray-600">{t("auth.title")}</p>
         </div>
 
         {/* Sélection du type d'utilisateur colorée */}
@@ -91,8 +70,8 @@ export default function AuthPage() {
               >
                 <Globe className={`h-6 w-6 ${userType === "traveler" ? "text-white" : "text-white"}`} />
               </div>
-              <span className="font-medium">Je suis voyageur</span>
-              <span className="text-xs mt-1 opacity-80">Je cherche un guide local</span>
+              <span className="font-medium">{t("auth.traveler")}</span>
+              <span className="text-xs mt-1 opacity-80">{t("auth.traveler.desc")}</span>
             </button>
             <button
               className={`flex-1 py-4 px-4 flex flex-col items-center transition-all duration-300 ${
@@ -109,8 +88,8 @@ export default function AuthPage() {
               >
                 <MapPin className={`h-6 w-6 ${userType === "guide" ? "text-white" : "text-white"}`} />
               </div>
-              <span className="font-medium">Je suis guide</span>
-              <span className="text-xs mt-1 opacity-80">Je propose mes services</span>
+              <span className="font-medium">{t("auth.guide")}</span>
+              <span className="text-xs mt-1 opacity-80">{t("auth.guide.desc")}</span>
             </button>
           </div>
         </div>
@@ -122,142 +101,82 @@ export default function AuthPage() {
                 userType === "traveler" ? "from-orange-500 to-pink-500" : "from-cyan-500 to-teal-600"
               } bg-clip-text text-transparent`}
             >
-              {userType === "traveler" ? "Espace Voyageur" : "Espace Guide"}
+              {userType === "traveler" ? t("auth.traveler.space") : t("auth.guide.space")}
             </CardTitle>
             <CardDescription className="text-center">
-              {userType === "traveler"
-                ? "Découvrez le monde avec des locaux authentiques"
-                : "Partagez votre passion et votre culture locale"}
+              {userType === "traveler" ? t("auth.traveler.tagline") : t("auth.guide.tagline")}
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <Tabs defaultValue="login" className="w-full">
-              <TabsList className="grid w-full grid-cols-2 bg-gray-100">
-                <TabsTrigger
-                  value="login"
-                  className={`data-[state=active]:bg-gradient-to-r ${
-                    userType === "traveler"
-                      ? "data-[state=active]:from-orange-500 data-[state=active]:to-pink-500"
-                      : "data-[state=active]:from-cyan-500 data-[state=active]:to-teal-600"
-                  } data-[state=active]:text-white`}
-                >
-                  Connexion
-                </TabsTrigger>
-                <TabsTrigger
-                  value="register"
-                  className={`data-[state=active]:bg-gradient-to-r ${
-                    userType === "traveler"
-                      ? "data-[state=active]:from-orange-500 data-[state=active]:to-pink-500"
-                      : "data-[state=active]:from-cyan-500 data-[state=active]:to-teal-600"
-                  } data-[state=active]:text-white`}
-                >
-                  Inscription
-                </TabsTrigger>
-              </TabsList>
+            <form onSubmit={handleLogin} className="space-y-4">
+              <div>
+                <Input
+                  name="email"
+                  type="email"
+                  placeholder={t("auth.email")}
+                  required
+                  disabled={isLoading}
+                  className="border-gray-200 focus:ring-orange-500/20 focus:border-orange-500"
+                />
+              </div>
+              <div>
+                <Input
+                  name="password"
+                  type="password"
+                  placeholder={t("auth.password")}
+                  required
+                  disabled={isLoading}
+                  className="border-gray-200 focus:ring-orange-500/20 focus:border-orange-500"
+                />
+              </div>
+              {error && <div className="text-red-600 text-sm text-center bg-red-50 p-3 rounded-lg">{error}</div>}
+              <Button
+                type="submit"
+                className={`w-full bg-gradient-to-r ${
+                  userType === "traveler"
+                    ? "from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600"
+                    : "from-cyan-500 to-teal-600 hover:from-cyan-600 hover:to-teal-700"
+                } text-white border-0 shadow-lg`}
+                disabled={isLoading}
+              >
+                {isLoading ? t("auth.logging") : t("auth.login")}
+              </Button>
 
-              <TabsContent value="login">
-                <form onSubmit={handleLogin} className="space-y-4">
-                  <div>
-                    <Input
-                      name="email"
-                      type="email"
-                      placeholder="Email"
-                      required
-                      disabled={isLoading}
-                      className="border-gray-200 focus:ring-orange-500/20 focus:border-orange-500"
-                    />
-                  </div>
-                  <div>
-                    <Input
-                      name="password"
-                      type="password"
-                      placeholder="Mot de passe"
-                      required
-                      disabled={isLoading}
-                      className="border-gray-200 focus:ring-orange-500/20 focus:border-orange-500"
-                    />
-                  </div>
-                  {error && <div className="text-red-600 text-sm text-center bg-red-50 p-3 rounded-lg">{error}</div>}
-                  <Button
-                    type="submit"
-                    className={`w-full bg-gradient-to-r ${
+              <div className="text-center mt-4">
+                <p className="text-gray-600 text-sm">
+                  {t("auth.no.account")}{" "}
+                  <Link
+                    href="/signup"
+                    className={`font-medium ${
                       userType === "traveler"
-                        ? "from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600"
-                        : "from-cyan-500 to-teal-600 hover:from-cyan-600 hover:to-teal-700"
-                    } text-white border-0 shadow-lg`}
-                    disabled={isLoading}
+                        ? "text-pink-600 hover:text-pink-700"
+                        : "text-teal-600 hover:text-teal-700"
+                    }`}
                   >
-                    {isLoading ? "Connexion..." : "Se connecter"}
-                  </Button>
-                </form>
-              </TabsContent>
-
-              <TabsContent value="register">
-                <form onSubmit={handleRegister} className="space-y-4">
-                  <div>
-                    <Input
-                      name="name"
-                      type="text"
-                      placeholder="Nom complet"
-                      required
-                      disabled={isLoading}
-                      className="border-gray-200 focus:ring-orange-500/20 focus:border-orange-500"
-                    />
-                  </div>
-                  <div>
-                    <Input
-                      name="email"
-                      type="email"
-                      placeholder="Email"
-                      required
-                      disabled={isLoading}
-                      className="border-gray-200 focus:ring-orange-500/20 focus:border-orange-500"
-                    />
-                  </div>
-                  <div>
-                    <Input
-                      name="password"
-                      type="password"
-                      placeholder="Mot de passe"
-                      required
-                      disabled={isLoading}
-                      className="border-gray-200 focus:ring-orange-500/20 focus:border-orange-500"
-                    />
-                  </div>
-                  {error && <div className="text-red-600 text-sm text-center bg-red-50 p-3 rounded-lg">{error}</div>}
-                  <Button
-                    type="submit"
-                    className={`w-full bg-gradient-to-r ${
-                      userType === "traveler"
-                        ? "from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600"
-                        : "from-cyan-500 to-teal-600 hover:from-cyan-600 hover:to-teal-700"
-                    } text-white border-0 shadow-lg`}
-                    disabled={isLoading}
-                  >
-                    {isLoading ? "Inscription..." : "S'inscrire"}
-                  </Button>
-                </form>
-              </TabsContent>
-            </Tabs>
+                    {t("auth.create.account")}
+                  </Link>
+                </p>
+              </div>
+            </form>
           </CardContent>
         </Card>
 
         {/* Comptes de test colorés */}
         <Card className="mt-4 border-gray-200">
           <CardContent className="p-4">
-            <h3 className="font-medium mb-2 text-gray-800">Comptes de test :</h3>
+            <h3 className="font-medium mb-2 text-gray-800">{t("auth.test.accounts")}</h3>
             <div className="text-sm text-gray-600 space-y-1">
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-gradient-to-r from-purple-400 to-violet-500 rounded-full"></div>
-                <span>Admin: admin@tripers.com / admin123</span>
+                <span>{t("auth.admin")}: admin@tripers.com / admin123</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-gradient-to-r from-cyan-400 to-teal-500 rounded-full"></div>
-                <span>Guide: guide@tripers.com / guide123</span>
+                <span>{t("auth.guide.test")}: guide@tripers.com / guide123</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-gradient-to-r from-orange-400 to-pink-500 rounded-full"></div>
-                <span>Voyageur: user@tripers.com / user123</span>
+                <span>{t("auth.traveler.test")}: user@tripers.com / user123</span>
               </div>
             </div>
           </CardContent>

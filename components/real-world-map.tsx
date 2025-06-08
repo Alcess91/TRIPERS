@@ -1,8 +1,21 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState, useCallback } from "react"
 import { Home } from "lucide-react"
 import { Button } from "@/components/ui/button"
+
+// Fonction de debounce pour optimiser les performances
+function debounce(func: Function, wait: number) {
+  let timeout: NodeJS.Timeout
+  return function executedFunction(...args: any[]) {
+    const later = () => {
+      clearTimeout(timeout)
+      func(...args)
+    }
+    clearTimeout(timeout)
+    timeout = setTimeout(later, wait)
+  }
+}
 
 interface RealWorldMapProps {
   tripers: Array<{
@@ -89,6 +102,20 @@ export default function RealWorldMap({ tripers, onTriperClick, selectedTriper, m
     }
   }, [])
 
+  const debouncedZoomHandler = useCallback(
+    debounce(() => {
+      try {
+        const zoom = mapInstanceRef.current?.getZoom()
+        if (zoom !== undefined) {
+          setCurrentZoom(zoom)
+        }
+      } catch (error) {
+        console.error("Zoom error:", error)
+      }
+    }, 100),
+    [],
+  )
+
   const initLeafletMap = () => {
     try {
       if (!mapRef.current || mapInstanceRef.current || !window.L) return
@@ -106,7 +133,12 @@ export default function RealWorldMap({ tripers, onTriperClick, selectedTriper, m
         zoomAnimation: true,
         fadeAnimation: true,
         markerZoomAnimation: true,
-        zoomAnimationThreshold: 4,
+        zoomAnimationThreshold: 2, // Réduit de 4 à 2 pour plus d'animations
+        preferCanvas: true, // Utilise Canvas pour de meilleures performances
+        renderer: L.canvas(), // Rendu Canvas plus fluide
+        wheelPxPerZoomLevel: 60, // Zoom plus fluide à la molette
+        zoomSnap: 0.5, // Permet des zooms intermédiaires
+        zoomDelta: 0.5, // Incréments de zoom plus fins
       })
 
       // Ajouter la couche Positron
@@ -118,17 +150,12 @@ export default function RealWorldMap({ tripers, onTriperClick, selectedTriper, m
       }).addTo(map)
 
       // Événements de zoom optimisés
-      map.on("zoom", () => {
-        try {
-          const zoom = map.getZoom()
-          setCurrentZoom(zoom)
-        } catch (error) {
-          console.error("Zoom error:", error)
-        }
-      })
-
+      map.on("zoom", debouncedZoomHandler)
       map.on("zoomstart", () => setIsAnimating(true))
-      map.on("zoomend", () => setIsAnimating(false))
+      map.on("zoomend", () => {
+        setIsAnimating(false)
+        debouncedZoomHandler()
+      })
       map.on("movestart", () => setIsAnimating(true))
       map.on("moveend", () => setIsAnimating(false))
 
@@ -151,13 +178,15 @@ export default function RealWorldMap({ tripers, onTriperClick, selectedTriper, m
       const map = mapInstanceRef.current
 
       map.flyTo([lat, lng], targetZoom, {
-        duration: 1.5,
-        easeLinearity: 0.1,
+        duration: 1.2, // Réduit de 1.5 à 1.2
+        easeLinearity: 0.05, // Plus fluide (était 0.1)
+        animate: true,
+        noMoveStart: false,
       })
 
       setTimeout(() => {
         setIsAnimating(false)
-      }, 1600)
+      }, 1300) // Ajusté en conséquence
     } catch (error) {
       console.error("Animation error:", error)
       setIsAnimating(false)
@@ -328,29 +357,43 @@ export default function RealWorldMap({ tripers, onTriperClick, selectedTriper, m
       <style jsx global>{`
         .leaflet-container {
           font-family: inherit;
+          will-change: transform; /* Optimisation GPU */
         }
 
         .custom-search-marker {
           background: transparent !important;
           border: none !important;
+          will-change: transform; /* Optimisation GPU */
         }
 
         .custom-triper-marker {
           background: transparent !important;
           border: none !important;
+          will-change: transform; /* Optimisation GPU */
         }
 
         .leaflet-popup-content-wrapper {
           border-radius: 8px;
+          transition: all 0.2s ease-out; /* Animation plus fluide */
         }
 
         .leaflet-control-attribution {
           background: rgba(255, 255, 255, 0.8) !important;
           font-size: 10px !important;
+          transition: opacity 0.3s ease;
         }
 
         .leaflet-zoom-anim .leaflet-zoom-animated {
-          transition: transform 0.25s cubic-bezier(0, 0, 0.25, 1);
+          transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Courbe plus fluide */
+        }
+
+        /* Optimisations pour les marqueurs */
+        .leaflet-marker-icon {
+          transition: transform 0.2s ease-out;
+        }
+
+        .leaflet-marker-icon:hover {
+          transform: scale(1.1);
         }
       `}</style>
 

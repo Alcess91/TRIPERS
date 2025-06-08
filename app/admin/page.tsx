@@ -1,113 +1,148 @@
 "use client"
 
-import { useState } from "react"
-import { ArrowLeft, Search, Check, X, Eye, UserPlus, Share2, BarChart3 } from "lucide-react"
+import { useState, useEffect } from "react"
+import { ArrowLeft, Search, Check, X, Eye, UserPlus, Video, FileText, Clock, DollarSign } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
+import { Textarea } from "@/components/ui/textarea"
+import { Label } from "@/components/ui/label"
 import Link from "next/link"
 
-// Données simulées pour l'administration
-const pendingTripers = [
-  {
-    id: 5,
-    name: "Elena Rodriguez",
-    location: "Madrid, Spain",
-    avatar: "/placeholder.svg?height=40&width=40&query=spanish woman guide",
-    appliedDate: "Il y a 2 jours",
-    languages: ["Español", "English", "Français"],
-    specialties: ["Flamenco", "Gastronomie"],
-    bio: "Danseuse de flamenco professionnelle, je souhaite partager la culture espagnole authentique.",
-    status: "pending",
-  },
-  {
-    id: 6,
-    name: "Ahmed Hassan",
-    location: "Marrakech, Morocco",
-    avatar: "/placeholder.svg?height=40&width=40&query=moroccan man guide",
-    appliedDate: "Il y a 3 jours",
-    languages: ["العربية", "Français", "English"],
-    specialties: ["Médina", "Artisanat"],
-    bio: "Guide local de Marrakech depuis 5 ans, spécialisé dans l'artisanat traditionnel.",
-    status: "pending",
-  },
-  {
-    id: 7,
-    name: "Lisa Chen",
-    location: "Singapore",
-    avatar: "/placeholder.svg?height=40&width=40&query=asian woman guide",
-    appliedDate: "Il y a 5 jours",
-    languages: ["English", "中文", "Bahasa"],
-    specialties: ["Street Food", "Architecture"],
-    bio: "Architecte passionnée par l'urbanisme de Singapour et sa scène culinaire.",
-    status: "pending",
-  },
-]
-
-const inviteStats = {
-  totalInvites: 156,
-  acceptedInvites: 89,
-  pendingInvites: 34,
-  conversionRate: 57,
-}
-
-const platformStats = {
-  totalTripers: 1247,
-  activeTripers: 892,
-  totalConnections: 5634,
-  monthlyGrowth: 12,
+interface GuideApplication {
+  id: number
+  user_id: number
+  name: string
+  email: string
+  avatar_url?: string
+  location: string
+  bio: string
+  languages: string[]
+  specialties: string[]
+  experience: string
+  motivation_type: "video" | "text"
+  motivation_text?: string
+  motivation_video_url?: string
+  certifications: string[]
+  hourly_rate: string
+  response_time: string
+  status: "pending" | "approved" | "rejected"
+  created_at: string
 }
 
 export default function AdminPage() {
   const [searchQuery, setSearchQuery] = useState("")
-  const [statusFilter, setStatusFilter] = useState("all")
-  const [inviteLink, setInviteLink] = useState("https://tripers.app/invite/admin123")
+  const [statusFilter, setStatusFilter] = useState("pending")
+  const [applications, setApplications] = useState<GuideApplication[]>([])
+  const [isLoading, setIsLoading] = useState(false)
+  const [selectedApplication, setSelectedApplication] = useState<GuideApplication | null>(null)
+  const [adminNotes, setAdminNotes] = useState("")
 
-  const handleApprove = (triperId: number) => {
-    console.log(`Approving Triper ${triperId}`)
-    // Ici on ajouterait la logique d'approbation
-  }
+  // Fetch applications
+  useEffect(() => {
+    fetchApplications()
+  }, [statusFilter])
 
-  const handleReject = (triperId: number) => {
-    console.log(`Rejecting Triper ${triperId}`)
-    // Ici on ajouterait la logique de rejet
-  }
-
-  const generateInviteLink = () => {
-    const newLink = `https://tripers.app/invite/${Math.random().toString(36).substr(2, 9)}`
-    setInviteLink(newLink)
-  }
-
-  const shareInviteLink = (platform: string) => {
-    const text =
-      "Rejoignez TRIPERS et devenez un guide local ! Partagez votre passion pour votre ville avec des voyageurs du monde entier."
-    const url = inviteLink
-
-    switch (platform) {
-      case "whatsapp":
-        window.open(`https://wa.me/?text=${encodeURIComponent(text + " " + url)}`)
-        break
-      case "instagram":
-        navigator.clipboard.writeText(text + " " + url)
-        alert("Lien copié ! Vous pouvez le partager sur Instagram.")
-        break
-      default:
-        navigator.clipboard.writeText(url)
-        alert("Lien copié !")
+  const fetchApplications = async () => {
+    try {
+      const response = await fetch(`/api/guide-applications?status=${statusFilter}`)
+      if (response.ok) {
+        const data = await response.json()
+        setApplications(data)
+      }
+    } catch (error) {
+      console.error("Error fetching applications:", error)
+      // Fallback data for demo
+      setApplications([
+        {
+          id: 1,
+          user_id: 1,
+          name: "Elena Rodriguez",
+          email: "elena@example.com",
+          location: "Madrid, Spain",
+          bio: "Professional flamenco dancer passionate about sharing authentic Spanish culture with travelers.",
+          languages: ["Spanish", "English", "French"],
+          specialties: ["Flamenco", "Gastronomy", "Art & Culture"],
+          experience: "5 years as a local guide in Madrid, certified by the Spanish Tourism Board.",
+          motivation_type: "text",
+          motivation_text:
+            "I want to share the real Madrid with travelers, not just the tourist spots but the hidden gems where locals go.",
+          certifications: ["Official Madrid Guide", "Flamenco Instructor"],
+          hourly_rate: "45",
+          response_time: "< 1 hour",
+          status: "pending",
+          created_at: "2024-01-15T10:30:00Z",
+        },
+        {
+          id: 2,
+          user_id: 2,
+          name: "Ahmed Hassan",
+          email: "ahmed@example.com",
+          location: "Marrakech, Morocco",
+          bio: "Local artisan and guide specializing in traditional Moroccan crafts and medina tours.",
+          languages: ["Arabic", "French", "English"],
+          specialties: ["Traditional Crafts", "Historical Tours", "Local Markets"],
+          experience: "Born and raised in Marrakech, 8 years experience guiding tourists through the medina.",
+          motivation_type: "video",
+          motivation_video_url: "/uploads/motivation-videos/2-1642234567.mp4",
+          certifications: ["Certified Artisan", "Tourism Guide License"],
+          hourly_rate: "35",
+          response_time: "< 2 hours",
+          status: "pending",
+          created_at: "2024-01-14T15:45:00Z",
+        },
+      ])
     }
   }
 
-  const filteredTripers = pendingTripers.filter((triper) => {
+  const handleApplicationAction = async (applicationId: number, action: "approve" | "reject") => {
+    setIsLoading(true)
+    try {
+      const response = await fetch(`/api/guide-applications/${applicationId}`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          action,
+          adminNotes,
+        }),
+      })
+
+      if (response.ok) {
+        // Remove from current list
+        setApplications((prev) => prev.filter((app) => app.id !== applicationId))
+        setSelectedApplication(null)
+        setAdminNotes("")
+        alert(`Application ${action}d successfully!`)
+      } else {
+        alert(`Failed to ${action} application`)
+      }
+    } catch (error) {
+      console.error(`Error ${action}ing application:`, error)
+      alert(`Error ${action}ing application`)
+    }
+    setIsLoading(false)
+  }
+
+  const filteredApplications = applications.filter((app) => {
     const matchesSearch =
-      triper.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      triper.location.toLowerCase().includes(searchQuery.toLowerCase())
-    const matchesStatus = statusFilter === "all" || triper.status === statusFilter
-    return matchesSearch && matchesStatus
+      app.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      app.location.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      app.email.toLowerCase().includes(searchQuery.toLowerCase())
+    return matchesSearch
   })
+
+  const stats = {
+    pending: applications.filter((app) => app.status === "pending").length,
+    approved: applications.filter((app) => app.status === "approved").length,
+    rejected: applications.filter((app) => app.status === "rejected").length,
+    total: applications.length,
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -119,239 +154,246 @@ export default function AdminPage() {
               <ArrowLeft className="h-5 w-5" />
             </Button>
           </Link>
-          <h1 className="text-lg font-semibold">Administration</h1>
+          <h1 className="text-lg font-semibold">Guide Applications Admin</h1>
         </div>
       </div>
 
       <div className="p-4">
-        {/* Statistiques générales */}
+        {/* Statistics */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <Card>
             <CardContent className="p-4 text-center">
-              <div className="text-2xl font-bold text-blue-600">{platformStats.totalTripers}</div>
-              <div className="text-sm text-gray-600">Total Tripers</div>
+              <div className="text-2xl font-bold text-orange-600">{stats.pending}</div>
+              <div className="text-sm text-gray-600">Pending</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
-              <div className="text-2xl font-bold text-green-600">{platformStats.activeTripers}</div>
-              <div className="text-sm text-gray-600">Actifs</div>
+              <div className="text-2xl font-bold text-green-600">{stats.approved}</div>
+              <div className="text-sm text-gray-600">Approved</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
-              <div className="text-2xl font-bold text-purple-600">{platformStats.totalConnections}</div>
-              <div className="text-sm text-gray-600">Connexions</div>
+              <div className="text-2xl font-bold text-red-600">{stats.rejected}</div>
+              <div className="text-sm text-gray-600">Rejected</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
-              <div className="text-2xl font-bold text-orange-600">+{platformStats.monthlyGrowth}%</div>
-              <div className="text-sm text-gray-600">Croissance</div>
+              <div className="text-2xl font-bold text-blue-600">{stats.total}</div>
+              <div className="text-sm text-gray-600">Total</div>
             </CardContent>
           </Card>
         </div>
 
-        {/* Onglets d'administration */}
-        <Tabs defaultValue="pending" className="w-full">
-          <TabsList className="grid w-full grid-cols-3">
-            <TabsTrigger value="pending">En Attente</TabsTrigger>
-            <TabsTrigger value="invites">Invitations</TabsTrigger>
-            <TabsTrigger value="analytics">Analytics</TabsTrigger>
-          </TabsList>
+        {/* Filters */}
+        <div className="flex space-x-3 mb-6">
+          <div className="relative flex-1">
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
+            <Input
+              placeholder="Search applications..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="pl-10"
+            />
+          </div>
+          <Select value={statusFilter} onValueChange={setStatusFilter}>
+            <SelectTrigger className="w-40">
+              <SelectValue placeholder="Status" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="pending">Pending</SelectItem>
+              <SelectItem value="approved">Approved</SelectItem>
+              <SelectItem value="rejected">Rejected</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
 
-          <TabsContent value="pending" className="space-y-4">
-            {/* Filtres */}
-            <div className="flex space-x-3">
-              <div className="relative flex-1">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
-                <Input
-                  placeholder="Rechercher un candidat..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-10"
-                />
-              </div>
-              <Select value={statusFilter} onValueChange={setStatusFilter}>
-                <SelectTrigger className="w-40">
-                  <SelectValue placeholder="Statut" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="all">Tous</SelectItem>
-                  <SelectItem value="pending">En attente</SelectItem>
-                  <SelectItem value="approved">Approuvé</SelectItem>
-                  <SelectItem value="rejected">Rejeté</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
+        {/* Applications List */}
+        <div className="space-y-4">
+          {filteredApplications.length > 0 ? (
+            filteredApplications.map((application) => (
+              <Card key={application.id} className="border-l-4 border-l-orange-500">
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-4">
+                    <Avatar className="w-16 h-16">
+                      <AvatarImage src={application.avatar_url || "/placeholder.svg"} alt={application.name} />
+                      <AvatarFallback>
+                        {application.name
+                          .split(" ")
+                          .map((n) => n[0])
+                          .join("")}
+                      </AvatarFallback>
+                    </Avatar>
 
-            {/* Liste des candidats */}
-            <div className="space-y-4">
-              {filteredTripers.map((triper) => (
-                <Card key={triper.id}>
-                  <CardContent className="p-4">
-                    <div className="flex items-start space-x-4">
-                      <Avatar className="w-16 h-16">
-                        <AvatarImage src={triper.avatar || "/placeholder.svg"} alt={triper.name} />
-                        <AvatarFallback>
-                          {triper.name
-                            .split(" ")
-                            .map((n) => n[0])
-                            .join("")}
-                        </AvatarFallback>
-                      </Avatar>
-                      <div className="flex-1">
-                        <div className="flex items-start justify-between mb-2">
-                          <div>
-                            <h3 className="font-semibold">{triper.name}</h3>
-                            <p className="text-sm text-gray-600">{triper.location}</p>
-                            <p className="text-xs text-gray-500">Candidature : {triper.appliedDate}</p>
-                          </div>
-                          <Badge variant="outline">{triper.status === "pending" ? "En attente" : triper.status}</Badge>
+                    <div className="flex-1">
+                      <div className="flex items-start justify-between mb-3">
+                        <div>
+                          <h3 className="font-semibold text-lg">{application.name}</h3>
+                          <p className="text-sm text-gray-600">{application.email}</p>
+                          <p className="text-sm text-gray-600 flex items-center mt-1">
+                            <Clock className="h-3 w-3 mr-1" />
+                            Applied {new Date(application.created_at).toLocaleDateString()}
+                          </p>
                         </div>
-                        <p className="text-sm text-gray-700 mb-3">{triper.bio}</p>
-                        <div className="flex flex-wrap gap-2 mb-3">
-                          <div className="text-xs text-gray-600">Langues:</div>
-                          {triper.languages.map((lang) => (
+                        <Badge variant="outline" className="bg-orange-50 text-orange-700">
+                          {application.status}
+                        </Badge>
+                      </div>
+
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                          <p className="text-sm font-medium text-gray-700">Location</p>
+                          <p className="text-sm text-gray-600">{application.location}</p>
+                        </div>
+                        <div>
+                          <p className="text-sm font-medium text-gray-700">Rate</p>
+                          <p className="text-sm text-gray-600 flex items-center">
+                            <DollarSign className="h-3 w-3 mr-1" />
+                            {application.hourly_rate}/hour
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="mb-4">
+                        <p className="text-sm font-medium text-gray-700 mb-2">Languages</p>
+                        <div className="flex flex-wrap gap-1">
+                          {application.languages.map((lang) => (
                             <Badge key={lang} variant="secondary" className="text-xs">
                               {lang}
                             </Badge>
                           ))}
                         </div>
-                        <div className="flex flex-wrap gap-2 mb-4">
-                          <div className="text-xs text-gray-600">Spécialités:</div>
-                          {triper.specialties.map((specialty) => (
+                      </div>
+
+                      <div className="mb-4">
+                        <p className="text-sm font-medium text-gray-700 mb-2">Specialties</p>
+                        <div className="flex flex-wrap gap-1">
+                          {application.specialties.map((specialty) => (
                             <Badge key={specialty} variant="outline" className="text-xs">
                               {specialty}
                             </Badge>
                           ))}
                         </div>
-                        <div className="flex space-x-2">
-                          <Button
-                            size="sm"
-                            onClick={() => handleApprove(triper.id)}
-                            className="bg-green-600 hover:bg-green-700"
-                          >
-                            <Check className="h-4 w-4 mr-1" />
-                            Approuver
-                          </Button>
-                          <Button size="sm" variant="destructive" onClick={() => handleReject(triper.id)}>
-                            <X className="h-4 w-4 mr-1" />
-                            Rejeter
-                          </Button>
-                          <Link href={`/profile/${triper.id}`}>
-                            <Button size="sm" variant="outline">
+                      </div>
+
+                      <div className="flex space-x-2">
+                        <Dialog>
+                          <DialogTrigger asChild>
+                            <Button size="sm" variant="outline" onClick={() => setSelectedApplication(application)}>
                               <Eye className="h-4 w-4 mr-1" />
-                              Voir Profil
+                              View Details
                             </Button>
-                          </Link>
-                        </div>
+                          </DialogTrigger>
+                          <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
+                            <DialogHeader>
+                              <DialogTitle>Guide Application - {application.name}</DialogTitle>
+                            </DialogHeader>
+
+                            {selectedApplication && (
+                              <div className="space-y-6">
+                                <div>
+                                  <h4 className="font-medium mb-2">Bio</h4>
+                                  <p className="text-sm text-gray-700">{selectedApplication.bio}</p>
+                                </div>
+
+                                <div>
+                                  <h4 className="font-medium mb-2">Experience</h4>
+                                  <p className="text-sm text-gray-700">{selectedApplication.experience}</p>
+                                </div>
+
+                                <div>
+                                  <h4 className="font-medium mb-2">Motivation</h4>
+                                  {selectedApplication.motivation_type === "text" ? (
+                                    <div className="bg-gray-50 p-4 rounded-lg">
+                                      <div className="flex items-center mb-2">
+                                        <FileText className="h-4 w-4 mr-2" />
+                                        <span className="text-sm font-medium">Text Message</span>
+                                      </div>
+                                      <p className="text-sm text-gray-700">{selectedApplication.motivation_text}</p>
+                                    </div>
+                                  ) : (
+                                    <div className="bg-gray-50 p-4 rounded-lg">
+                                      <div className="flex items-center mb-2">
+                                        <Video className="h-4 w-4 mr-2" />
+                                        <span className="text-sm font-medium">Video Message</span>
+                                      </div>
+                                      <p className="text-sm text-gray-600">
+                                        Video file: {selectedApplication.motivation_video_url}
+                                      </p>
+                                      <Button size="sm" variant="outline" className="mt-2">
+                                        Play Video
+                                      </Button>
+                                    </div>
+                                  )}
+                                </div>
+
+                                {selectedApplication.certifications.length > 0 && (
+                                  <div>
+                                    <h4 className="font-medium mb-2">Certifications</h4>
+                                    <div className="flex flex-wrap gap-2">
+                                      {selectedApplication.certifications.map((cert) => (
+                                        <Badge key={cert} variant="secondary">
+                                          {cert}
+                                        </Badge>
+                                      ))}
+                                    </div>
+                                  </div>
+                                )}
+
+                                <div>
+                                  <Label htmlFor="adminNotes">Admin Notes (Optional)</Label>
+                                  <Textarea
+                                    id="adminNotes"
+                                    value={adminNotes}
+                                    onChange={(e) => setAdminNotes(e.target.value)}
+                                    placeholder="Add notes for the applicant..."
+                                    className="mt-2"
+                                  />
+                                </div>
+
+                                <div className="flex space-x-2">
+                                  <Button
+                                    onClick={() => handleApplicationAction(selectedApplication.id, "approve")}
+                                    disabled={isLoading}
+                                    className="bg-green-600 hover:bg-green-700 flex-1"
+                                  >
+                                    <Check className="h-4 w-4 mr-1" />
+                                    {isLoading ? "Processing..." : "Approve"}
+                                  </Button>
+                                  <Button
+                                    onClick={() => handleApplicationAction(selectedApplication.id, "reject")}
+                                    disabled={isLoading}
+                                    variant="destructive"
+                                    className="flex-1"
+                                  >
+                                    <X className="h-4 w-4 mr-1" />
+                                    {isLoading ? "Processing..." : "Reject"}
+                                  </Button>
+                                </div>
+                              </div>
+                            )}
+                          </DialogContent>
+                        </Dialog>
                       </div>
                     </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </TabsContent>
-
-          <TabsContent value="invites" className="space-y-4">
-            {/* Statistiques d'invitation */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-              <Card>
-                <CardContent className="p-4 text-center">
-                  <div className="text-2xl font-bold text-blue-600">{inviteStats.totalInvites}</div>
-                  <div className="text-sm text-gray-600">Total Invitations</div>
+                  </div>
                 </CardContent>
               </Card>
-              <Card>
-                <CardContent className="p-4 text-center">
-                  <div className="text-2xl font-bold text-green-600">{inviteStats.acceptedInvites}</div>
-                  <div className="text-sm text-gray-600">Acceptées</div>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-4 text-center">
-                  <div className="text-2xl font-bold text-orange-600">{inviteStats.pendingInvites}</div>
-                  <div className="text-sm text-gray-600">En Attente</div>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-4 text-center">
-                  <div className="text-2xl font-bold text-purple-600">{inviteStats.conversionRate}%</div>
-                  <div className="text-sm text-gray-600">Taux Conversion</div>
-                </CardContent>
-              </Card>
-            </div>
-
-            {/* Générateur de liens d'invitation */}
+            ))
+          ) : (
             <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center space-x-2">
-                  <UserPlus className="h-5 w-5" />
-                  <span>Générer un Lien d'Invitation</span>
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex space-x-2">
-                  <Input value={inviteLink} readOnly className="flex-1" />
-                  <Button onClick={generateInviteLink}>Nouveau Lien</Button>
-                </div>
-                <div className="flex space-x-2">
-                  <Button
-                    onClick={() => shareInviteLink("whatsapp")}
-                    className="flex-1 bg-green-600 hover:bg-green-700"
-                  >
-                    <Share2 className="h-4 w-4 mr-2" />
-                    WhatsApp
-                  </Button>
-                  <Button
-                    onClick={() => shareInviteLink("instagram")}
-                    className="flex-1 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600"
-                  >
-                    <Share2 className="h-4 w-4 mr-2" />
-                    Instagram
-                  </Button>
-                  <Button onClick={() => shareInviteLink("copy")} variant="outline" className="flex-1">
-                    Copier
-                  </Button>
+              <CardContent className="p-8 text-center">
+                <div className="text-gray-500">
+                  <UserPlus className="h-12 w-12 mx-auto mb-4 opacity-50" />
+                  <p>No applications found</p>
+                  <p className="text-sm mt-2">Applications will appear here when submitted</p>
                 </div>
               </CardContent>
             </Card>
-          </TabsContent>
-
-          <TabsContent value="analytics" className="space-y-4">
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center space-x-2">
-                  <BarChart3 className="h-5 w-5" />
-                  <span>Analytics de la Plateforme</span>
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-6">
-                  <div>
-                    <h4 className="font-medium mb-2">Croissance des Utilisateurs</h4>
-                    <div className="h-32 bg-gradient-to-r from-blue-100 to-purple-100 rounded-lg flex items-center justify-center">
-                      <p className="text-gray-600">Graphique de croissance (simulation)</p>
-                    </div>
-                  </div>
-                  <div>
-                    <h4 className="font-medium mb-2">Répartition Géographique</h4>
-                    <div className="h-32 bg-gradient-to-r from-green-100 to-blue-100 rounded-lg flex items-center justify-center">
-                      <p className="text-gray-600">Carte de répartition (simulation)</p>
-                    </div>
-                  </div>
-                  <div>
-                    <h4 className="font-medium mb-2">Taux d'Engagement</h4>
-                    <div className="h-32 bg-gradient-to-r from-orange-100 to-red-100 rounded-lg flex items-center justify-center">
-                      <p className="text-gray-600">Métriques d'engagement (simulation)</p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </TabsContent>
-        </Tabs>
+          )}
+        </div>
       </div>
 
       {/* Espacement pour la navigation */}

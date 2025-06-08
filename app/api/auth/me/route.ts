@@ -1,35 +1,41 @@
-import { NextResponse } from "next/server"
-import { cookies } from "next/headers"
-import { getUserById } from "@/lib/auth"
+import { type NextRequest, NextResponse } from "next/server"
+import jwt from "jsonwebtoken"
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   try {
-    const token = cookies().get("auth-token")?.value
+    const token = request.cookies.get("auth-token")?.value
 
     if (!token) {
-      return NextResponse.json({ error: "No token" }, { status: 401 })
+      return NextResponse.json({ error: "Non authentifié" }, { status: 401 })
     }
 
-    // Décoder le token simple
-    const decoded = JSON.parse(atob(token))
+    try {
+      const decoded = jwt.verify(token, process.env.JWT_SECRET || "fallback-secret") as any
 
-    // Vérifier que le token n'est pas trop ancien (7 jours)
-    const tokenAge = Date.now() - decoded.timestamp
-    const maxAge = 7 * 24 * 60 * 60 * 1000 // 7 jours en millisecondes
+      // Ici, vous pourriez faire une requête à la base de données pour récupérer les données utilisateur
+      // Pour l'instant, on retourne les données du token
+      const user = {
+        id: decoded.userId,
+        email: decoded.email,
+        name: decoded.name || "Utilisateur",
+        role: decoded.role,
+        firstName: decoded.firstName,
+        lastName: decoded.lastName,
+        language: decoded.language,
+        hobbies: decoded.hobbies,
+      }
 
-    if (tokenAge > maxAge) {
-      return NextResponse.json({ error: "Token expired" }, { status: 401 })
+      return NextResponse.json({ user })
+    } catch (jwtError) {
+      console.error("JWT verification failed:", jwtError)
+
+      // Token invalide, supprimer le cookie
+      const response = NextResponse.json({ error: "Token invalide" }, { status: 401 })
+      response.cookies.delete("auth-token")
+      return response
     }
-
-    const user = await getUserById(decoded.userId)
-
-    if (!user) {
-      return NextResponse.json({ error: "User not found" }, { status: 401 })
-    }
-
-    return NextResponse.json(user)
   } catch (error) {
-    console.error("Auth verification error:", error)
-    return NextResponse.json({ error: "Invalid token" }, { status: 401 })
+    console.error("Auth check error:", error)
+    return NextResponse.json({ error: "Erreur serveur" }, { status: 500 })
   }
 }
