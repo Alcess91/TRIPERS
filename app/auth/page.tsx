@@ -8,6 +8,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useAuth } from '@/hooks/useAuth';
 import { useToast } from '@/hooks/use-toast';
+import Link from 'next/link';
+import { MapPin, ArrowRight } from 'lucide-react';
 
 export default function AuthPage() {
   const [isLoading, setIsLoading] = useState(false);
@@ -25,10 +27,12 @@ export default function AuthPage() {
   }, []);
 
   useEffect(() => {
-    if (user) {
-      console.log('✅ Utilisateur connecté, redirection vers /explore');
-      window.location.href = '/explore'; // Force redirection without middleware
-    }
+    // NE PAS rediriger automatiquement sur la page d'auth
+    // L'utilisateur veut peut-être se connecter avec un autre compte
+    // if (user) {
+    //   console.log('✅ Utilisateur connecté, redirection vers /explore');
+    //   window.location.href = '/explore'; // Force redirection without middleware
+    // }
   }, [user, router]);
 
   const handleLogin = async (e: React.FormEvent) => {
@@ -37,14 +41,18 @@ export default function AuthPage() {
 
     try {
       console.log('🔄 Tentative de connexion...');
-      await login(email, password);
-      console.log('✅ Connexion réussie');
-      toast({
-        title: "Connexion réussie",
-        description: "Redirection en cours...",
-      });
-      // Force redirection
-      window.location.href = '/explore';
+      const success = await login(email, password);
+      if (success) {
+        console.log('✅ Connexion réussie');
+        toast({
+          title: "Connexion réussie",
+          description: "Redirection en cours...",
+        });
+        // Force redirection après connexion réussie
+        window.location.href = '/explore';
+      } else {
+        throw new Error('Échec de la connexion');
+      }
     } catch (error) {
       console.error('❌ Erreur de connexion:', error);
       toast({
@@ -82,13 +90,46 @@ export default function AuthPage() {
     }
   };
 
+  const forceLogout = async () => {
+    // Nettoyer localStorage
+    localStorage.removeItem('auth-token');
+    
+    // Appeler l'API de déconnexion
+    try {
+      await fetch('/api/auth/logout', { method: 'POST' });
+    } catch (error) {
+      console.error('Erreur logout:', error);
+    }
+    
+    // Recharger la page
+    window.location.reload();
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
-      <Card className="w-full max-w-md">
-        <CardHeader className="text-center">
-          <CardTitle>Tripers</CardTitle>
-          <CardDescription>Connectez-vous ou créez un compte</CardDescription>
-        </CardHeader>
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 flex items-center justify-center p-4">
+      <div className="w-full max-w-md space-y-6">
+        <Card className="shadow-xl">
+          <CardHeader className="text-center">
+            <CardTitle className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-transparent bg-clip-text mb-2">
+              TRIPERS
+            </CardTitle>
+            <CardDescription className="text-gray-600">Connectez-vous ou créez un compte</CardDescription>
+            {user && (
+              <div className="bg-green-50 border border-green-200 rounded p-2 mt-2">
+                <p className="text-sm text-green-700">✅ Vous êtes déjà connecté en tant que: {user.email}</p>
+                <p className="text-xs text-green-600">Vous pouvez vous connecter avec un autre compte ou aller à l'accueil</p>
+              </div>
+            )}
+            {/* Bouton de debug pour forcer la déconnexion */}
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              onClick={forceLogout}
+              className="text-xs text-red-500 hover:text-red-700 mt-2"
+            >
+              🔒 Forcer la déconnexion (Debug)
+            </Button>
+          </CardHeader>
         <CardContent>
           <Tabs defaultValue="login" className="w-full">
             <TabsList className="grid w-full grid-cols-2">
@@ -116,7 +157,7 @@ export default function AuthPage() {
                     required
                   />
                 </div>
-                <Button type="submit" className="w-full" disabled={isLoading}>
+                <Button type="submit" className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white" disabled={isLoading}>
                   {isLoading ? 'Connexion...' : 'Se connecter'}
                 </Button>
               </form>
@@ -151,7 +192,7 @@ export default function AuthPage() {
                     required
                   />
                 </div>
-                <Button type="submit" className="w-full" disabled={isLoading}>
+                <Button type="submit" className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white" disabled={isLoading}>
                   {isLoading ? 'Inscription...' : 'S\'inscrire'}
                 </Button>
               </form>
@@ -159,6 +200,29 @@ export default function AuthPage() {
           </Tabs>
         </CardContent>
       </Card>
+      
+      {/* Section pour les guides */}
+      <Card className="shadow-xl">
+        <CardContent className="p-6">
+          <div className="flex items-center mb-4">
+            <MapPin className="h-5 w-5 text-orange-600 mr-2" />
+            <h3 className="text-lg font-semibold text-orange-900">Vous êtes un guide local ?</h3>
+          </div>
+          <p className="text-sm text-gray-600 mb-4">
+            Partagez votre passion et vos connaissances locales avec des voyageurs du monde entier.
+          </p>
+          <Link href="/signup/guide">
+            <Button 
+              variant="outline" 
+              className="w-full border-2 border-orange-300 hover:bg-orange-100 text-orange-700 hover:text-orange-800"
+            >
+              <span className="font-semibold">Devenir Guide Local</span>
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+          </Link>
+        </CardContent>
+      </Card>
+      </div>
     </div>
   );
 }
