@@ -1,0 +1,69 @@
+console.log('🧪 Running Browser Auth Test...');
+
+// Test 1: Check if we can register and then immediately update profile
+async function testInBrowser() {
+  const testEmail = 'browser-direct-' + Date.now() + '@example.com';
+  const testPassword = 'testpassword123';
+  
+  try {
+    // 1. Register
+    console.log('1. Registering...');
+    const registerResponse = await fetch('/api/auth/register', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      credentials: 'include',
+      body: JSON.stringify({ email: testEmail, password: testPassword })
+    });
+    
+    if (!registerResponse.ok) {
+      throw new Error('Register failed: ' + registerResponse.status);
+    }
+    
+    const userData = await registerResponse.json();
+    console.log('✅ Registered:', userData);
+    
+    // 2. Check auth immediately 
+    console.log('2. Checking auth...');
+    const authResponse = await fetch('/api/auth/me', {
+      credentials: 'include'
+    });
+    
+    if (!authResponse.ok) {
+      throw new Error('Auth check failed: ' + authResponse.status);
+    }
+    
+    const authData = await authResponse.json();
+    console.log('✅ Auth check:', authData);
+    
+    // 3. Update profile
+    console.log('3. Updating profile...');
+    const profileData = {
+      first_name: 'Browser',
+      last_name: 'Test',
+      country: 'France',
+      languages: ['français', 'anglais'],
+      hobbies: 'voyage, photographie'
+    };
+    
+    const updateResponse = await fetch('/api/auth/me', {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      credentials: 'include',
+      body: JSON.stringify(profileData)
+    });
+    
+    if (!updateResponse.ok) {
+      const error = await updateResponse.text();
+      throw new Error('Profile update failed: ' + updateResponse.status + ' - ' + error);
+    }
+    
+    const updatedUser = await updateResponse.json();
+    console.log('✅ Profile updated:', updatedUser);
+    console.log('🎉 SUCCESS! No "erreur lors de la mise à jour du profil"');
+    
+  } catch (error) {
+    console.error('❌ Test failed:', error);
+  }
+}
+
+testInBrowser();
