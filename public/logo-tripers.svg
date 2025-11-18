@@ -1,0 +1,22 @@
+<svg width="450" height="150" viewBox="0 0 450 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- T en bleu teal -->
+  <text x="10" y="105" font-family="Arial, sans-serif" font-size="90" font-weight="800" fill="#0D7C82">T</text>
+  
+  <!-- R en orange -->
+  <text x="75" y="105" font-family="Arial, sans-serif" font-size="90" font-weight="800" fill="#FF9933">R</text>
+  
+  <!-- I en jaune -->
+  <text x="145" y="105" font-family="Arial, sans-serif" font-size="90" font-weight="800" fill="#FFB84D">I</text>
+  
+  <!-- P en rouge/corail -->
+  <text x="175" y="105" font-family="Arial, sans-serif" font-size="90" font-weight="800" fill="#E74C3C">P</text>
+  
+  <!-- E en vert -->
+  <text x="245" y="105" font-family="Arial, sans-serif" font-size="90" font-weight="800" fill="#27AE60">E</text>
+  
+  <!-- R en teal foncé -->
+  <text x="310" y="105" font-family="Arial, sans-serif" font-size="90" font-weight="800" fill="#16A085">R</text>
+  
+  <!-- S en bleu marine -->
+  <text x="380" y="105" font-family="Arial, sans-serif" font-size="90" font-weight="800" fill="#2C3E50">S</text>
+</svg>
