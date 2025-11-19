@@ -3,12 +3,12 @@
  */
 
 // Contact
-export const WHATSAPP_NUMBER = '212608836531'; // Format international sans +
+export const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '212608836531';
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 // Site
-export const SITE_NAME = 'TRIPERS';
-export const SITE_URL = 'https://tripers.com'; // À mettre à jour avec l'URL de production
+export const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || 'TRIPERS';
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://tripers.com';
 
 // Réseaux sociaux
 export const SOCIAL_LINKS = {
