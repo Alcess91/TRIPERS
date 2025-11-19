@@ -23,18 +23,22 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale: string }> }): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug, locale } = await params;
   const destination = DESTINATIONS.find((d) => d.slug === slug);
   
   if (!destination) {
     return {
-      title: 'Destination non trouvée - TRIPERS',
+      title: 'Destination not found - TRIPERS',
     };
   }
 
+  const tData = await getTranslations({ locale, namespace: 'destinationsData' });
+  const countryName = tData(`${slug}.countryName`);
+  const intro = tData(`${slug}.intro`);
+
   return {
-    title: `${destination.countryName} - TRIPERS`,
-    description: destination.intro,
+    title: `${countryName} - TRIPERS`,
+    description: intro,
   };
 }
 
@@ -42,10 +46,15 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
   const { slug, locale } = await params;
   const destination = DESTINATIONS.find((d) => d.slug === slug);
   const t = await getTranslations({ locale, namespace: 'destinationPage' });
+  const tData = await getTranslations({ locale, namespace: 'destinationsData' });
 
   if (!destination) {
     notFound();
   }
+
+  const countryName = tData(`${slug}.countryName`);
+  const intro = tData(`${slug}.intro`);
+  const story = tData(`${slug}.story`);
 
   return (
     <div className="min-h-screen">
@@ -53,14 +62,14 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
       <div className="relative h-[60vh] w-full">
         <Image
           src={destination.heroImage}
-          alt={destination.countryName}
+          alt={countryName}
           fill
           className="object-cover"
           priority
         />
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white">
-            {destination.countryName}
+            {countryName}
           </h1>
         </div>
       </div>
@@ -70,14 +79,14 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         {/* Intro */}
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-xl text-gray-700 leading-relaxed">
-            {destination.intro}
+            {intro}
           </p>
         </div>
 
         {/* Story */}
         <div className="prose prose-lg max-w-none mb-16">
           <p className="text-lg text-gray-600 leading-relaxed">
-            {destination.story}
+            {story}
           </p>
         </div>
 
@@ -85,63 +94,74 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-12">{t('ourCities')}</h2>
           <div className="space-y-16">
-            {destination.cities.map((city, index) => (
-              <div key={city.name} className="space-y-6">
-                {/* Photo + Ville */}
-                <div className="flex flex-col md:flex-row gap-6 items-start">
-                  <div className="relative w-full md:w-1/3 h-64 md:h-80 rounded-lg overflow-hidden shadow-lg flex-shrink-0">
-                    <Image
-                      src={city.image}
-                      alt={city.name}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-3xl font-bold text-gray-900 mb-4">
-                      {city.name}
-                    </h3>
-                    <p className="text-lg text-gray-700 leading-relaxed">
-                      {city.description}
-                    </p>
-                  </div>
-                </div>
+            {destination.cities.map((city, index) => {
+              const cityName = tData(`${slug}.cities.${city.slug}.name`);
+              const cityDescription = tData(`${slug}.cities.${city.slug}.description`);
+              const cityEtymology = tData(`${slug}.cities.${city.slug}.etymology`);
 
-                {/* Étymologie */}
-                {city.etymology && (
-                  <div className="bg-gray-50 rounded-lg p-6 border-l-4 border-yellow-400">
-                    <h4 className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-2">
-                      {t('etymology')}
-                    </h4>
-                    <p className="text-gray-700 italic">
-                      {city.etymology}
-                    </p>
-                  </div>
-                )}
-
-                {/* Guides */}
-                {city.guides.length > 0 && (
-                  <div className="bg-white rounded-lg border border-gray-200 p-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-4">
-                      {city.guides.length > 1 ? t('guides') : t('guide')} {t('guidesTripers')}
-                    </h4>
-                    <div className="space-y-4">
-                      {city.guides.map((guide) => (
-                        <div key={guide.id} className="border-l-4 border-yellow-400 pl-4">
-                          <p className="font-semibold text-gray-900 mb-1">{guide.name}</p>
-                          <p className="text-gray-600 leading-relaxed">{guide.description}</p>
-                        </div>
-                      ))}
+              return (
+                <div key={city.slug} className="space-y-6">
+                  {/* Photo + Ville */}
+                  <div className="flex flex-col md:flex-row gap-6 items-start">
+                    <div className="relative w-full md:w-1/3 h-64 md:h-80 rounded-lg overflow-hidden shadow-lg flex-shrink-0">
+                      <Image
+                        src={city.image}
+                        alt={cityName}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-3xl font-bold text-gray-900 mb-4">
+                        {cityName}
+                      </h3>
+                      <p className="text-lg text-gray-700 leading-relaxed">
+                        {cityDescription}
+                      </p>
                     </div>
                   </div>
-                )}
-                
-                {/* Séparateur entre les villes */}
-                {index < destination.cities.length - 1 && (
-                  <hr className="border-gray-200 my-8" />
-                )}
-              </div>
-            ))}
+
+                  {/* Étymologie */}
+                  {cityEtymology && (
+                    <div className="bg-gray-50 rounded-lg p-6 border-l-4 border-yellow-400">
+                      <h4 className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-2">
+                        {t('etymology')}
+                      </h4>
+                      <p className="text-gray-700 italic">
+                        {cityEtymology}
+                      </p>
+                    </div>
+                  )}
+
+                  {/* Guides */}
+                  {city.guides.length > 0 && (
+                    <div className="bg-white rounded-lg border border-gray-200 p-6">
+                      <h4 className="text-xl font-bold text-gray-900 mb-4">
+                        {city.guides.length > 1 ? t('guides') : t('guide')} {t('guidesTripers')}
+                      </h4>
+                      <div className="space-y-4">
+                        {city.guides.map((guide) => {
+                          const guideName = tData(`${slug}.cities.${city.slug}.guides.${guide.id}.name`);
+                          const guideDescription = tData(`${slug}.cities.${city.slug}.guides.${guide.id}.description`);
+
+                          return (
+                            <div key={guide.id} className="border-l-4 border-yellow-400 pl-4">
+                              <p className="font-semibold text-gray-900 mb-1">{guideName}</p>
+                              <p className="text-gray-600 leading-relaxed">{guideDescription}</p>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+                  
+                  {/* Séparateur entre les villes */}
+                  {index < destination.cities.length - 1 && (
+                    <hr className="border-gray-200 my-8" />
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
 

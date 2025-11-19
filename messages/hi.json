@@ -1,89 +1,209 @@
 {
   "nav": {
-    "contact": "संपर्क"
+    "contact": "Contact"
   },
   "hero": {
-    "title": "हम पहले यात्रा करते हैं। फिर आपको सही लोगों से मिलवाते हैं।",
-    "cta": "हमारे गंतव्यों की खोज करें"
+    "title": "We travel first. We introduce you to the right people next.",
+    "cta": "Discover our destinations"
   },
   "about": {
-    "title": "क्यों",
-    "subtitle": "आपके रास्ते में सही लोगों को रखकर यात्रा का पुनर्आविष्कार।",
-    "paragraph1": "यह सब माराकेश में पुदीने की चाय के साथ शुरू हुआ, एक ऐसी गली में जो केवल स्थानीय लोग जानते हैं। उस दिन, हमने समझा कि यात्रा के सबसे अच्छे पल ब्रोशर में नहीं मिलते। वे उन लोगों के साथ प्रामाणिक मुलाकातों से पैदा होते हैं जो वास्तव में उस क्षेत्र में रहते हैं।",
-    "paragraph2": "TRIPERS टीम पहले आपके लिए यात्रा करती है। हम गंतव्यों का पता लगाते हैं, गाइडों से मिलते हैं, अनुभवों का परीक्षण करते हैं। फिर हम आपके यात्रा के वास्तुकार बन जाते हैं: हम आपके बजट और इच्छाओं के अनुरूप आवास ढूंढते हैं, हम सुसंगत मार्ग डिज़ाइन करते हैं, हम ऐसी गतिविधियों का चयन करते हैं जिनका अर्थ हो। कुछ भी मानकीकृत नहीं है, सब कुछ आपके लिए तैयार है।",
-    "paragraph3": "हमारा वादा?",
-    "paragraph3Content": "केवल उन गाइडों से आपका परिचय कराना जिन्हें हम व्यक्तिगत रूप से जानते हैं। कोई गुमनाम प्लेटफ़ॉर्म नहीं, कोई ठंडा एल्गोरिदम नहीं। बस इंसान जो अपने क्षेत्र को प्रामाणिकता और जुनून के साथ साझा करते हैं। आप हमसे WhatsApp पर संपर्क करते हैं, हम एक साथ निर्माण करते हैं, और यात्रा के दिन, आपका गाइड आपका इंतजार करता है।",
-    "card1Title": "अलग तरह से यात्रा करें",
-    "card1Content": "देखे गए स्थलों की मात्रा की तुलना में गुणवत्ता वाली मुलाकातों को प्राथमिकता दें। आपके लिए बनाए गए अनुभवों को जिएं, मानकीकृत दौरे नहीं जहां 40 लोग एक ही कार्यक्रम का पालन करते हैं। उन लोगों के माध्यम से एक स्थान को समझने के लिए समय लें जो वास्तव में वहां रहते हैं।",
-    "card2Title": "विश्वास की गारंटी",
-    "card2Content": "हम केवल उन गाइडों का संदर्भ देते हैं जिन्हें हम व्यक्तिगत रूप से जानते हैं। हमने उनसे मुलाकात की है, उनका परीक्षण किया है, उन्हें मान्य किया है। उनकी ईमानदारी, क्षेत्र का ज्ञान, और स्वागत करने का तरीका हमारे एकमात्र मानदंड हैं। ऑनलाइन मिली कोई यादृच्छिक प्रोफ़ाइल नहीं।",
-    "card3Title": "स्थानीय अर्थव्यवस्था का समर्थन करें",
-    "card3Content": "खर्च किया गया हर यूरो सीधे गाइडों और उनके समुदायों को लाभान्वित करता है। कोई गुमनाम मध्यस्थ मूल्य कैप्चर नहीं कर रहा है, बस आपके और उन लोगों के बीच एक सीधा और निष्पक्ष लिंक है जो आपको अपना क्षेत्र दिखा रहे हैं।"
+    "title": "Why",
+    "subtitle": "Reinventing travel by putting the right people on your path.",
+    "paragraph1": "It all started over mint tea in Marrakech, in an alley known only to locals. That day, we understood that the best travel moments aren't found in brochures. They emerge from authentic encounters with those who truly live the territory.",
+    "paragraph2": "The TRIPERS team travels first for you. We explore destinations, meet guides, test experiences. Then, we become the architects of your trip: we find accommodations that fit your budget and preferences, we design coherent itineraries, we select meaningful activities. Nothing is standardized, everything is designed for you.",
+    "paragraph3": "Our promise?",
+    "paragraph3Content": "To introduce you only to guides we personally know. No anonymous platform, no cold algorithm. Just humans sharing their territory with authenticity and passion. You contact us on WhatsApp, we build together, and on D-day, your guide awaits you on site.",
+    "card1Title": "Travel differently",
+    "card1Content": "Prioritize quality of encounters over quantity of sites visited. Experience trips built for you, not standardized circuits where 40 people follow the same program. Take time to understand a place through those who truly live there.",
+    "card2Title": "Guarantee trust",
+    "card2Content": "We only reference guides we personally know. We've met them, tested them, validated them. Their integrity, field knowledge, and hospitality are our only criteria. No random profile found online.",
+    "card3Title": "Support local economy",
+    "card3Content": "Every euro spent directly benefits guides and their communities. No anonymous intermediary capturing value, just a direct and fair connection between you and the people who help you discover their territory."
   },
   "concept": {
-    "title": "TRIPERS क्यों?",
-    "subtitle": "पर्यटक आनंद लेता है, यात्री खोजता है।",
-    "local": "स्थानीय की तरह",
-    "localDesc": "आप स्थानीय की तरह जीते हैं, पर्यटक की तरह नहीं। प्रामाणिक अनुभवों की गारंटी।",
-    "network": "अंतर्राष्ट्रीय नेटवर्क",
-    "networkDesc": "दोस्तों का अंतर्राष्ट्रीय नेटवर्क → दुनिया भर में अनोखे अनुभव।",
-    "safety": "सुरक्षा और विश्वास",
-    "safetyDesc": "सुरक्षा + पारिवारिक माहौल। हम आपको विश्वसनीय स्थानीय लोगों से जोड़ते हैं।",
-    "unique": "अद्वितीय अनुभव",
-    "uniqueDesc": "निजी पार्टियां, सांस्कृतिक विसर्जन, छिपे हुए भ्रमण।"
+    "title": "Why TRIPERS?",
+    "subtitle": "Tourists take advantage, travelers discover.",
+    "local": "Like a local",
+    "localDesc": "You live like a local, not like a tourist. Authentic experiences guaranteed.",
+    "network": "International network",
+    "networkDesc": "International network of friends → unique experiences everywhere in the world.",
+    "safety": "Safety & trust",
+    "safetyDesc": "Safety + family vibes. We connect you with trusted locals.",
+    "unique": "Unique experiences",
+    "uniqueDesc": "Private parties, cultural immersions, hidden excursions."
   },
   "destinations": {
-    "title": "हमारे गंतव्य",
-    "subtitle": "4 गंतव्यों के लिए विशेष रूप से बनाई गई यात्राएं। प्रत्येक मार्ग आपके साथ, आपकी इच्छाओं और अवधि के अनुसार बनाया गया है।",
-    "learnMore": "और जानें",
+    "title": "Our destinations",
+    "subtitle": "Tailor-made trips in 4 destinations. Each itinerary is built with you, according to your desires and duration.",
+    "learnMore": "Learn more",
     "maroc": {
-      "name": "मोरक्को",
-      "description": "माराकेश के बाजारों में विसर्जन, रेगिस्तान में रातें, एटलस ट्रेक। यूरोप के बाहर पहली यात्रा के लिए आदर्श। 5 दिनों (लंबे सप्ताहांत) से 2 सप्ताह (पूर्ण विसर्जन) तक।"
+      "name": "Morocco",
+      "description": "Immersion in Marrakech souks, desert nights, Atlas hikes. Ideal for a first trip outside Europe. From 5 days (extended weekend) to 2 weeks (complete immersion)."
     },
     "capVert": {
-      "name": "केप वर्डे",
-      "description": "साल, सैंटो एंटाओ... 100% स्थानीय माहौल, संगीत, लुभावनी वृद्धि, जंगली समुद्र तट। प्रकृति प्रेमियों और द्वीप की प्रामाणिकता के लिए एकदम सही। 7 से 12 दिन।"
+      "name": "Cape Verde",
+      "description": "Sal, Santo Antão... 100% local vibe, music, vertiginous hikes, wild beaches. Perfect for nature lovers and island authenticity. 7 to 12 days."
     },
     "caraibes": {
-      "name": "कैरेबियन",
-      "description": "मार्टिनिक, ग्वाडेलूप, गुप्त समुद्र तट, क्रियोल संस्कृति, रम और पूर्ण विश्राम। समुद्र और सांस्कृतिक खोज को संयोजित करने के लिए आदर्श। 5 से 10 दिन।"
+      "name": "Caribbean",
+      "description": "Martinique, Guadeloupe, secret beaches, Creole culture, rum and absolute relaxation. Ideal for combining sea and cultural discovery. 5 to 10 days."
     },
     "colombie": {
-      "name": "कोलंबिया",
-      "description": "कार्टाजेना, मेडेलिन, रोसारियो द्वीप, स्ट्रीट फूड, कुल विविधता। उन लोगों के लिए जो मजबूत विपरीतताओं से प्यार करते हैं: कैरेबियन तट, औपनिवेशिक शहर, कॉफी पहाड़। 8 से 16 दिन।"
+      "name": "Colombia",
+      "description": "Cartagena, Medellín, Rosario Islands, street food, total diversity. For those who love strong contrasts: Caribbean coast, colonial cities, coffee mountains. 8 to 16 days."
+    }
+  },
+  "destinationsData": {
+    "capVert": {
+      "countryName": "Cape Verde",
+      "intro": "The Cape Verde archipelago consists of ten volcanic islands located in the Atlantic Ocean, about 570 km from the African coast. Between white sand beaches, lunar landscapes, and green mountains, each island has its own identity.",
+      "story": "This is where TRIPERS builds tailor-made trips. We combine Sal (beaches and kitesurfing) and Santo Antão (vertiginous hikes) according to your duration and desires. We select accommodations, organize days with our guides, manage inter-island transfers. Cape Verde is a unique blend of African, Portuguese, and Creole cultures. Music resonates everywhere: morna and funaná rhythm the evenings. Encounters with locals happen naturally. It's a country where the notion of time takes on another meaning, where you learn to live at the rhythm of the ocean and wind.",
+      "cities": {
+        "sal": {
+          "name": "Sal",
+          "description": "Sal island is endless white sand beaches, turquoise waters, and constant wind that attracts kitesurfers from around the world. Santa Maria, the main village, offers a relaxed atmosphere: fresh fish restaurants, seaside bars, fishermen returning in the morning with their catches. Beyond the beach, you discover abandoned salt flats (Pedra de Lume), salt desert mirages, authentic local life far from resorts. Sal is the perfect island to alternate relaxation, water sports, and discovery of a warm Cape Verdean culture.",
+          "etymology": "The name 'Sal' comes from the old salt exploitations that made the island's wealth for centuries.",
+          "guides": {
+            "ismael-sal": {
+              "name": "Ismael",
+              "description": "Ismael was born in Sal. He knows every beach, every kitesurf spot, every restaurant run by locals. He shows you the island differently: fishing villages, kite sessions for beginners or advanced, zouk evenings in bars where tourists never go. Ismael speaks French, English, Portuguese, and Creole. With him, Sal isn't just a postcard, it's a real immersion."
+            }
+          }
+        },
+        "santoAntao": {
+          "name": "Santo Antão",
+          "description": "Santo Antão is the hikers' island. Vertiginous trails border cliffs plunging into the ocean. Green valleys (Paúl, Ribeira Grande) contrast with lunar landscapes. You walk among banana trees, papaya trees, and sugar cane fields, meeting villagers who work the land by hand. Winding roads offer breathtaking panoramas. Small perched villages welcome you for grogue (local rum) and conversations in Creole. Santo Antão is natural, raw, generous Cape Verde. Ideal for those who love walking, observing, taking their time.",
+          "etymology": "Santo Antão means Saint Anthony in Portuguese, in honor of Saint Anthony of Padua."
+        }
+      }
+    },
+    "caraibes": {
+      "countryName": "Caribbean",
+      "intro": "The Antilles archipelago extends thousands of kilometers between North and South America. Between paradise beaches, tropical forests, and colorful cities, the Caribbean offers unique cultural and natural diversity. African, European, and Amerindian influences blend in language, cuisine, and music.",
+      "story": "This is where TRIPERS builds tailor-made trips in the Antilles. We know the islands, the good addresses, the secret beaches. We organize boat crossings, accommodations with locals or in villas, outings with our local guides. You enjoy, we handle the rest. The Caribbean is a mosaic of islands. Martinique, Guadeloupe, Dominica, Saint Lucia... each has its Creole identity. Markets overflow with exotic fruits. Beaches alternate between white and black volcanic sand. Zouk and reggae accompany late afternoons. We come for the sea, we stay for the art of living.",
+      "cities": {
+        "fortDeFrance": {
+          "name": "Fort-de-France",
+          "description": "Fort-de-France is the capital of Martinique. Located on the edge of a large bay, the city mixes colonial architecture, lively markets, and modern neighborhoods. The covered market overflows with colors and smells: mangoes, christophines, spices, arranged rum. The Schoelcher library, with its metal structure, recalls the colonial heritage. Shopping streets vibrate to the Creole rhythm. It's the gateway to explore the rest of the island: southern beaches, Mount Pelée to the north, rum distilleries to the east.",
+          "etymology": "The name comes from the old French fort that protected the bay, baptized Fort-Royal then Fort-de-France after the Revolution.",
+          "guides": {
+            "patrick-martinique": {
+              "name": "Patrick",
+              "description": "Born in Martinique, Patrick speaks French, English, and Creole with equal ease. He knows all the Antilles: Martinique, Guadeloupe, Dominica, Saint Lucia. With him, you discover secret beaches accessible only by boat, family restaurants where we eat colombo and blaff, zouk evenings in bars without tourists. Patrick doesn't follow a fixed program, he adapts according to weather, your mood, local events. He makes you live the Caribbean from the inside."
+            }
+          }
+        },
+        "autresIles": {
+          "name": "Other Antilles Islands",
+          "description": "Beyond Martinique, the Antilles abound with islands with distinct personalities. Guadeloupe, with its two wings connected by a bridge, mixes tranquil beaches and active volcanoes. Dominica, nicknamed the nature island, offers waterfalls, hot springs, dense jungle. Saint Lucia stands out with its rocky peaks plunging into the sea. Each island has its own atmosphere, its own cuisine, its own rhythm. You can sail from one to another, or settle on one and take your time."
+        }
+      }
+    },
+    "maroc": {
+      "countryName": "Morocco",
+      "intro": "Morocco unfolds between the Mediterranean Sea, the Atlantic Ocean, the Atlas Mountains, and the Sahara expanses. Crossroads between Africa and Europe, the country offers diversity of landscapes, cultures, and atmospheres. From thousand-year-old medinas to modern seaside resorts, each region has its identity.",
+      "story": "This is where TRIPERS builds tailor-made trips. We combine Marrakech, Ouzoud waterfalls, and Zagora desert according to your desires and duration. We select accommodations, organize days with our guides, and ensure transitions are smooth. You enjoy, we handle the rest. Traveling to Morocco means moving from a lively medina to desert silences, climbing Atlas valleys and descending to Essaouira beaches. Souk colors, spice smells, calls to prayer, and mint teas rhythm the days. Morocco is a country of contrasts where tradition and modernity coexist.",
+      "cities": {
+        "marrakech": {
+          "name": "Marrakech",
+          "description": "Marrakech is Jemaa el-Fna square coming alive at nightfall: storytellers, musicians, orange juice stands. It's the souks where you get lost among leather, spices, and carpets. Riads hidden behind anonymous doors, surreal blue Majorelle gardens, terraces where you sip mint tea watching the Atlas in the distance. Beyond clichés, Marrakech is also a modern city: Gueliz and Hivernage neighborhoods, fusion restaurants, trendy rooftops. With our guides, you discover both faces: the traditional medina and the contemporary city.",
+          "etymology": "The name Marrakech comes from Berber Mur n Akush (land of God). This city also gave its name to Morocco.",
+          "guides": {
+            "omar-marrakech": {
+              "name": "Omar",
+              "description": "Passionate guide who knows Marrakech and the Ouzoud region by heart. In Marrakech, he takes you off the beaten path: artisan workshops (coppersmiths, leather workers), neighborhood bread ovens, tea houses where locals chat for hours. Omar speaks French fluently and adapts to your pace."
+            },
+            "tarek-marrakech": {
+              "name": "Tarek",
+              "description": "Born in Marrakech, Tarek knows every alley, every secret. He builds tailor-made itineraries: hidden souks where tourists never go, terraces to admire the sunset over the Atlas, artisan workshops he's frequented since childhood. With him, Marrakech becomes a familiar city, not a postcard backdrop."
+            }
+          }
+        },
+        "ouzoud": {
+          "name": "Ouzoud",
+          "description": "Two hours drive from Marrakech, the Ouzoud valley immerses you in a green Morocco, far from city tumult. Waterfalls cascade 110 meters among olive trees and prickly pears. Below, fresh water invites swimming. Along the path, you meet Barbary macaques living here freely. In the evening, the call to prayer resonates from Berber villages perched on the heights. It's a natural breath just hours from Marrakech.",
+          "etymology": "Ouzoud means mill in Berber, referring to the old grain mills that used water power.",
+          "guides": {
+            "omar-ouzoud": {
+              "name": "Omar",
+              "description": "In Ouzoud, Omar shows you authentic Berber villages where his grandparents grew up. He knows every path along the waterfalls, every artisan still weaving by hand, every family preparing bread in an earthen oven. With him, you don't visit Ouzoud from outside, you enter its daily life. He adapts the pace to your desires: swimming under the falls, meals with locals, or simply walking in silence through the valley."
+            }
+          }
+        },
+        "zagora": {
+          "name": "Zagora",
+          "description": "Zagora marks the entry into the Sahara desert. As soon as you leave the city, palm groves give way to ochre expanses. Tinfou dunes appear in the distance. In the evening, you sleep in a bivouac under a sky saturated with stars, without light pollution. In the morning, you wake to desert silence. Between two dunes, you sometimes meet nomadic families still living here with their herds. Zagora is raw immensity, unfiltered, with no added backdrop.",
+          "etymology": "Zagora could come from Berber Tazagourt, meaning summit or hill, referring to Djebel Zagora dominating the region.",
+          "guides": {
+            "youssef-zagora": {
+              "name": "Youssef",
+              "description": "Youssef grew up in Zagora, at the gates of the Sahara. He organizes traditional bivouacs under the stars, far from tourist camps. With him, you share mint tea with nomadic families, sleep in authentic Berber tents, learn to read constellations. Youssef speaks little, but he knows how to listen. He ensures your comfort without ever forcing the experience. The desert with him is inhabited silence, not a show."
+            }
+          }
+        }
+      }
+    },
+    "colombie": {
+      "countryName": "Colombia",
+      "intro": "Colombia extends between two oceans, crosses the Andes mountain range, and plunges into the Amazon rainforest. Caribbean coasts with warm waters, colorful colonial cities, green valleys, vibrant metropolises. It's a country of extreme diversity. Modern Colombia has turned the page on past conflicts and opens to the world with energy.",
+      "story": "This is where TRIPERS builds tailor-made trips in Colombia. We combine Cartagena, Medellín, coffee region, Pacific coast according to your duration and desires. We organize domestic flights, accommodations, days with our local guides. You enjoy, we handle the rest. Cartagena, with its cobbled streets and ochre facades, embodies Caribbean colonial charm. Medellín, nestled in its valley, represents urban transformation and innovation. Bogotá mixes skyscrapers, street art, and historic neighborhoods. Further away, coffee landscapes, Salento villages, and the Pacific coast offer other faces. Salsa, cumbia, and vallenato accompany every moment. The welcome is warm. You leave with stories.",
+      "cities": {
+        "cartagena": {
+          "name": "Cartagena",
+          "description": "Cartagena de Indias is a flamboyant colonial city on the Caribbean Sea. Massive ramparts, flowered balconies, lively squares, colorful alleys: it's one of South America's most photogenic cities. The historic center is a charming labyrinth where every corner reveals a church, a placita, a hidden patio. The Getsemaní neighborhood vibrates to cumbia rhythms, street art, open-air bars. Rosario Islands, 45 minutes by boat, offer postcard beaches and crystalline waters. Cartagena is Caribbean warmth, colonial history, and Colombian energy united in one place.",
+          "etymology": "The city bears the name of Cartagena in Spain, where several of its Spanish founders came from in the 16th century.",
+          "guides": {
+            "horacio-cartagena": {
+              "name": "Horacio",
+              "description": "Horacio was born in Cartagena. He knows every street in the historic center, every Getsemaní artisan, every cantina where we drink ron to cumbia sounds. With him, you don't tour monuments, you enter the city's daily life. He takes you to Bazurto market at 6am, to workshops where hammocks are still made by hand, to salsa bars frequented by Cartagéneros. Horacio speaks fast, laughs loudly, and transforms every outing into a living account of Caribbean history."
+            }
+          }
+        },
+        "medellin": {
+          "name": "Medellín",
+          "description": "Medellín, nicknamed the city of eternal spring for its mild year-round climate, extends in a valley surrounded by mountains. Once marked by a difficult history, the city has transformed into a model of urban and social innovation. El Poblado and Laureles neighborhoods abound with restaurants, cafés, bars, art galleries. Public cable cars climb to peripheral barrios and offer panoramic views of the entire valley. Comuna 13, formerly a forbidden zone, has become a symbol of rebirth with its mechanical stairs, giant frescoes, hip-hop workshops. Medellín is a city in permanent movement, young, modern, resilient.",
+          "etymology": "Medellín owes its name to Medellín in Spain, birthplace of Pedro Portocarrero, governor of the region at its founding in 1616.",
+          "guides": {
+            "horacio-medellin": {
+              "name": "Horacio",
+              "description": "In Medellín, Horacio tells you about the city's transformation through his own memories. He takes you to Comuna 13 where he knows the artists who painted the frescoes, to El Poblado cafés where coffee is still roasted by hand, to panoramic viewpoints at sunset. In the evening, he shows you live salsa in Laureles bars where Paisas (Medellín inhabitants) dance. Horacio is passionate, talkative, and transforms every visit into a dive into this resilient city's soul."
+            }
+          }
+        }
+      }
     }
   },
   "map": {
-    "title": "मानचित्र का अन्वेषण करें",
-    "description": "प्रत्येक मार्कर एक ऐसे स्थान से मेल खाता है जहां TRIPERS ने समय बिताया है, विश्वसनीय गाइडों से मुलाकात की है। ये सैद्धांतिक गंतव्य नहीं हैं: ये वे लोग हैं जिनसे हम मिले हैं, जिनके साथ हमने यात्रा की है, और फिर हम आपसे परिचय कराते हैं।",
-    "loading": "मानचित्र लोड हो रहा है..."
+    "title": "Explore the map",
+    "description": "Each marker corresponds to a place where TRIPERS spent time, met trusted guides. These aren't theoretical destinations: they're people we've met, with whom we've traveled, and whom we then introduce to you.",
+    "loading": "Loading map..."
   },
   "contact": {
-    "title": "चलिए आपकी अगली यात्रा के बारे में बात करते हैं",
-    "description": "मन में कोई गंतव्य है? तारीखें? एक अनुमानित बजट? सीधे WhatsApp पर हमसे संपर्क करें। हम आपसे आपकी इच्छाओं के बारे में कुछ सवाल पूछेंगे (प्रकृति, संस्कृति, भोजन, गति), फिर हम अपने स्थानीय गाइडों के साथ आपकी विशेष रूप से बनाई गई यात्रा बनाएंगे।",
-    "response": "24 घंटे के भीतर व्यक्तिगत प्रतिक्रिया।",
-    "cta": "WhatsApp पर हमसे संपर्क करें"
+    "title": "Let's talk about your next trip",
+    "description": "Do you have a destination in mind? Dates? An approximate budget? Contact us directly on WhatsApp. We'll ask you a few questions about your desires (nature, culture, food, pace), then we'll build your tailor-made trip with our local guides.",
+    "response": "Personalized response within 24h.",
+    "cta": "Contact us on WhatsApp"
   },
   "footer": {
-    "tagline": "स्थानीय की तरह रोमांच जिएं",
-    "navigation": "नेविगेशन",
-    "destinations": "गंतव्य",
-    "food": "भोजन",
-    "travel": "यात्रा",
-    "contactTitle": "संपर्क",
+    "tagline": "Live the adventure like a local",
+    "navigation": "Navigation",
+    "destinations": "Destinations",
+    "food": "Food",
+    "travel": "Travel",
+    "contactTitle": "Contact",
     "whatsapp": "WhatsApp",
-    "whatsappDesc": "सीधे संपर्क के लिए सब कुछ WhatsApp के माध्यम से होता है",
-    "copyright": "सर्वाधिकार सुरक्षित।"
+    "whatsappDesc": "Everything goes through WhatsApp for direct contact",
+    "copyright": "All rights reserved."
   },
   "destinationPage": {
-    "ourCities": "हमारे शहर",
-    "etymology": "व्युत्पत्ति",
-    "guide": "गाइड",
-    "guides": "गाइड",
+    "ourCities": "Our cities",
+    "etymology": "Etymology",
+    "guide": "Guide",
+    "guides": "Guides",
     "guidesTripers": "TRIPERS",
-    "ctaTitle": "यहां अपनी यात्रा बनाना चाहते हैं?",
-    "ctaDescription": "WhatsApp पर हमसे संपर्क करें। अपनी तारीखें, बजट, जो आपको आकर्षित करता है, साझा करें। हम अपने स्थानीय गाइडों के साथ एक विशेष रूप से बनाई गई यात्रा एक साथ बनाएंगे। 24 घंटे के भीतर व्यक्तिगत प्रतिक्रिया।",
-    "ctaButton": "WhatsApp पर हमसे संपर्क करें",
-    "backToDestinations": "गंतव्यों पर वापस जाएं"
+    "ctaTitle": "Want to build your trip here?",
+    "ctaDescription": "Contact us on WhatsApp. Tell us your dates, budget, what attracts you. We'll build together a tailor-made trip with our local guides. Personalized response within 24h.",
+    "ctaButton": "Contact us on WhatsApp",
+    "backToDestinations": "Back to destinations"
   }
 }
