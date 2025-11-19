@@ -9,34 +9,22 @@ export default function DestinationsSection() {
   
   const destinations = [
     {
-      name: 'Maroc',
       slug: 'maroc',
-      description:
-        "Immersion dans les souks de Marrakech, nuits dans le désert, randonnées dans l'Atlas. Idéal pour un premier voyage hors Europe. De 5 jours (weekend prolongé) à 2 semaines (immersion complète).",
       image: '/destinations/maroc-home.jpg',
       imageAlt: 'Pavillon sur l\'eau au Maroc au coucher de soleil',
     },
     {
-      name: 'Cap-Vert',
       slug: 'cap-vert',
-      description:
-        "Sal, Santo Antão... vibe 100% locale, musique, randonnées vertigineuses, plages sauvages. Parfait pour les amateurs de nature et d'authenticité insulaire. De 7 à 12 jours.",
       image: '/destinations/cap-vert-home.jpg',
       imageAlt: 'Falaises et chemin côtier du Cap-Vert',
     },
     {
-      name: 'Caraïbes',
       slug: 'caraibes',
-      description:
-        "Martinique, Guadeloupe, plages secrètes, culture créole, rhum et détente absolue. Idéal pour combiner mer et découverte culturelle. De 5 à 10 jours.",
       image: '/destinations/caraibes-home.jpg',
       imageAlt: 'Plage paradisiaque des Caraïbes avec palmiers',
     },
     {
-      name: 'Colombie',
       slug: 'colombie',
-      description:
-        "Cartagena, Medellín, îles Rosario, street food, diversité totale. Pour ceux qui aiment les contrastes forts : côte caraïbe, villes coloniales, montagnes de café. De 8 à 16 jours.",
       image: '/destinations/colombie-home.jpg',
       imageAlt: 'Rues colorées de Carthagène, Colombie',
     },
@@ -67,16 +55,16 @@ export default function DestinationsSection() {
               {/* Texte */}
               <div className="flex-1 space-y-4">
                 <h3 className="text-4xl font-normal text-gray-900">
-                  {destination.name}
+                  {t(`${destination.slug === 'cap-vert' ? 'capVert' : destination.slug}.name`)}
                 </h3>
                 <p className="text-base text-gray-600 leading-relaxed">
-                  {destination.description}
+                  {t(`${destination.slug === 'cap-vert' ? 'capVert' : destination.slug}.description`)}
                 </p>
                 <Link
                   href={`/destinations/${destination.slug}`}
                   className="inline-flex items-center space-x-2 text-gray-900 relative group pb-1"
                 >
-                  <span>En savoir plus</span>
+                  <span>{t('learnMore')}</span>
                   <svg
                     className="w-4 h-4"
                     fill="none"

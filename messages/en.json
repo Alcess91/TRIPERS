@@ -8,17 +8,17 @@
   },
   "about": {
     "title": "Why",
-    "subtitle": "Reinventing travel by putting the right people on your path.",
-    "paragraph1": "It all started over mint tea in Marrakech, in an alley only locals know. That day, we understood that the best travel moments aren't found in brochures. They're born from authentic encounters with those who truly live the territory.",
-    "paragraph2": "The TRIPERS team travels first for you. We explore destinations, meet guides, test experiences. Then we become the architects of your journey: we find accommodations suited to your budget and desires, we draw coherent itineraries, we select activities that make sense. Nothing is standardized, everything is designed for you.",
+    "subtitle": "Reinventing travel by putting the right people in your path.",
+    "paragraph1": "It all started over mint tea in Marrakech, in an alley only locals know. That day, we realized the best travel moments aren't found in brochures. They're born from authentic encounters with those who truly live the territory.",
+    "paragraph2": "The TRIPERS team travels first for you. We explore destinations, meet guides, test experiences. Then we become your travel architects: we find accommodations that fit your budget and desires, we design coherent itineraries, we select activities that make sense. Nothing is standardized, everything is tailored for you.",
     "paragraph3": "Our promise?",
-    "paragraph3Content": "To introduce you only to guides we know personally. No anonymous platform, no cold algorithm. Just humans sharing their territory with authenticity and passion. You contact us on WhatsApp, we build together, and on D-day, your guide awaits you on site.",
+    "paragraph3Content": "To only introduce you to guides we personally know. No anonymous platform, no cold algorithm. Just humans sharing their territory with authenticity and passion. You contact us on WhatsApp, we build together, and on D-day, your guide awaits you on site.",
     "card1Title": "Travel differently",
-    "card1Content": "Favor the quality of encounters over the quantity of sites visited. Live experiences built for you, not standardized tours where 40 people follow the same program. Take time to understand a place through those who truly live there.",
+    "card1Content": "Prioritize quality encounters over quantity of visited sites. Experience trips built for you, not standardized tours where 40 people follow the same program. Take time to understand a place through those who truly live there.",
     "card2Title": "Guarantee trust",
-    "card2Content": "We only list guides we know personally. We've met them, tested them, validated them. Their integrity, their knowledge of the terrain, and their way of welcoming are our only criterion. No random profile found online.",
+    "card2Content": "We only refer guides we personally know. We've met them, tested them, validated them. Their integrity, knowledge of the terrain, and welcoming manner are our only criteria. No random profile found online.",
     "card3Title": "Support local economy",
-    "card3Content": "Every euro spent directly benefits the guides and their communities. No anonymous intermediary capturing value, just a direct and fair link between you and the people showing you their territory."
+    "card3Content": "Every euro spent directly benefits guides and their communities. No anonymous intermediary capturing value, just a direct and fair link between you and the people showing you their territory."
   },
   "concept": {
     "title": "Why TRIPERS?",
@@ -34,16 +34,38 @@
   },
   "destinations": {
     "title": "Our destinations",
-    "subtitle": "Tailor-made trips in 4 destinations. Each itinerary is built with you, according to your wishes and duration."
+    "subtitle": "Tailor-made trips to 4 destinations. Each itinerary is built with you, according to your desires and duration.",
+    "learnMore": "Learn more",
+    "maroc": {
+      "name": "Morocco",
+      "description": "Immersion in Marrakech souks, nights in the desert, Atlas treks. Ideal for a first trip outside Europe. From 5 days (long weekend) to 2 weeks (complete immersion)."
+    },
+    "capVert": {
+      "name": "Cape Verde",
+      "description": "Sal, Santo Antão... 100% local vibe, music, breathtaking hikes, wild beaches. Perfect for nature lovers and island authenticity. 7 to 12 days."
+    },
+    "caraibes": {
+      "name": "Caribbean",
+      "description": "Martinique, Guadeloupe, secret beaches, Creole culture, rum and absolute relaxation. Ideal for combining sea and cultural discovery. 5 to 10 days."
+    },
+    "colombie": {
+      "name": "Colombia",
+      "description": "Cartagena, Medellín, Rosario Islands, street food, total diversity. For those who love strong contrasts: Caribbean coast, colonial cities, coffee mountains. 8 to 16 days."
+    }
+  },
+  "map": {
+    "title": "Explore the map",
+    "description": "Each marker corresponds to a place where TRIPERS has spent time, met trusted guides. These aren't theoretical destinations: they're people we've met, traveled with, and whom we then introduce to you.",
+    "loading": "Loading map..."
   },
   "contact": {
     "title": "Let's talk about your next trip",
-    "description": "Do you have a destination in mind? Dates? An approximate budget? Contact us directly on WhatsApp. We'll ask you a few questions about your wishes (nature, culture, food, pace), then we'll build your tailor-made trip with our local guides.",
+    "description": "Have a destination in mind? Dates? An approximate budget? Contact us directly on WhatsApp. We'll ask you a few questions about your desires (nature, culture, food, pace), then we'll build your tailor-made trip with our local guides.",
     "response": "Personalized response within 24h.",
     "cta": "Contact us on WhatsApp"
   },
   "footer": {
-    "tagline": "Live adventure like a local",
+    "tagline": "Live the adventure like a local",
     "navigation": "Navigation",
     "destinations": "Destinations",
     "food": "Food",
@@ -60,7 +82,7 @@
     "guides": "Guides",
     "guidesTripers": "TRIPERS",
     "ctaTitle": "Want to build your trip here?",
-    "ctaDescription": "Contact us on WhatsApp. Indicate your dates, your budget, what attracts you. We build together a tailor-made trip with our local guides. Personalized response within 24h.",
+    "ctaDescription": "Contact us on WhatsApp. Share your dates, budget, what attracts you. We'll build a tailor-made trip together with our local guides. Personalized response within 24h.",
     "ctaButton": "Contact us on WhatsApp",
     "backToDestinations": "Back to destinations"
   }

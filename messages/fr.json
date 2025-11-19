@@ -34,7 +34,29 @@
   },
   "destinations": {
     "title": "Nos destinations",
-    "subtitle": "Des voyages sur mesure dans 4 destinations. Chaque itinéraire est construit avec vous, selon vos envies et votre durée."
+    "subtitle": "Des voyages sur mesure dans 4 destinations. Chaque itinéraire est construit avec vous, selon vos envies et votre durée.",
+    "learnMore": "En savoir plus",
+    "maroc": {
+      "name": "Maroc",
+      "description": "Immersion dans les souks de Marrakech, nuits dans le désert, randonnées dans l'Atlas. Idéal pour un premier voyage hors Europe. De 5 jours (weekend prolongé) à 2 semaines (immersion complète)."
+    },
+    "capVert": {
+      "name": "Cap-Vert",
+      "description": "Sal, Santo Antão... vibe 100% locale, musique, randonnées vertigineuses, plages sauvages. Parfait pour les amateurs de nature et d'authenticité insulaire. De 7 à 12 jours."
+    },
+    "caraibes": {
+      "name": "Caraïbes",
+      "description": "Martinique, Guadeloupe, plages secrètes, culture créole, rhum et détente absolue. Idéal pour combiner mer et découverte culturelle. De 5 à 10 jours."
+    },
+    "colombie": {
+      "name": "Colombie",
+      "description": "Cartagena, Medellín, îles Rosario, street food, diversité totale. Pour ceux qui aiment les contrastes forts : côte caraïbe, villes coloniales, montagnes de café. De 8 à 16 jours."
+    }
+  },
+  "map": {
+    "title": "Explorez la carte",
+    "description": "Chaque repère correspond à un endroit où TRIPERS a passé du temps, rencontré des guides de confiance. Ce ne sont pas des destinations théoriques : ce sont des personnes que nous avons rencontrées, avec qui nous avons voyagé, et que nous vous présentons ensuite.",
+    "loading": "Chargement de la carte..."
   },
   "contact": {
     "title": "Parlons de votre prochain voyage",
