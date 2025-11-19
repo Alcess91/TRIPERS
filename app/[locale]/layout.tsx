@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation';
 import { locales } from '@/i18n';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 const inter = Inter({ subsets: ['latin'] });
 const libreBaskerville = Libre_Baskerville({ 
@@ -47,6 +48,7 @@ export default async function LocaleLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <WhatsAppButton />
       </div>
     </NextIntlClientProvider>
   );

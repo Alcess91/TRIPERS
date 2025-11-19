@@ -184,6 +184,9 @@
     "response": "Personalized response within 24h.",
     "cta": "Contact us on WhatsApp"
   },
+  "whatsappButton": {
+    "tooltip": "Tell us about your desires"
+  },
   "footer": {
     "tagline": "Live the adventure like a local",
     "navigation": "Navigation",

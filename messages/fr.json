@@ -184,12 +184,15 @@
     "response": "Réponse personnalisée sous 24h.",
     "cta": "Contactez-nous sur WhatsApp"
   },
+  "whatsappButton": {
+    "tooltip": "Parlez-nous de vos envies"
+  },
   "footer": {
     "tagline": "Vivez l'aventure comme un local",
     "navigation": "Navigation",
     "destinations": "Destinations",
-    "food": "Nourriture",
-    "travel": "Voyage",
+    "food": "Gastronomie",
+    "travel": "Voyages",
     "contactTitle": "Contact",
     "whatsapp": "WhatsApp",
     "whatsappDesc": "Tout passe par WhatsApp pour un contact direct",

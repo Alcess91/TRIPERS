@@ -173,6 +173,9 @@
       }
     }
   },
+  "whatsappButton": {
+    "tooltip": "Erzählen Sie uns von Ihren Wünschen"
+  },
   "map": {
     "title": "Entdecke die Karte",
     "description": "Jeder Marker steht für einen Ort, an dem TRIPERS Zeit verbracht und vertrauenswürdige Guides kennengelernt hat. Das sind keine theoretischen Reiseziele, sondern Menschen, denen wir begegnet sind, mit denen wir gereist sind – und die wir dir nun vorstellen.",

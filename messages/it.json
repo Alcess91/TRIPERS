@@ -173,6 +173,9 @@
       }
     }
   },
+  "whatsappButton": {
+    "tooltip": "Raccontaci i tuoi desideri"
+  },
   "map": {
     "title": "Esplorate la mappa",
     "description": "Ogni segnaposto corrisponde a un luogo dove TRIPERS ha trascorso del tempo e incontrato guide di fiducia. Non sono destinazioni teoriche: sono persone che abbiamo incontrato, con cui abbiamo viaggiato e che poi vi presentiamo.",
