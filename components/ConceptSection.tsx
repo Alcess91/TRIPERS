@@ -1,4 +1,12 @@
+'use client';
+
+import { useTranslations, useLocale } from 'next-intl';
+
 export default function ConceptSection() {
+  const t = useTranslations('concept');
+  const locale = useLocale();
+  const isRTL = locale === 'ar';
+
   const concepts = [
     {
       title: 'Comme un local',
@@ -79,31 +87,38 @@ export default function ConceptSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* En-tête */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
-            Pourquoi TRIPERS ?
+          <h2 className={`text-4xl md:text-5xl font-normal text-gray-900 mb-6 ${isRTL ? 'flex flex-row-reverse items-center justify-center gap-3' : ''}`}>
+            {isRTL ? (
+              <>
+                <span>{t('title').replace('TRIPERS', '').replace('؟', '').trim()}؟</span>
+                <span className="font-bold">TRIPERS</span>
+              </>
+            ) : (
+              t('title')
+            )}
           </h2>
           <p className="text-xl text-gray-600 italic font-light">
-            Le touriste profite, le voyageur découvre.
+            {t('subtitle')}
           </p>
         </div>
 
         {/* Grille de concepts */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-          {concepts.map((concept, index) => (
+          {['local', 'network', 'safety', 'unique'].map((key, index) => (
             <div
-              key={index}
+              key={key}
               className="text-center"
             >
               <div className="mb-6 flex justify-center">
                 <div className="w-16 h-16 border-2 border-gray-900 flex items-center justify-center">
-                  {concept.icon}
+                  {concepts[index].icon}
                 </div>
               </div>
               <h3 className="text-2xl font-normal text-gray-900 mb-4">
-                {concept.title}
+                {t(key)}
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                {concept.description}
+                {t(`${key}Desc`)}
               </p>
             </div>
           ))}
