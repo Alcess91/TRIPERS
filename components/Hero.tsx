@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 
 export default function Hero() {
@@ -8,13 +8,9 @@ export default function Hero() {
   const [currentVideo, setCurrentVideo] = useState(0);
   const videos = ['/destinations/IMG_4003.mp4', '/destinations/IMG_4040.mp4'];
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentVideo((prev) => (prev + 1) % videos.length);
-    }, 15000); // Change toutes les 15 secondes
-
-    return () => clearInterval(interval);
-  }, []);
+  const handleVideoEnd = () => {
+    setCurrentVideo((prev) => (prev + 1) % videos.length);
+  };
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -34,7 +30,6 @@ export default function Hero() {
           <div key={video} className="flex-shrink-0 w-full h-full relative">
             <video
               autoPlay={index === currentVideo}
-              loop
               muted
               playsInline
               className="absolute inset-0 w-full h-full object-cover"
@@ -52,6 +47,7 @@ export default function Hero() {
                 const video = e.currentTarget;
                 video.playbackRate = 0.50;
               }}
+              onEnded={index === currentVideo ? handleVideoEnd : undefined}
             >
               <source src={video} type="video/mp4" />
             </video>

@@ -1,172 +1,172 @@
 {
   "nav": {
-    "contact": "Contact"
+    "contact": "お問い合わせ"
   },
   "hero": {
-    "title": "We travel first. We introduce you to the right people next.",
-    "cta": "Discover our destinations"
+    "title": "まず私たちが旅をします。 そのあとに、あなたにぴったりの人たちをご紹介します。",
+    "cta": "行き先を見る"
   },
   "about": {
-    "title": "Why",
-    "subtitle": "Reinventing travel by putting the right people on your path.",
-    "paragraph1": "It all started over mint tea in Marrakech, in an alley known only to locals. That day, we understood that the best travel moments aren't found in brochures. They emerge from authentic encounters with those who truly live the territory.",
-    "paragraph2": "The TRIPERS team travels first for you. We explore destinations, meet guides, test experiences. Then, we become the architects of your trip: we find accommodations that fit your budget and preferences, we design coherent itineraries, we select meaningful activities. Nothing is standardized, everything is designed for you.",
-    "paragraph3": "Our promise?",
-    "paragraph3Content": "To introduce you only to guides we personally know. No anonymous platform, no cold algorithm. Just humans sharing their territory with authenticity and passion. You contact us on WhatsApp, we build together, and on D-day, your guide awaits you on site.",
-    "card1Title": "Travel differently",
-    "card1Content": "Prioritize quality of encounters over quantity of sites visited. Experience trips built for you, not standardized circuits where 40 people follow the same program. Take time to understand a place through those who truly live there.",
-    "card2Title": "Guarantee trust",
-    "card2Content": "We only reference guides we personally know. We've met them, tested them, validated them. Their integrity, field knowledge, and hospitality are our only criteria. No random profile found online.",
-    "card3Title": "Support local economy",
-    "card3Content": "Every euro spent directly benefits guides and their communities. No anonymous intermediary capturing value, just a direct and fair connection between you and the people who help you discover their territory."
+    "title": "なぜ",
+    "subtitle": "あなたの旅の道のりに、ふさわしい人との出会いをつくる。",
+    "paragraph1": "すべてはマラケシュのミントティーから始まりました。現地の人しか知らない細い路地で、私たちは座っていました。そのとき気づいたのです。旅の一番いい瞬間はパンフレットの中にはないということに。本当にその土地で生きている人たちと、自然に出会うところから生まれるのだと。",
+    "paragraph2": "TRIPERSのチームは、まずあなたの代わりに旅をします。行き先を歩き、ガイドに会い、体験を自分たちで試します。そのうえで、私たちはあなたの旅の“設計士”になります。予算と好みに合う宿を探し、無理のないルートを組み、意味のあるアクティビティだけを選びます。パッケージツアーではなく、すべてがあなたのためだけに考えられた旅です。",
+    "paragraph3": "私たちの約束は？",
+    "paragraph3Content": "私たちが実際に会い、信頼しているガイドだけをご紹介すること。匿名のプラットフォームでも、冷たいアルゴリズムでもなく、その土地を本気で愛している“人間”だけです。あなたはWhatsAppで私たちに連絡し、一緒に旅を作り、当日になれば、ガイドが現地であなたを迎えてくれます。",
+    "card1Title": "新しい旅のしかた",
+    "card1Content": "訪れた場所の数よりも、出会いの質を大切にする。40人が同じルートを歩く画一的なツアーではなく、あなたのためだけに組まれた体験をする。その土地で生きる人たちを通して、じっくりと場所を理解していく旅。",
+    "card2Title": "信頼の保証",
+    "card2Content": "私たちが紹介するのは、実際に会ったことのあるガイドだけです。会って、案内を受けて、納得した人だけを選んでいます。誠実さ、土地への深い理解、そして人を迎える姿勢。それだけが基準です。ネットで偶然見つけたプロフィールは一切扱いません。",
+    "card3Title": "ローカル経済を支える",
+    "card3Content": "あなたが払ったお金は、直接ガイドやそのコミュニティに届きます。どこかの匿名の仲介業者が利益を吸い上げることはありません。その土地を見せてくれる人と、旅人であるあなたとのあいだに、公正でまっすぐなつながりをつくります。"
   },
   "concept": {
-    "title": "Why TRIPERS?",
-    "subtitle": "Tourists take advantage, travelers discover.",
-    "local": "Like a local",
-    "localDesc": "You live like a local, not like a tourist. Authentic experiences guaranteed.",
-    "network": "International network",
-    "networkDesc": "International network of friends → unique experiences everywhere in the world.",
-    "safety": "Safety & trust",
-    "safetyDesc": "Safety + family vibes. We connect you with trusted locals.",
-    "unique": "Unique experiences",
-    "uniqueDesc": "Private parties, cultural immersions, hidden excursions."
+    "title": "なぜTRIPERSなのか？",
+    "subtitle": "観光客は消費し、旅人は発見する。",
+    "local": "ローカルのように",
+    "localDesc": "観光客ではなく“現地の人”として過ごす。そんな本物の体験を約束します。",
+    "network": "国際的なネットワーク",
+    "networkDesc": "世界中の友人・知人のネットワーク → どこに行っても特別な体験を。",
+    "safety": "安心と信頼",
+    "safetyDesc": "安全で、家族のような距離感。信頼できるローカルだけを紹介します。",
+    "unique": "唯一無二の体験",
+    "uniqueDesc": "プライベートな夜、ディープな文化体験、人に知られていない場所への小さな冒険。"
   },
   "destinations": {
-    "title": "Our destinations",
-    "subtitle": "Tailor-made trips in 4 destinations. Each itinerary is built with you, according to your desires and duration.",
-    "learnMore": "Learn more",
+    "title": "行き先",
+    "subtitle": "4つの地域で、あなただけのオーダーメイドの旅を。日数とやりたいことに合わせて、一緒にルートを作ります。",
+    "learnMore": "詳しく見る",
     "maroc": {
-      "name": "Morocco",
-      "description": "Immersion in Marrakech souks, desert nights, Atlas hikes. Ideal for a first trip outside Europe. From 5 days (extended weekend) to 2 weeks (complete immersion)."
+      "name": "モロッコ",
+      "description": "マラケシュのスークに迷い込み、砂漠で夜を過ごし、アトラス山脈を歩く旅。ヨーロッパ以外への初めての旅にも最適です。5日間（ロングウィークエンド）〜2週間（しっかり滞在）まで対応。"
     },
     "capVert": {
-      "name": "Cape Verde",
-      "description": "Sal, Santo Antão... 100% local vibe, music, vertiginous hikes, wild beaches. Perfect for nature lovers and island authenticity. 7 to 12 days."
+      "name": "カーボベルデ",
+      "description": "サル島、サントアンタン島…100%ローカルな空気、音楽、迫力あるトレッキング、手つかずのビーチ。自然と素朴な島の文化が好きな人にぴったり。7〜12日間を目安に。"
     },
     "caraibes": {
-      "name": "Caribbean",
-      "description": "Martinique, Guadeloupe, secret beaches, Creole culture, rum and absolute relaxation. Ideal for combining sea and cultural discovery. 5 to 10 days."
+      "name": "カリブ海",
+      "description": "マルティニーク、グアドループ。人知れないビーチ、クレオール文化、ラム、そして何もしない贅沢。海と文化体験、両方を楽しみたい人のための旅。5〜10日間。"
     },
     "colombie": {
-      "name": "Colombia",
-      "description": "Cartagena, Medellín, Rosario Islands, street food, total diversity. For those who love strong contrasts: Caribbean coast, colonial cities, coffee mountains. 8 to 16 days."
+      "name": "コロンビア",
+      "description": "カルタヘナ、メデジン、ロサリオ諸島、ストリートフード…コントラストだらけの国。カリブ海沿岸の町、植民地風の街並み、コーヒー農園地帯の山々。8〜16日間のじっくり旅に。"
     }
   },
   "destinationsData": {
     "capVert": {
-      "countryName": "Cape Verde",
-      "intro": "The Cape Verde archipelago consists of ten volcanic islands located in the Atlantic Ocean, about 570 km from the African coast. Between white sand beaches, lunar landscapes, and green mountains, each island has its own identity.",
-      "story": "This is where TRIPERS builds tailor-made trips. We combine Sal (beaches and kitesurfing) and Santo Antão (vertiginous hikes) according to your duration and desires. We select accommodations, organize days with our guides, manage inter-island transfers. Cape Verde is a unique blend of African, Portuguese, and Creole cultures. Music resonates everywhere: morna and funaná rhythm the evenings. Encounters with locals happen naturally. It's a country where the notion of time takes on another meaning, where you learn to live at the rhythm of the ocean and wind.",
+      "countryName": "カーボベルデ",
+      "intro": "カーボベルデ諸島は、大西洋に浮かぶ火山性の10の島から成り、アフリカ西岸から約570km離れた場所にあります。真っ白な砂浜、月面のような景観、緑豊かな山々まで、それぞれの島がまったく違う表情を持っています。",
+      "story": "ここでTRIPERSは、あなたのためのオーダーメイドの旅を組み立てます。サル島（ビーチとカイトサーフィン）とサントアンタン島（断崖絶壁のトレッキング）を、滞在日数と好みに合わせて組み合わせます。滞在先を選び、ガイドと過ごす一日を計画し、島と島の移動もすべて手配します。カーボベルデは、アフリカ、ポルトガル、クレオール文化が混ざり合う唯一無二の場所。モルナやフナナの音楽が夜を彩り、ローカルとの出会いは自然と生まれます。時間の感覚が変わり、海と風のリズムに身を任せることを教えてくれる国です。",
       "cities": {
         "sal": {
-          "name": "Sal",
-          "description": "Sal island is endless white sand beaches, turquoise waters, and constant wind that attracts kitesurfers from around the world. Santa Maria, the main village, offers a relaxed atmosphere: fresh fish restaurants, seaside bars, fishermen returning in the morning with their catches. Beyond the beach, you discover abandoned salt flats (Pedra de Lume), salt desert mirages, authentic local life far from resorts. Sal is the perfect island to alternate relaxation, water sports, and discovery of a warm Cape Verdean culture.",
-          "etymology": "The name 'Sal' comes from the old salt exploitations that made the island's wealth for centuries.",
+          "name": "サル島",
+          "description": "サル島は、どこまでも続く白い砂浜と透き通ったエメラルドグリーンの海、そして世界中からカイトサーファーが集まる安定した風が魅力です。メインの村・サンタマリアはリラックスした雰囲気で、朝は漁師たちがその日の魚を持って帰ってきて、夜は海辺のバーとレストランが灯り始めます。ビーチの向こうには、放棄された塩田（ペドラ・デ・ルメ）や、塩の砂漠に浮かぶ蜃気楼、リゾートから離れた素朴な暮らしが広がります。サル島は、“何もしない時間”とウォータースポーツ、そして温かいカーボベルデ文化をバランスよく楽しめる島です。",
+          "etymology": "「サル（Sal）」という名前は、かつて島の経済を支えていた塩田から来ています。",
           "guides": {
             "ismael-sal": {
               "name": "Ismael",
-              "description": "Ismael was born in Sal. He knows every beach, every kitesurf spot, every restaurant run by locals. He shows you the island differently: fishing villages, kite sessions for beginners or advanced, zouk evenings in bars where tourists never go. Ismael speaks French, English, Portuguese, and Creole. With him, Sal isn't just a postcard, it's a real immersion."
+              "description": "イスマエルはサル島生まれ。あらゆるビーチ、カイトサーフスポット、ローカルが営むレストランを知り尽くしています。観光客向けエリアだけでなく、漁師の村、初心者〜上級者向けのカイトセッション、観光客がほとんどいないズークの夜まで案内してくれます。イスマエルはフランス語、英語、ポルトガル語、クレオール語を話します。彼と一緒だと、サル島は単なる“きれいな景色”ではなく、奥行きのある日常の一部になります。"
             }
           }
         },
-        "santoAntao": {
-          "name": "Santo Antão",
-          "description": "Santo Antão is the hikers' island. Vertiginous trails border cliffs plunging into the ocean. Green valleys (Paúl, Ribeira Grande) contrast with lunar landscapes. You walk among banana trees, papaya trees, and sugar cane fields, meeting villagers who work the land by hand. Winding roads offer breathtaking panoramas. Small perched villages welcome you for grogue (local rum) and conversations in Creole. Santo Antão is natural, raw, generous Cape Verde. Ideal for those who love walking, observing, taking their time.",
-          "etymology": "Santo Antão means Saint Anthony in Portuguese, in honor of Saint Anthony of Padua."
+        "santo-antao": {
+          "name": "サントアンタン島",
+          "description": "サントアンタン島は、トレッキング好きのための島です。切り立った崖に沿って延びる細い山道、その下には打ち寄せる大西洋。パウルやリベイラ・グランデのような緑の谷は、月面のような景観と強烈なコントラストをつくります。バナナやパパイヤ、サトウキビ畑の間を歩きながら、今でも手作業で畑を耕す人々とすれ違います。つづら折りの山道からは、思わず息をのむような景色が見渡せます。小さな山あいの村では、グロッグ（地元のラム）を飲みながら、クレオール語混じりの会話が始まります。サントアンタン島は、飾らない自然と人の営みをじっくり味わいたい人にぴったりの場所です。",
+          "etymology": "サントアンタンはポルトガル語で「聖アントニオ」を意味し、パドヴァの聖アントニオに由来します。"
         }
       }
     },
     "caraibes": {
-      "countryName": "Caribbean",
-      "intro": "The Antilles archipelago extends thousands of kilometers between North and South America. Between paradise beaches, tropical forests, and colorful cities, the Caribbean offers unique cultural and natural diversity. African, European, and Amerindian influences blend in language, cuisine, and music.",
-      "story": "This is where TRIPERS builds tailor-made trips in the Antilles. We know the islands, the good addresses, the secret beaches. We organize boat crossings, accommodations with locals or in villas, outings with our local guides. You enjoy, we handle the rest. The Caribbean is a mosaic of islands. Martinique, Guadeloupe, Dominica, Saint Lucia... each has its Creole identity. Markets overflow with exotic fruits. Beaches alternate between white and black volcanic sand. Zouk and reggae accompany late afternoons. We come for the sea, we stay for the art of living.",
+      "countryName": "カリブ海",
+      "intro": "アンティル諸島は、北米と南米のあいだを何千キロにもわたって連なっています。楽園のようなビーチ、熱帯雨林、カラフルな街並み。カリブ海は、自然も文化も驚くほど多様です。アフリカ、ヨーロッパ、先住民の影響が、言葉や料理、音楽の中で溶け合っています。",
+      "story": "ここでTRIPERSは、アンティル諸島でのオーダーメイドな旅を作ります。どの島にどれくらい滞在するか、どんな雰囲気が好きなのかを聞きながら、島々やおすすめの場所、秘密のビーチを組み合わせていきます。島間のボート移動、ホームステイやヴィラでの滞在、ローカルガイドとの一日も私たちが手配します。あなたはただ楽しむだけ。カリブ海はモザイクのような世界です。マルティニーク、グアドループ、ドミニカ、セントルシア…どの島にも独自のクレオール文化があります。市場には南国フルーツがあふれ、ビーチは白砂と黒い火山砂が入り混じります。夕暮れにはズークやレゲエが流れ、海を目当てに来た人も、いつしか“暮らし方”に惹かれて長く滞在したくなります。",
       "cities": {
-        "fortDeFrance": {
-          "name": "Fort-de-France",
-          "description": "Fort-de-France is the capital of Martinique. Located on the edge of a large bay, the city mixes colonial architecture, lively markets, and modern neighborhoods. The covered market overflows with colors and smells: mangoes, christophines, spices, arranged rum. The Schoelcher library, with its metal structure, recalls the colonial heritage. Shopping streets vibrate to the Creole rhythm. It's the gateway to explore the rest of the island: southern beaches, Mount Pelée to the north, rum distilleries to the east.",
-          "etymology": "The name comes from the old French fort that protected the bay, baptized Fort-Royal then Fort-de-France after the Revolution.",
+        "fort-de-france": {
+          "name": "フォール・ド・フランス",
+          "description": "フォール・ド・フランスはマルティニークの首都で、広い湾を望む街です。植民地時代の建物、にぎやかな市場、現代的な地区が混ざり合っています。屋内市場には色とりどりの果物や地元野菜、スパイス、ラムが並び、香りが立ちこめます。金属構造が特徴的なショルシェ図書館は、植民地時代の遺産を物語ります。商店街はクレオールのリズムでにぎわい、ここから島の各地へと出かけることができます。南のビーチ、北のペレ山、東側のラム蒸留所など、あらゆる場所への玄関口です。",
+          "etymology": "この名前は、かつて湾を守っていたフランスの要塞に由来し、もともとはフォール・ロワイヤルと呼ばれていましたが、革命後にフォール・ド・フランスと改名されました。",
           "guides": {
             "patrick-martinique": {
               "name": "Patrick",
-              "description": "Born in Martinique, Patrick speaks French, English, and Creole with equal ease. He knows all the Antilles: Martinique, Guadeloupe, Dominica, Saint Lucia. With him, you discover secret beaches accessible only by boat, family restaurants where we eat colombo and blaff, zouk evenings in bars without tourists. Patrick doesn't follow a fixed program, he adapts according to weather, your mood, local events. He makes you live the Caribbean from the inside."
+              "description": "マルティニーク出身のパトリックは、フランス語・英語・クレオール語を自在に操ります。マルティニークだけでなく、グアドループ、ドミニカ、セントルシアなど、アンティル諸島全体を知り尽くしています。彼と一緒なら、ボートでしか行けない秘密のビーチ、家族で営む小さな食堂、本物のズークが流れる地元のバーなどに連れて行ってもらえます。パトリックは決まったプログラムにはこだわらず、天気やあなたの気分、現地のイベントに合わせて柔軟に変えていきます。カリブ海の“内側”に入り込みたい人には、最高のガイドです。"
             }
           }
         },
-        "autresIles": {
-          "name": "Other Antilles Islands",
-          "description": "Beyond Martinique, the Antilles abound with islands with distinct personalities. Guadeloupe, with its two wings connected by a bridge, mixes tranquil beaches and active volcanoes. Dominica, nicknamed the nature island, offers waterfalls, hot springs, dense jungle. Saint Lucia stands out with its rocky peaks plunging into the sea. Each island has its own atmosphere, its own cuisine, its own rhythm. You can sail from one to another, or settle on one and take your time."
+        "autres-iles": {
+          "name": "アンティル諸島のその他の島々",
+          "description": "マルティニークの先にも、多彩な表情を持つ島々が続きます。二つの大きな島が橋でつながれたグアドループは、静かなビーチとアクティブな火山地帯を併せ持ちます。ナチュラル・アイランドと呼ばれるドミニカは、滝や温泉、濃いジャングルの宝庫です。セントルシアは、海に向かってそびえ立つピトン山が印象的です。どの島にも独自の雰囲気、料理、リズムがあり、島から島へと渡り歩くことも、一つの島に腰を据えて時間をかけて味わうこともできます。"
         }
       }
     },
     "maroc": {
-      "countryName": "Morocco",
-      "intro": "Morocco unfolds between the Mediterranean Sea, the Atlantic Ocean, the Atlas Mountains, and the Sahara expanses. Crossroads between Africa and Europe, the country offers diversity of landscapes, cultures, and atmospheres. From thousand-year-old medinas to modern seaside resorts, each region has its identity.",
-      "story": "This is where TRIPERS builds tailor-made trips. We combine Marrakech, Ouzoud waterfalls, and Zagora desert according to your desires and duration. We select accommodations, organize days with our guides, and ensure transitions are smooth. You enjoy, we handle the rest. Traveling to Morocco means moving from a lively medina to desert silences, climbing Atlas valleys and descending to Essaouira beaches. Souk colors, spice smells, calls to prayer, and mint teas rhythm the days. Morocco is a country of contrasts where tradition and modernity coexist.",
+      "countryName": "モロッコ",
+      "intro": "モロッコは、地中海と大西洋、アトラス山脈とサハラ砂漠に抱かれた国です。アフリカとヨーロッパをつなぐ十字路として、多様な風景と文化、雰囲気に満ちています。古くからのメディナ（旧市街）から、近代的なビーチリゾートまで、地域ごとにまったく違う顔を見せます。",
+      "story": "ここでTRIPERSは、あなたのためにモロッコの旅を設計します。マラケシュ、オズードの滝、ザゴラの砂漠を、滞在日数と好みに合わせて組み合わせます。宿泊先を選び、ガイドとの一日をデザインし、移動がスムーズになるよう細かい部分まで整えます。あなたはただ旅を楽しむだけ。モロッコを旅するということは、にぎやかなメディナから静かな砂漠へ、アトラスの谷を登り、エッサウィラの海岸へと降りていくこと。スークの色彩、スパイスの香り、アザーンの声、ミントティーの甘さが一日のリズムになります。伝統とモダンが同時に存在する、コントラストの国です。",
       "cities": {
         "marrakech": {
-          "name": "Marrakech",
-          "description": "Marrakech is Jemaa el-Fna square coming alive at nightfall: storytellers, musicians, orange juice stands. It's the souks where you get lost among leather, spices, and carpets. Riads hidden behind anonymous doors, surreal blue Majorelle gardens, terraces where you sip mint tea watching the Atlas in the distance. Beyond clichés, Marrakech is also a modern city: Gueliz and Hivernage neighborhoods, fusion restaurants, trendy rooftops. With our guides, you discover both faces: the traditional medina and the contemporary city.",
-          "etymology": "The name Marrakech comes from Berber Mur n Akush (land of God). This city also gave its name to Morocco.",
+          "name": "マラケシュ",
+          "description": "マラケシュといえば、夕暮れに人であふれるジャマ・エル・フナ広場。語り部、音楽、オレンジジュースの屋台。革やスパイス、絨毯が並ぶスークで迷子になり、匿名の扉の向こうに隠れたリヤドを訪ね、真っ青なマジョレル庭園を歩き、遠くにアトラス山脈を眺めながら屋上でミントティーを飲む。そんな旅が待っています。一方で、マラケシュはモダンな顔も持っています。ギリーズやイヴェルナージュ地区には、モダンなレストランやルーフトップバーがあります。TRIPERSのガイドと歩けば、伝統的なメディナと現代のマラケシュ、その両方の表情を見ることができます。",
+          "etymology": "「マラケシュ」という名前は、ベルベル語の「ムル・ン・アクシュ（神の国）」に由来すると言われています。また、この街の名は、そのまま国名“モロッコ（Maroc）”の語源にもなっています。",
           "guides": {
             "omar-marrakech": {
               "name": "Omar",
-              "description": "Passionate guide who knows Marrakech and the Ouzoud region by heart. In Marrakech, he takes you off the beaten path: artisan workshops (coppersmiths, leather workers), neighborhood bread ovens, tea houses where locals chat for hours. Omar speaks French fluently and adapts to your pace."
+              "description": "オマルは、マラケシュとオズード周辺を知り尽くした情熱的なガイドです。マラケシュでは、観光客があまり行かない職人街、金属細工や革職人の工房、地域の人が毎日パンを焼く共同のかまど、長く話し込むためだけの小さなティーハウスなどに連れて行ってくれます。フランス語が流暢で、あなたの歩くペースや興味に合わせて柔軟に案内してくれます。"
             },
             "tarek-marrakech": {
               "name": "Tarek",
-              "description": "Born in Marrakech, Tarek knows every alley, every secret. He builds tailor-made itineraries: hidden souks where tourists never go, terraces to admire the sunset over the Atlas, artisan workshops he's frequented since childhood. With him, Marrakech becomes a familiar city, not a postcard backdrop."
+              "description": "マラケシュ生まれのタレクは、子どものころからこの街の路地を走り回ってきました。彼が組むルートはすべてオーダーメイド。観光客がほとんど来ないスークの一角、夕日が一番きれいに見える屋上、幼いころから通っている職人の工房など、ストーリーのある場所ばかりです。タレクと一緒だと、マラケシュはただの観光地ではなく、“ただいま”と言いたくなる街になります。"
             }
           }
         },
         "ouzoud": {
-          "name": "Ouzoud",
-          "description": "Two hours drive from Marrakech, the Ouzoud valley immerses you in a green Morocco, far from city tumult. Waterfalls cascade 110 meters among olive trees and prickly pears. Below, fresh water invites swimming. Along the path, you meet Barbary macaques living here freely. In the evening, the call to prayer resonates from Berber villages perched on the heights. It's a natural breath just hours from Marrakech.",
-          "etymology": "Ouzoud means mill in Berber, referring to the old grain mills that used water power.",
+          "name": "オズード",
+          "description": "マラケシュから車で約2時間、オズードの谷に入ると、街の喧騒から離れた“緑のモロッコ”が現れます。高さ110mの滝がオリーブやウチワサボテンの間を流れ落ち、下では冷たい水が泳ぎたくなる誘惑をしてきます。遊歩道を歩いていると、野生のマカクザルたちに出会うことも。夕方になると、山の上のベルベル人の村からアザーンがこだまします。マラケシュからほんの数時間で行ける、自然の中で深呼吸するような場所です。",
+          "etymology": "ベルベル語で「オズード」は「粉ひき小屋」を意味し、かつて水の力を利用した粉ひきの水車があったことに由来します。",
           "guides": {
             "omar-ouzoud": {
               "name": "Omar",
-              "description": "In Ouzoud, Omar shows you authentic Berber villages where his grandparents grew up. He knows every path along the waterfalls, every artisan still weaving by hand, every family preparing bread in an earthen oven. With him, you don't visit Ouzoud from outside, you enter its daily life. He adapts the pace to your desires: swimming under the falls, meals with locals, or simply walking in silence through the valley."
+              "description": "オズードでは、オマルが自分の祖父母が暮らしていたベルベルの村へと案内してくれます。滝沿いの小道、手織りを続ける職人、土のかまどでパンを焼く家族など、彼にとって“日常”である風景を、一緒に歩きながら見せてくれます。観光客向けのスポットだけでなく、その奥にある暮らしのリズムを感じさせてくれるガイドです。滝の下で泳ぐ、ローカルの家で食事をする、静かに谷を歩くだけにする…その日の気分に合わせて、ペースを変えてくれます。"
             }
           }
         },
         "zagora": {
-          "name": "Zagora",
-          "description": "Zagora marks the entry into the Sahara desert. As soon as you leave the city, palm groves give way to ochre expanses. Tinfou dunes appear in the distance. In the evening, you sleep in a bivouac under a sky saturated with stars, without light pollution. In the morning, you wake to desert silence. Between two dunes, you sometimes meet nomadic families still living here with their herds. Zagora is raw immensity, unfiltered, with no added backdrop.",
-          "etymology": "Zagora could come from Berber Tazagourt, meaning summit or hill, referring to Djebel Zagora dominating the region.",
+          "name": "ザゴラ",
+          "description": "ザゴラはサハラ砂漠の入口にあたる町です。町を離れると、椰子の木のオアシスが終わり、オレンジ色の大地が広がります。やがてティンフーの砂丘が地平線に姿を現します。夜になると、星で埋め尽くされた空の下でビバーク（野営）をし、人工の明かりはほとんどありません。朝は、砂漠の静けさの中で目を覚まします。砂丘のあいだでは、今も遊牧生活を続ける家族と出会うこともあります。ザゴラは、飾り気のない“広大さ”そのものを体感する場所です。",
+          "etymology": "「ザゴラ」という名は、ベルベル語の「タザグルト（頂き／丘）」に由来すると言われており、この地域を見下ろすザゴラ山のことを指すと考えられています。",
           "guides": {
             "youssef-zagora": {
               "name": "Youssef",
-              "description": "Youssef grew up in Zagora, at the gates of the Sahara. He organizes traditional bivouacs under the stars, far from tourist camps. With him, you share mint tea with nomadic families, sleep in authentic Berber tents, learn to read constellations. Youssef speaks little, but he knows how to listen. He ensures your comfort without ever forcing the experience. The desert with him is inhabited silence, not a show."
+              "description": "ユースフはザゴラで育ち、サハラの入口で生きてきました。彼が案内するのは、観光用のキャンプではなく、星空の下での素朴なビバークです。遊牧民の家族と一緒にミントティーを飲み、本物のベルベルテントで眠り、夜空の星座の読み方を教えてくれます。ユースフは多くを語るタイプではありませんが、よく人の話を聞き、さりげなく快適さに気を配ります。彼と過ごす砂漠の時間は、ショーとしての演出ではなく、“静かな時間”そのものです。"
             }
           }
         }
       }
     },
     "colombie": {
-      "countryName": "Colombia",
-      "intro": "Colombia extends between two oceans, crosses the Andes mountain range, and plunges into the Amazon rainforest. Caribbean coasts with warm waters, colorful colonial cities, green valleys, vibrant metropolises. It's a country of extreme diversity. Modern Colombia has turned the page on past conflicts and opens to the world with energy.",
-      "story": "This is where TRIPERS builds tailor-made trips in Colombia. We combine Cartagena, Medellín, coffee region, Pacific coast according to your duration and desires. We organize domestic flights, accommodations, days with our local guides. You enjoy, we handle the rest. Cartagena, with its cobbled streets and ochre facades, embodies Caribbean colonial charm. Medellín, nestled in its valley, represents urban transformation and innovation. Bogotá mixes skyscrapers, street art, and historic neighborhoods. Further away, coffee landscapes, Salento villages, and the Pacific coast offer other faces. Salsa, cumbia, and vallenato accompany every moment. The welcome is warm. You leave with stories.",
+      "countryName": "コロンビア",
+      "intro": "コロンビアは二つの海に面し、アンデス山脈を越え、アマゾンの森へと続いています。暖かいカリブ海岸線、カラフルな植民地時代の街、緑の谷、活気ある大都市。とてつもない多様性を持つ国です。かつての紛争のイメージから大きく変わり、今のコロンビアはエネルギーに満ちた国として世界に開かれつつあります。",
+      "story": "ここでTRIPERSは、コロンビアのオーダーメイド旅行を作ります。カルタヘナ、メデジン、コーヒー地帯、太平洋岸を、滞在日数と好みに合わせて組み合わせます。国内線の手配、宿泊先の選定、ローカルガイドとの一日も含めて、すべて私たちが段取りします。あなたは旅を楽しむだけ。カルタヘナの石畳の街路と黄色い壁は、カリブ海の植民地文化の象徴です。谷に抱かれたメデジンは、革新的な都市づくりの最前線にあります。ボゴタは高層ビル、ストリートアート、歴史地区が入り混じる街。さらに先には、コーヒー農園の風景やサレントのような村、太平洋沿岸の手つかずの自然が広がります。サルサ、クンビア、バジェナートが、毎日を音楽で包み込みます。人々は温かく、旅のあいだにたくさんの物語が生まれます。",
       "cities": {
         "cartagena": {
-          "name": "Cartagena",
-          "description": "Cartagena de Indias is a flamboyant colonial city on the Caribbean Sea. Massive ramparts, flowered balconies, lively squares, colorful alleys: it's one of South America's most photogenic cities. The historic center is a charming labyrinth where every corner reveals a church, a placita, a hidden patio. The Getsemaní neighborhood vibrates to cumbia rhythms, street art, open-air bars. Rosario Islands, 45 minutes by boat, offer postcard beaches and crystalline waters. Cartagena is Caribbean warmth, colonial history, and Colombian energy united in one place.",
-          "etymology": "The city bears the name of Cartagena in Spain, where several of its Spanish founders came from in the 16th century.",
+          "name": "カルタヘナ",
+          "description": "カルタヘナ・デ・インディアスは、カリブ海に面した華やかな植民地都市です。厚い城壁、花であふれたバルコニー、にぎやかな広場、カラフルな路地…南米で最も写真映えする街の一つと言われています。歴史地区は、角を曲がるたびに教会、小さな広場、隠れた中庭が現れる迷路のような場所です。ヘツェマニ地区は、クンビアの音楽、ストリートアート、オープンエアのバーで夜遅くまで賑わいます。ボートで45分のロサリオ諸島には、ポストカードのような白い砂浜と透明な海が広がります。カルタヘナは、カリブの熱気、植民地時代の歴史、そしてコロンビアのエネルギーが一体となった街です。",
+          "etymology": "この街の名は、16世紀に創設者たちが出身地としていたスペインのカルタヘナに由来します。",
           "guides": {
             "horacio-cartagena": {
               "name": "Horacio",
-              "description": "Horacio was born in Cartagena. He knows every street in the historic center, every Getsemaní artisan, every cantina where we drink ron to cumbia sounds. With him, you don't tour monuments, you enter the city's daily life. He takes you to Bazurto market at 6am, to workshops where hammocks are still made by hand, to salsa bars frequented by Cartagéneros. Horacio speaks fast, laughs loudly, and transforms every outing into a living account of Caribbean history."
+              "description": "オラシオはカルタヘナ生まれ。歴史地区の路地、ヘツェマニの職人、クンビアが流れる小さな酒場まで、すべてを知り尽くしています。彼と歩くと、観光名所を“消化する”のではなく、街の生活のリズムの中に入り込むことができます。朝6時のバズルト市場、今も手作業でハンモックを織っている工房、カルタヘナの人たちが集まるサルサバー…どこへ行っても、オラシオは人と物語をつないでくれます。早口でよく笑い、歴史を生きた物語として語るガイドです。"
             }
           }
         },
         "medellin": {
-          "name": "Medellín",
-          "description": "Medellín, nicknamed the city of eternal spring for its mild year-round climate, extends in a valley surrounded by mountains. Once marked by a difficult history, the city has transformed into a model of urban and social innovation. El Poblado and Laureles neighborhoods abound with restaurants, cafés, bars, art galleries. Public cable cars climb to peripheral barrios and offer panoramic views of the entire valley. Comuna 13, formerly a forbidden zone, has become a symbol of rebirth with its mechanical stairs, giant frescoes, hip-hop workshops. Medellín is a city in permanent movement, young, modern, resilient.",
-          "etymology": "Medellín owes its name to Medellín in Spain, birthplace of Pedro Portocarrero, governor of the region at its founding in 1616.",
+          "name": "メデジン",
+          "description": "メデジンは、一年を通して春のように穏やかな気候から「永遠の春の街」と呼ばれています。山々に囲まれた谷に広がるこの街は、かつての困難な歴史を乗り越え、今では都市と社会のイノベーションの象徴となりました。エル・ポブラドやラウレレス地区には、レストラン、カフェ、バー、ギャラリーが集まっています。公共のロープウェイは、山側の地区と中心部を結び、谷全体を見渡せる眺めを提供します。かつて立ち入りが危険だったコムナ13は、今では巨大な壁画やヒップホップのワークショップ、屋外エスカレーターが並ぶ“再生”のシンボルです。メデジンは、若く、モダンで、常に動き続けるレジリエントな街です。",
+          "etymology": "メデジンという名は、スペインのメデジンという町に由来し、1616年当時の地方総督ペドロ・ポルトカレロの出身地でもありました。",
           "guides": {
             "horacio-medellin": {
               "name": "Horacio",
-              "description": "In Medellín, Horacio tells you about the city's transformation through his own memories. He takes you to Comuna 13 where he knows the artists who painted the frescoes, to El Poblado cafés where coffee is still roasted by hand, to panoramic viewpoints at sunset. In the evening, he shows you live salsa in Laureles bars where Paisas (Medellín inhabitants) dance. Horacio is passionate, talkative, and transforms every visit into a dive into this resilient city's soul."
+              "description": "メデジンでは、オラシオが自分自身の記憶を通して街の変化の物語を語ってくれます。彼はコムナ13で壁画を描いたアーティストたちと顔なじみで、エル・ポブラドの小さなロースタリーや、夕日の時間に谷全体を見渡せるビューポイントにも連れて行ってくれます。夜になると、ラウレレスのサルサバーで、地元のパイサたちと一緒に踊る時間が始まります。話好きで情熱的なガイドで、メデジンの“魂”に触れたい人にはぴったりです。"
             }
           }
         }
@@ -174,36 +174,35 @@
     }
   },
   "map": {
-    "title": "Explore the map",
-    "description": "Each marker corresponds to a place where TRIPERS spent time, met trusted guides. These aren't theoretical destinations: they're people we've met, with whom we've traveled, and whom we then introduce to you.",
-    "loading": "Loading map..."
+    "title": "マップで見る",
+    "description": "マップ上の一つひとつのピンは、TRIPERSのメンバーが実際に滞在し、信頼できるガイドと出会った場所です。机上の“候補地”ではなく、私たちが一緒に旅をし、そのうえであなたに紹介したいと思った人たちがいる場所だけを載せています。",
+    "loading": "マップを読み込み中..."
   },
   "contact": {
-    "title": "Let's talk about your next trip",
-    "description": "Do you have a destination in mind? Dates? An approximate budget? Contact us directly on WhatsApp. We'll ask you a few questions about your desires (nature, culture, food, pace), then we'll build your tailor-made trip with our local guides.",
-    "response": "Personalized response within 24h.",
-    "cta": "Contact us on WhatsApp"
+    "title": "次の旅について話しましょう",
+    "description": "行きたい国や街はもう決まっていますか？だいたいの予定日や予算はありますか？まずはWhatsAppで、気軽にメッセージを送ってください。自然、文化、食、ペースなど、あなたの“好き”をいくつか教えてもらい、それをもとにローカルガイドと一緒に旅を組み立てていきます。",
+    "response": "24時間以内に、あなた専用の返信をお送りします。",
+    "cta": "WhatsAppで連絡する"
   },
   "footer": {
-    "tagline": "Live the adventure like a local",
-    "navigation": "Navigation",
-    "destinations": "Destinations",
-    "food": "Food",
-    "travel": "Travel",
-    "contactTitle": "Contact",
+    "tagline": "“ローカル”として冒険を楽しむ。",
+    "navigation": "ナビゲーション",
+    "destinations": "行き先",
+    "food": "食・フード",
+    "travel": "旅について",
+    "contactTitle": "お問い合わせ",
     "whatsapp": "WhatsApp",
-    "whatsappDesc": "Everything goes through WhatsApp for direct contact",
+    "whatsappDesc": "直接つながるため、やりとりはすべてWhatsAppで行います。",
     "copyright": "All rights reserved."
   },
   "destinationPage": {
-    "ourCities": "Our cities",
-    "etymology": "Etymology",
-    "guide": "Guide",
-    "guides": "Guides",
+    "ourCities": "訪問できる街",
+    "etymology": "名前の由来",
+    "guide": "ガイド",
+    "guides": "ガイド",
     "guidesTripers": "TRIPERS",
-    "ctaTitle": "Want to build your trip here?",
-    "ctaDescription": "Contact us on WhatsApp. Tell us your dates, budget, what attracts you. We'll build together a tailor-made trip with our local guides. Personalized response within 24h.",
-    "ctaButton": "Contact us on WhatsApp",
-    "backToDestinations": "Back to destinations"
-  }
-}
+    "ctaTitle": "ここで、自分だけの旅をつくってみませんか？",
+    "ctaDescription": "WhatsAppでご連絡ください。日程、だいたいのご予算、惹かれているポイント（自然、文化、食、など）を書いて送っていただければ、ローカルガイドと一緒にあなただけの旅を組み立てます。24時間以内に、個別の返信をお送りします。",
+    "ctaButton": "WhatsAppで連絡する",
+    "backToDestinations": "行き先一覧に戻る"
+  }}

@@ -1,172 +1,172 @@
 {
   "nav": {
-    "contact": "Contact"
+    "contact": "تواصل"
   },
   "hero": {
-    "title": "We travel first. We introduce you to the right people next.",
-    "cta": "Discover our destinations"
+    "title": "نحن نسافر أولاً، ثم نعرّفك على الأشخاص المناسبين.",
+    "cta": "اكتشف وجهاتنا"
   },
   "about": {
-    "title": "Why",
-    "subtitle": "Reinventing travel by putting the right people on your path.",
-    "paragraph1": "It all started over mint tea in Marrakech, in an alley known only to locals. That day, we understood that the best travel moments aren't found in brochures. They emerge from authentic encounters with those who truly live the territory.",
-    "paragraph2": "The TRIPERS team travels first for you. We explore destinations, meet guides, test experiences. Then, we become the architects of your trip: we find accommodations that fit your budget and preferences, we design coherent itineraries, we select meaningful activities. Nothing is standardized, everything is designed for you.",
-    "paragraph3": "Our promise?",
-    "paragraph3Content": "To introduce you only to guides we personally know. No anonymous platform, no cold algorithm. Just humans sharing their territory with authenticity and passion. You contact us on WhatsApp, we build together, and on D-day, your guide awaits you on site.",
-    "card1Title": "Travel differently",
-    "card1Content": "Prioritize quality of encounters over quantity of sites visited. Experience trips built for you, not standardized circuits where 40 people follow the same program. Take time to understand a place through those who truly live there.",
-    "card2Title": "Guarantee trust",
-    "card2Content": "We only reference guides we personally know. We've met them, tested them, validated them. Their integrity, field knowledge, and hospitality are our only criteria. No random profile found online.",
-    "card3Title": "Support local economy",
-    "card3Content": "Every euro spent directly benefits guides and their communities. No anonymous intermediary capturing value, just a direct and fair connection between you and the people who help you discover their territory."
+    "title": "لماذا",
+    "subtitle": "نعيد ابتكار تجربة السفر بوضع الأشخاص المناسبين في طريقك.",
+    "paragraph1": "كل شيء بدأ مع كأس من شاي النعناع في مراكش، في زقاق لا يعرفه إلا السكان المحليون. في ذلك اليوم فهمنا أن أجمل لحظات السفر لا تُكتَب في الكتيّبات السياحية، بل تولد من اللقاءات الصادقة مع الذين يعيشون فعلاً في هذا المكان.",
+    "paragraph2": "فريق TRIPERS يسافر أولاً نيابةً عنك. نستكشف الوجهات، نلتقي بالمرشدين، ونجرّب التجارب بأنفسنا. بعدها نصبح مهندسي رحلتك: نبحث عن الإقامات المناسبة لميزانيتك وذوقك، نضع برامج متناسقة، ونختار الأنشطة ذات المعنى. لا شيء جاهز مسبقاً، كل شيء مُصمَّم خصيصاً لك.",
+    "paragraph3": "ما هو وعدنا؟",
+    "paragraph3Content": "أن نعرّفك فقط على مرشدين نعرفهم شخصياً. لا منصات مجهولة ولا خوارزميات باردة، بل أشخاص حقيقيون يشاركونك بلدانهم بكل صدق وشغف. تتواصل معنا على واتساب، نبني الرحلة معاً، وفي يوم الوصول ينتظرك مرشدك على الأرض.",
+    "card1Title": "سافر بشكل مختلف",
+    "card1Content": "امنح أولوية لجودة اللقاءات على عدد الأماكن التي تزورها. عِش رحلات مصمَّمة لك أنت، لا برامج جماعية مكررة يسير فيها 40 شخصاً على نفس الجدول. خُذ وقتك لفهم المكان من خلال الذين يعيشون فيه حقاً.",
+    "card2Title": "ضمان الثقة",
+    "card2Content": "لا نرشّح إلا مرشدين نعرفهم شخصياً. التقينا بهم، جرّبناهم، ووافقنا عليهم. نزاهتهم، ومعرفتهم الميدانية، وطريقتهم في استقبال الضيوف هي معاييرنا الوحيدة. لا حسابات عشوائية عُثر عليها على الإنترنت.",
+    "card3Title": "دعم الاقتصاد المحلي",
+    "card3Content": "كل يورو تنفقه يذهب مباشرةً إلى المرشدين ومجتمعهم المحلي. لا وسيط مجهول يستحوذ على القيمة، بل رابط مباشر وعادل بينك وبين الأشخاص الذين يعرّفونك على أرضهم."
   },
   "concept": {
-    "title": "Why TRIPERS?",
-    "subtitle": "Tourists take advantage, travelers discover.",
-    "local": "Like a local",
-    "localDesc": "You live like a local, not like a tourist. Authentic experiences guaranteed.",
-    "network": "International network",
-    "networkDesc": "International network of friends → unique experiences everywhere in the world.",
-    "safety": "Safety & trust",
-    "safetyDesc": "Safety + family vibes. We connect you with trusted locals.",
-    "unique": "Unique experiences",
-    "uniqueDesc": "Private parties, cultural immersions, hidden excursions."
+    "title": "لماذا TRIPERS؟",
+    "subtitle": "السائح يستهلك، أما المسافر فيكتشف.",
+    "local": "كأنك من أهل البلد",
+    "localDesc": "تعيش كأنك محلي، لا كسائح. تجارب أصيلة مضمونة.",
+    "network": "شبكة دولية",
+    "networkDesc": "شبكة دولية من الأصدقاء والمعارف → تجارب فريدة في مختلف أنحاء العالم.",
+    "safety": "الأمان والثقة",
+    "safetyDesc": "أمان + أجواء عائلية. نربطك فقط بسكان محليين موثوقين.",
+    "unique": "تجارب فريدة",
+    "uniqueDesc": "سهرات خاصة، غوص ثقافي عميق، ورحلات إلى أماكن مخفية عن المسار السياحي التقليدي."
   },
   "destinations": {
-    "title": "Our destinations",
-    "subtitle": "Tailor-made trips in 4 destinations. Each itinerary is built with you, according to your desires and duration.",
-    "learnMore": "Learn more",
+    "title": "وجهاتنا",
+    "subtitle": "رحلات مُصمَّمة حسب الطلب في أربع وجهات. كل برنامج يُبنى معك، حسب رغباتك ومدة سفرك.",
+    "learnMore": "اعرف المزيد",
     "maroc": {
-      "name": "Morocco",
-      "description": "Immersion in Marrakech souks, desert nights, Atlas hikes. Ideal for a first trip outside Europe. From 5 days (extended weekend) to 2 weeks (complete immersion)."
+      "name": "المغرب",
+      "description": "غوص في أسواق مراكش، ليالٍ في الصحراء، ومشي في جبال الأطلس. مثالي كأول رحلة خارج أوروبا. من 5 أيام (عطلة نهاية أسبوع طويلة) حتى أسبوعين (تجربة غامرة بالكامل)."
     },
     "capVert": {
-      "name": "Cape Verde",
-      "description": "Sal, Santo Antão... 100% local vibe, music, vertiginous hikes, wild beaches. Perfect for nature lovers and island authenticity. 7 to 12 days."
+      "name": "الرأس الأخضر",
+      "description": "سال، سانتو أنتاو... أجواء محلية 100٪، موسيقى، مسارات مشي شاهقة، وشواطئ برية. مثالي لعشّاق الطبيعة وأصالة الجزر. من 7 إلى 12 يوماً."
     },
     "caraibes": {
-      "name": "Caribbean",
-      "description": "Martinique, Guadeloupe, secret beaches, Creole culture, rum and absolute relaxation. Ideal for combining sea and cultural discovery. 5 to 10 days."
+      "name": "الكاريبي",
+      "description": "مارتينيك، غوادلوب، شواطئ سرّية، ثقافة كريولية، روم واستجمام تام. مثالي لمن يريد الجمع بين البحر والاكتشاف الثقافي. من 5 إلى 10 أيام."
     },
     "colombie": {
-      "name": "Colombia",
-      "description": "Cartagena, Medellín, Rosario Islands, street food, total diversity. For those who love strong contrasts: Caribbean coast, colonial cities, coffee mountains. 8 to 16 days."
+      "name": "كولومبيا",
+      "description": "قرطاجنة، ميديين، جزر روزاريو، طعام شوارع، وتنوع لا يُحصى. لمن يحبّ التباينات القوية: الساحل الكاريبي، المدن الاستعمارية، وجبال القهوة. من 8 إلى 16 يوماً."
     }
   },
   "destinationsData": {
     "capVert": {
-      "countryName": "Cape Verde",
-      "intro": "The Cape Verde archipelago consists of ten volcanic islands located in the Atlantic Ocean, about 570 km from the African coast. Between white sand beaches, lunar landscapes, and green mountains, each island has its own identity.",
-      "story": "This is where TRIPERS builds tailor-made trips. We combine Sal (beaches and kitesurfing) and Santo Antão (vertiginous hikes) according to your duration and desires. We select accommodations, organize days with our guides, manage inter-island transfers. Cape Verde is a unique blend of African, Portuguese, and Creole cultures. Music resonates everywhere: morna and funaná rhythm the evenings. Encounters with locals happen naturally. It's a country where the notion of time takes on another meaning, where you learn to live at the rhythm of the ocean and wind.",
+      "countryName": "الرأس الأخضر",
+      "intro": "يتكوّن أرخبيل الرأس الأخضر من عشر جزر بركانية في المحيط الأطلسي، على بُعد حوالي 570 كم من الساحل الإفريقي. بين الشواطئ ذات الرمال البيضاء، والمناظر القمرية، والجبال الخضراء، تتميّز كل جزيرة بهويتها الخاصة.",
+      "story": "هنا يبني TRIPERS رحلات مُفصّلة على المقاس. نمزج بين جزيرة سال (الشواطئ ورياضة ركوب الأمواج بالطائرة الشراعية) وجزيرة سانتو أنتاو (مسارات المشي الشاهقة) حسب مدة رحلتك ورغباتك. نختار أماكن الإقامة، ننظم الأيام مع مرشدينا، وندير التنقل بين الجزر. الرأس الأخضر مزيج فريد من الثقافة الإفريقية والبرتغالية والكريولية. الموسيقى حاضرة في كل مكان: نغمات المورنا والفونانا تصنع إيقاع الأمسيات. اللقاءات مع السكان المحليين تأتي بشكل طبيعي. إنها دولة يتغيّر فيها معنى الوقت، وتتعلم فيها أن تعيش على إيقاع البحر والرياح.",
       "cities": {
         "sal": {
-          "name": "Sal",
-          "description": "Sal island is endless white sand beaches, turquoise waters, and constant wind that attracts kitesurfers from around the world. Santa Maria, the main village, offers a relaxed atmosphere: fresh fish restaurants, seaside bars, fishermen returning in the morning with their catches. Beyond the beach, you discover abandoned salt flats (Pedra de Lume), salt desert mirages, authentic local life far from resorts. Sal is the perfect island to alternate relaxation, water sports, and discovery of a warm Cape Verdean culture.",
-          "etymology": "The name 'Sal' comes from the old salt exploitations that made the island's wealth for centuries.",
+          "name": "سال",
+          "description": "جزيرة سال هي شواطئ بلا نهاية من الرمال البيضاء، مياه فيروزية، ورياح ثابتة تجذب ممارسي رياضة الكايت سيرف من أنحاء العالم. قرية سانتا ماريا الرئيسية تعيش على إيقاع هادئ: مطاعم سمك طازج، حانات على الشاطئ، وصيادون يعودون صباحاً بصيدهم. بعيداً عن الشاطئ، تكتشف حقول الملح المهجورة (بيدرا دي لومي)، وسراب صحراء الملح، وحياة محلية أصيلة بعيدة عن المنتجعات. سال هي الجزيرة المثالية للجمع بين الاسترخاء، والرياضات المائية، والتعرّف على دفء ثقافة الرأس الأخضر.",
+          "etymology": "اسم \"سال\" يأتي من استغلال مناجم الملح القديمة التي شكّلت ثروة الجزيرة على مدى قرون.",
           "guides": {
             "ismael-sal": {
               "name": "Ismael",
-              "description": "Ismael was born in Sal. He knows every beach, every kitesurf spot, every restaurant run by locals. He shows you the island differently: fishing villages, kite sessions for beginners or advanced, zouk evenings in bars where tourists never go. Ismael speaks French, English, Portuguese, and Creole. With him, Sal isn't just a postcard, it's a real immersion."
+              "description": "وُلِد إسماعيل في جزيرة سال، ويعرف كل شاطئ وكل نقطة كايت سيرف وكل مطعم محلي. يعرّفك على الجزيرة بطريقة مختلفة: قرى صيد، حصص كايت سيرف للمبتدئين والمتقدمين، وسهرات زوك في حانات لا يرتادها السياح. يتحدث إسماعيل الفرنسية والإنجليزية والبرتغالية والكريولية. معه، لن تكون سال مجرد بطاقة بريدية، بل تجربة غمر حقيقية."
             }
           }
         },
-        "santoAntao": {
-          "name": "Santo Antão",
-          "description": "Santo Antão is the hikers' island. Vertiginous trails border cliffs plunging into the ocean. Green valleys (Paúl, Ribeira Grande) contrast with lunar landscapes. You walk among banana trees, papaya trees, and sugar cane fields, meeting villagers who work the land by hand. Winding roads offer breathtaking panoramas. Small perched villages welcome you for grogue (local rum) and conversations in Creole. Santo Antão is natural, raw, generous Cape Verde. Ideal for those who love walking, observing, taking their time.",
-          "etymology": "Santo Antão means Saint Anthony in Portuguese, in honor of Saint Anthony of Padua."
+        "santo-antao": {
+          "name": "سانتو أنتاو",
+          "description": "سانتو أنتاو هي جزيرة عشاق المشي. مسارات شاهقة تحاذي منحدرات تسقط نحو المحيط. وديان خضراء (باول، ريبيرا غراندي) تتجاور مع مناظر شبيهة بسطح القمر. تسير بين أشجار الموز والبابايا وحقول قصب السكر، وتلتقي بقرويين يعملون الأرض بأيديهم. الطرق المتعرجة تمنح مناظر بانورامية تخطف الأنفاس. القرى المعلّقة على الجبال ترحّب بك بكأس من الغروغ (الروم المحلي) وحديث بسيط بالكريولية. سانتو أنتاو هي الرأس الأخضر في نسخته الطبيعية الخام والكريمة. مثالية لمن يحب المشي، والملاحظة، وأخذ الوقت.",
+          "etymology": "تعني \"سانتو أنتاو\" بالبرتغالية \"القديس أنطونيوس\"، نسبةً إلى القديس أنطونيوس البادوي."
         }
       }
     },
     "caraibes": {
-      "countryName": "Caribbean",
-      "intro": "The Antilles archipelago extends thousands of kilometers between North and South America. Between paradise beaches, tropical forests, and colorful cities, the Caribbean offers unique cultural and natural diversity. African, European, and Amerindian influences blend in language, cuisine, and music.",
-      "story": "This is where TRIPERS builds tailor-made trips in the Antilles. We know the islands, the good addresses, the secret beaches. We organize boat crossings, accommodations with locals or in villas, outings with our local guides. You enjoy, we handle the rest. The Caribbean is a mosaic of islands. Martinique, Guadeloupe, Dominica, Saint Lucia... each has its Creole identity. Markets overflow with exotic fruits. Beaches alternate between white and black volcanic sand. Zouk and reggae accompany late afternoons. We come for the sea, we stay for the art of living.",
+      "countryName": "الكاريبي",
+      "intro": "يمتد أرخبيل الأنتيل آلاف الكيلومترات بين أميركا الشمالية وأميركا الجنوبية. بين الشواطئ الفردوسية والغابات الاستوائية والمدن الملونة، يقدم الكاريبي تنوعاً ثقافياً وطبيعياً فريداً. تتداخل التأثيرات الإفريقية والأوروبية والأمريكية الأصلية في اللغة والمطبخ والموسيقى.",
+      "story": "هنا يبني TRIPERS رحلات مصمّمة خصيصاً في الأنتيل. نعرف الجزر والعناوين الجيدة والشواطئ السرية. ننظم رحلات القوارب، والإقامات لدى السكان أو في فلل خاصة، والخروج مع مرشدينا المحليين. أنت تستمتع ونحن نتكفّل بالباقي. الكاريبي فسيفساء من الجزر: مارتينيك، غوادلوب، دومينيكا، سانت لوسيا... لكل جزيرة هويتها الكريولية الخاصة. الأسواق مليئة بالفواكه الاستوائية. الشواطئ تتراوح بين رمال بيضاء ورمال بركانية سوداء. ألحان الزوك والريغي ترافق نهايات النهار. نأتي من أجل البحر، ونبقى من أجل أسلوب الحياة.",
       "cities": {
-        "fortDeFrance": {
-          "name": "Fort-de-France",
-          "description": "Fort-de-France is the capital of Martinique. Located on the edge of a large bay, the city mixes colonial architecture, lively markets, and modern neighborhoods. The covered market overflows with colors and smells: mangoes, christophines, spices, arranged rum. The Schoelcher library, with its metal structure, recalls the colonial heritage. Shopping streets vibrate to the Creole rhythm. It's the gateway to explore the rest of the island: southern beaches, Mount Pelée to the north, rum distilleries to the east.",
-          "etymology": "The name comes from the old French fort that protected the bay, baptized Fort-Royal then Fort-de-France after the Revolution.",
+        "fort-de-france": {
+          "name": "فور دو فرانس",
+          "description": "فور دو فرانس هي عاصمة مارتينيك. تقع على حافة خليج واسع، وتمزج بين الهندسة المعمارية الاستعمارية والأسواق النابضة والأحياء الحديثة. السوق المغطى لوحة من الألوان والروائح: مانغو، خضروات محلية، توابل، وروم منقوع. مكتبة شوليشر، بهيكلها المعدني، تذكير بالإرث الاستعماري. شوارع التسوق تنبض على الإيقاع الكريولي. إنها بوابة لاستكشاف باقي الجزيرة: شواطئ الجنوب، جبل بيليه في الشمال، ومصانع الروم في الشرق.",
+          "etymology": "يأتي الاسم من الحصن الفرنسي القديم الذي كان يحمي الخليج، والذي سُمّي أولاً Fort-Royal ثم Fort-de-France بعد الثورة.",
           "guides": {
             "patrick-martinique": {
               "name": "Patrick",
-              "description": "Born in Martinique, Patrick speaks French, English, and Creole with equal ease. He knows all the Antilles: Martinique, Guadeloupe, Dominica, Saint Lucia. With him, you discover secret beaches accessible only by boat, family restaurants where we eat colombo and blaff, zouk evenings in bars without tourists. Patrick doesn't follow a fixed program, he adapts according to weather, your mood, local events. He makes you live the Caribbean from the inside."
+              "description": "وُلِد باتريك في مارتينيك، ويتحدث الفرنسية والإنجليزية والكريولية بطلاقة. يعرف كل الأنتيل: مارتينيك، غوادلوب، دومينيكا، سانت لوسيا. مع باتريك تكتشف شواطئ سرّية لا يمكن الوصول إليها إلا بالقارب، ومطاعم عائلية تُقدَّم فيها أطباق الكولومبو والـبلاف، وسهرات زوك في حانات بلا سياح. لا يتبع باتريك برنامجاً جامداً، بل يتكيّف مع الطقس، ومزاجك، والأحداث المحلية. يجعلك تعيش الكاريبي من الداخل."
             }
           }
         },
-        "autresIles": {
-          "name": "Other Antilles Islands",
-          "description": "Beyond Martinique, the Antilles abound with islands with distinct personalities. Guadeloupe, with its two wings connected by a bridge, mixes tranquil beaches and active volcanoes. Dominica, nicknamed the nature island, offers waterfalls, hot springs, dense jungle. Saint Lucia stands out with its rocky peaks plunging into the sea. Each island has its own atmosphere, its own cuisine, its own rhythm. You can sail from one to another, or settle on one and take your time."
+        "autres-iles": {
+          "name": "جزر أنتيلي أخرى",
+          "description": "إضافة إلى مارتينيك، تزخر الأنتيل بجزر لكل منها شخصية خاصة. غوادلوب، بجناحيها المتصلين بجسر، تجمع بين شواطئ هادئة ومناطق بركانية نشطة. دومينيكا، الملقبة بجزيرة الطبيعة، تقدم شلالات وينابيع حارة وغابات كثيفة. سانت لوسيا تتميز بقممها الصخرية التي تغوص في البحر. لكل جزيرة أجواؤها ومطبخها وإيقاعها الخاص. يمكنك التنقل بين الجزر، أو اختيار جزيرة واحدة والتعمق فيها بهدوء."
         }
       }
     },
     "maroc": {
-      "countryName": "Morocco",
-      "intro": "Morocco unfolds between the Mediterranean Sea, the Atlantic Ocean, the Atlas Mountains, and the Sahara expanses. Crossroads between Africa and Europe, the country offers diversity of landscapes, cultures, and atmospheres. From thousand-year-old medinas to modern seaside resorts, each region has its identity.",
-      "story": "This is where TRIPERS builds tailor-made trips. We combine Marrakech, Ouzoud waterfalls, and Zagora desert according to your desires and duration. We select accommodations, organize days with our guides, and ensure transitions are smooth. You enjoy, we handle the rest. Traveling to Morocco means moving from a lively medina to desert silences, climbing Atlas valleys and descending to Essaouira beaches. Souk colors, spice smells, calls to prayer, and mint teas rhythm the days. Morocco is a country of contrasts where tradition and modernity coexist.",
+      "countryName": "المغرب",
+      "intro": "ينبسط المغرب بين البحر الأبيض المتوسط والمحيط الأطلسي وجبال الأطلس وامتدادات الصحراء الكبرى. كنقطة تلاقٍ بين إفريقيا وأوروبا، يقدم البلد تنوعاً كبيراً في المناظر والثقافات والأجواء. من المدن العتيقة إلى المنتجعات الساحلية الحديثة، لكل منطقة هويتها.",
+      "story": "هنا يبني TRIPERS رحلات مُصمَّمة حسب الطلب. نمزج بين مراكش وشلالات أوزود وصحراء زاكورة حسب رغباتك ومدة رحلتك. نختار أماكن الإقامة، ننظم الأيام مع مرشدينا، ونتأكد من سلاسة الانتقالات. أنت تستمتع، ونحن نتكفّل بالباقي. السفر إلى المغرب يعني الانتقال من حيوية المدينة العتيقة إلى سكون الصحراء، الصعود في وديان الأطلس ثم النزول نحو شواطئ الصويرة. ألوان الأسواق وروائح التوابل ونداءات الأذان وكؤوس الشاي بالنعناع تشكل إيقاع الأيام. المغرب بلد تناقضات، حيث تتعايش التقاليد والحداثة.",
       "cities": {
         "marrakech": {
-          "name": "Marrakech",
-          "description": "Marrakech is Jemaa el-Fna square coming alive at nightfall: storytellers, musicians, orange juice stands. It's the souks where you get lost among leather, spices, and carpets. Riads hidden behind anonymous doors, surreal blue Majorelle gardens, terraces where you sip mint tea watching the Atlas in the distance. Beyond clichés, Marrakech is also a modern city: Gueliz and Hivernage neighborhoods, fusion restaurants, trendy rooftops. With our guides, you discover both faces: the traditional medina and the contemporary city.",
-          "etymology": "The name Marrakech comes from Berber Mur n Akush (land of God). This city also gave its name to Morocco.",
+          "name": "مراكش",
+          "description": "مراكش هي ساحة جامع الفنا التي تنبض بالحياة عند الغروب: حُكّاؤون، موسيقيون، وباعة عصير البرتقال. وهي الأسواق التي تتوه فيها بين الجلد والتوابل والزرابي. الرياضات المختبئة خلف أبواب مجهولة، وحدائق ماجوريل الزرقاء الخارقة للعادة، والسطوح التي تحتسي عليها شاي النعناع وأنت تنظر نحو الأطلس البعيد. بعيداً عن الصور النمطية، مراكش أيضاً مدينة حديثة: أحياء كليز والحي الشتوي، مطاعم فاخرة وأسقف علوية عصرية. مع مرشدينا تكتشف الوجهين: المدينة العتيقة التقليدية والمدينة المعاصرة.",
+          "etymology": "يأتي اسم مراكش من التعبير الأمازيغي \"مور ن أكوش\" (أرض الله). ومن هذه المدينة اشتُق اسم البلد باللغات الأجنبية.",
           "guides": {
             "omar-marrakech": {
               "name": "Omar",
-              "description": "Passionate guide who knows Marrakech and the Ouzoud region by heart. In Marrakech, he takes you off the beaten path: artisan workshops (coppersmiths, leather workers), neighborhood bread ovens, tea houses where locals chat for hours. Omar speaks French fluently and adapts to your pace."
+              "description": "عمر مرشد شغوف يعرف مراكش ومنطقة أوزود عن ظهر قلب. في مراكش يأخذك بعيداً عن المسارات السياحية التقليدية: إلى ورشات الحرفيين (النحاسين والجلود)، إلى أفران الحي التقليدية، وإلى بيوت الشاي حيث يجلس السكان لساعات في الحديث. يتحدث عمر الفرنسية بطلاقة ويتكيّف مع وتيرتك."
             },
             "tarek-marrakech": {
               "name": "Tarek",
-              "description": "Born in Marrakech, Tarek knows every alley, every secret. He builds tailor-made itineraries: hidden souks where tourists never go, terraces to admire the sunset over the Atlas, artisan workshops he's frequented since childhood. With him, Marrakech becomes a familiar city, not a postcard backdrop."
+              "description": "طارق وُلِد في مراكش ويعرف كل زقاق وكل سر فيها. يبني برامج مخصصة: أسواق مخفية لا يذهب إليها السياح، شرفات لمشاهدة الغروب على الأطلس، وورشات حرفية يعرف أصحابها منذ طفولته. معه تصبح مراكش مدينة قريبة منك، لا مجرد خلفية لبطاقة بريدية."
             }
           }
         },
         "ouzoud": {
-          "name": "Ouzoud",
-          "description": "Two hours drive from Marrakech, the Ouzoud valley immerses you in a green Morocco, far from city tumult. Waterfalls cascade 110 meters among olive trees and prickly pears. Below, fresh water invites swimming. Along the path, you meet Barbary macaques living here freely. In the evening, the call to prayer resonates from Berber villages perched on the heights. It's a natural breath just hours from Marrakech.",
-          "etymology": "Ouzoud means mill in Berber, referring to the old grain mills that used water power.",
+          "name": "أوزود",
+          "description": "على بُعد ساعتين بالسيارة من مراكش، تغمرك واحة أوزود في مغربٍ أخضر بعيد عن ضجيج المدينة. تنهمر الشلالات من ارتفاع 110 أمتار بين أشجار الزيتون والتين الشوكي. في الأسفل يدعوك الماء البارد للسباحة. على طول المسار، تلتقي بقردة المكاك البربرية التي تعيش هنا بحرية. في المساء يتردد نداء الصلاة من القرى الأمازيغية المنتشرة على المرتفعات. إنها استراحة طبيعية على بُعد ساعات قليلة من مراكش.",
+          "etymology": "تعني كلمة \"أوزود\" بالأمازيغية \"مطحنة\"، في إشارة إلى المطاحن القديمة التي كانت تستغل قوة الماء لطحن الحبوب.",
           "guides": {
             "omar-ouzoud": {
               "name": "Omar",
-              "description": "In Ouzoud, Omar shows you authentic Berber villages where his grandparents grew up. He knows every path along the waterfalls, every artisan still weaving by hand, every family preparing bread in an earthen oven. With him, you don't visit Ouzoud from outside, you enter its daily life. He adapts the pace to your desires: swimming under the falls, meals with locals, or simply walking in silence through the valley."
+              "description": "في أوزود يأخذك عمر إلى القرى الأمازيغية الأصيلة حيث نشأ أجداده. يعرف كل مسار على طول الشلالات، وكل حرفي ما زال ينسج يدوياً، وكل عائلة تخبز الخبز في فرن طيني. معه، لا تزور أوزود من الخارج بل تدخل في حياتها اليومية. يضبط الإيقاع حسب رغبتك: سباحة تحت الشلالات، وجبة عند أحد السكان، أو مجرد مشي بصمت في الوادي."
             }
           }
         },
         "zagora": {
-          "name": "Zagora",
-          "description": "Zagora marks the entry into the Sahara desert. As soon as you leave the city, palm groves give way to ochre expanses. Tinfou dunes appear in the distance. In the evening, you sleep in a bivouac under a sky saturated with stars, without light pollution. In the morning, you wake to desert silence. Between two dunes, you sometimes meet nomadic families still living here with their herds. Zagora is raw immensity, unfiltered, with no added backdrop.",
-          "etymology": "Zagora could come from Berber Tazagourt, meaning summit or hill, referring to Djebel Zagora dominating the region.",
+          "name": "زاكورة",
+          "description": "زاكورة هي بوابة الصحراء الكبرى. ما إن تغادر المدينة حتى تفسح بساتين النخيل المجال لامتدادات بلون المغرة. تظهر كثبان تنفو في الأفق. في المساء، تنام في خيمة بدوية تحت سماء مكتظّة بالنجوم، دون أي تلوث ضوئي. في الصباح، تستيقظ على صمت الصحراء. بين كثيبين قد تلتقي أحياناً بعائلات بدوية ما زالت تعيش هنا مع قطعانها. زاكورة هي اتساع خام بلا تزييف ولا ديكور مضاف.",
+          "etymology": "قد يكون اسم \"زاكورة\" مشتقاً من الكلمة الأمازيغية \"تازاكورت\" والتي تعني القمة أو التل، في إشارة إلى جبل زاكورة الذي يطل على المنطقة.",
           "guides": {
             "youssef-zagora": {
               "name": "Youssef",
-              "description": "Youssef grew up in Zagora, at the gates of the Sahara. He organizes traditional bivouacs under the stars, far from tourist camps. With him, you share mint tea with nomadic families, sleep in authentic Berber tents, learn to read constellations. Youssef speaks little, but he knows how to listen. He ensures your comfort without ever forcing the experience. The desert with him is inhabited silence, not a show."
+              "description": "يوسف نشأ في زاكورة، على أعتاب الصحراء. ينظم مخيمات تقليدية تحت النجوم بعيداً عن المخيمات السياحية الجماعية. معه تشرب شاي النعناع مع عائلات بدوية، وتنام في خيام أمازيغية حقيقية، وتتعلم قراءة الكوكبات في السماء. يوسف قليل الكلام لكنه يحسن الاستماع، ويهتم براحتك دون أن يفرض التجربة. الصحراء معه صمت مفعم بالحياة، لا عرضاً سياحياً."
             }
           }
         }
       }
     },
     "colombie": {
-      "countryName": "Colombia",
-      "intro": "Colombia extends between two oceans, crosses the Andes mountain range, and plunges into the Amazon rainforest. Caribbean coasts with warm waters, colorful colonial cities, green valleys, vibrant metropolises. It's a country of extreme diversity. Modern Colombia has turned the page on past conflicts and opens to the world with energy.",
-      "story": "This is where TRIPERS builds tailor-made trips in Colombia. We combine Cartagena, Medellín, coffee region, Pacific coast according to your duration and desires. We organize domestic flights, accommodations, days with our local guides. You enjoy, we handle the rest. Cartagena, with its cobbled streets and ochre facades, embodies Caribbean colonial charm. Medellín, nestled in its valley, represents urban transformation and innovation. Bogotá mixes skyscrapers, street art, and historic neighborhoods. Further away, coffee landscapes, Salento villages, and the Pacific coast offer other faces. Salsa, cumbia, and vallenato accompany every moment. The welcome is warm. You leave with stories.",
+      "countryName": "كولومبيا",
+      "intro": "تمتد كولومبيا بين محيطين، وتعبر سلسلة جبال الأنديز، وتغوص في غابات الأمازون. سواحل كاريبية دافئة، ومدن استعمارية ملوّنة، ووديان خضراء، ومدن كبرى نابضة بالحياة. إنها بلد تنوّعٍ شديد. كولومبيا الحديثة طوت صفحة النزاعات الماضية وانفتحت على العالم بطاقة جديدة.",
+      "story": "هنا يبني TRIPERS رحلات مخصّصة في كولومبيا. نمزج بين قرطاجنة وميديين ومنطقة القهوة والساحل الهادئ على المحيط الهادئ حسب مدة رحلتك ورغباتك. نرتب الرحلات الداخلية، أماكن الإقامة، والأيام مع مرشدينا المحليين. أنت تستمتع ونحن نتكفّل بالباقي. قرطاجنة، بشوارعها المرصوفة وواجهاتها بلون المغرة، تجسد سحر الكاريبي الاستعماري. ميديين، المحاطة بالجبال، تجسد التحول الحضري والابتكار. بوغوتا تمزج بين ناطحات سحاب وفن الشارع والأحياء التاريخية. أبعد قليلاً، تكشف مناظر القهوة وقرى مثل سالينتو وساحل المحيط الهادئ عن وجوه أخرى للبلد. ترافق السالسا والكمبيا والفاييناتو كل لحظة. الاستقبال حار دائماً، وتغادر محمّلاً بالقصص.",
       "cities": {
         "cartagena": {
-          "name": "Cartagena",
-          "description": "Cartagena de Indias is a flamboyant colonial city on the Caribbean Sea. Massive ramparts, flowered balconies, lively squares, colorful alleys: it's one of South America's most photogenic cities. The historic center is a charming labyrinth where every corner reveals a church, a placita, a hidden patio. The Getsemaní neighborhood vibrates to cumbia rhythms, street art, open-air bars. Rosario Islands, 45 minutes by boat, offer postcard beaches and crystalline waters. Cartagena is Caribbean warmth, colonial history, and Colombian energy united in one place.",
-          "etymology": "The city bears the name of Cartagena in Spain, where several of its Spanish founders came from in the 16th century.",
+          "name": "قرطاجنة",
+          "description": "قرطاجنة دي إندياس مدينة استعمارية متألقة على البحر الكاريبي. أسوار ضخمة، شرفات مزيّنة بالزهور، ساحات نابضة، وأزقة ملوّنة تجعلها من أكثر مدن أميركا الجنوبية قابليةً للتصوير. المركز التاريخي متاهة ساحرة، يكشف كل زاوية فيها عن كنيسة أو ساحة صغيرة أو فناء مخفي. حي خيتسماني ينبض بإيقاعات الكومبيا وفن الشارع والحانات المفتوحة. جزر روزاريو، على بُعد 45 دقيقة بالقارب، تقدم شواطئ كالبطاقات البريدية ومياهاً صافية. قرطاجنة هي حرارة الكاريبي وتاريخ الاستعمار وطاقة كولومبيا في مكان واحد.",
+          "etymology": "تحمل المدينة اسم قرطاجنة في إسبانيا، مسقط رأس عدد من مؤسسيها الإسبان في القرن السادس عشر.",
           "guides": {
             "horacio-cartagena": {
               "name": "Horacio",
-              "description": "Horacio was born in Cartagena. He knows every street in the historic center, every Getsemaní artisan, every cantina where we drink ron to cumbia sounds. With him, you don't tour monuments, you enter the city's daily life. He takes you to Bazurto market at 6am, to workshops where hammocks are still made by hand, to salsa bars frequented by Cartagéneros. Horacio speaks fast, laughs loudly, and transforms every outing into a living account of Caribbean history."
+              "description": "وُلِد هوراسيو في قرطاجنة. يعرف كل شارع في المركز التاريخي، وكل حرفي في خيتسماني، وكل حانة يُشرب فيها الروم على أنغام الكومبيا. معه لا تكتفي بجولة على المعالم، بل تدخل في الحياة اليومية للمدينة. يأخذك إلى سوق بازورتو في السادسة صباحاً، وإلى ورشات لا تزال تصنع الأرجوحات اليدوية، وإلى حانات السالسا التي يرتادها سكان قرطاجنة. هوراسيو يتحدث بسرعة ويضحك بصوت عالٍ، ويحوّل كل خروج إلى قصة حيّة من تاريخ الكاريبي."
             }
           }
         },
         "medellin": {
-          "name": "Medellín",
-          "description": "Medellín, nicknamed the city of eternal spring for its mild year-round climate, extends in a valley surrounded by mountains. Once marked by a difficult history, the city has transformed into a model of urban and social innovation. El Poblado and Laureles neighborhoods abound with restaurants, cafés, bars, art galleries. Public cable cars climb to peripheral barrios and offer panoramic views of the entire valley. Comuna 13, formerly a forbidden zone, has become a symbol of rebirth with its mechanical stairs, giant frescoes, hip-hop workshops. Medellín is a city in permanent movement, young, modern, resilient.",
-          "etymology": "Medellín owes its name to Medellín in Spain, birthplace of Pedro Portocarrero, governor of the region at its founding in 1616.",
+          "name": "ميديين",
+          "description": "تُلقب ميديين بمدينة الربيع الأبدي لمناخها المعتدل طوال العام، وتنتشر في وادٍ تحيط به الجبال. بعد أن كانت مرتبطة بتاريخ صعب، تحوّلت اليوم إلى نموذج في الابتكار الحضري والاجتماعي. أحياء إل بوبلادو ولوريلس مليئة بالمطاعم والمقاهي والحانات والمعارض الفنية. تصعد التلفريك العامة إلى الأحياء المرتفعة وتقدم مناظر بانورامية على الوادي كله. حي كومونا 13، الذي كان في الماضي منطقة محظورة، أصبح رمزاً للنهضة بفضل السلالم الكهربائية الجداريّات العملاقة وورشات الهيب هوب. ميديين مدينة في حركة دائمة: شابة، حديثة، ومرنة.",
+          "etymology": "تحمل ميديين اسم مدينة ميديين في إسبانيا، مسقط رأس بيدرو بورتوكاريرو، حاكم المنطقة وقت تأسيسها عام 1616.",
           "guides": {
             "horacio-medellin": {
               "name": "Horacio",
-              "description": "In Medellín, Horacio tells you about the city's transformation through his own memories. He takes you to Comuna 13 where he knows the artists who painted the frescoes, to El Poblado cafés where coffee is still roasted by hand, to panoramic viewpoints at sunset. In the evening, he shows you live salsa in Laureles bars where Paisas (Medellín inhabitants) dance. Horacio is passionate, talkative, and transforms every visit into a dive into this resilient city's soul."
+              "description": "في ميديين يروي لك هوراسيو قصة تحوّل المدينة من خلال ذكرياته الخاصة. يأخذك إلى كومونا 13 حيث يعرف الفنانين الذين رسموا الجداريات، وإلى مقاهي إل بوبلادو حيث لا يزال يحمَّص البن يدوياً، وإلى نقاط مشاهدة بانورامية عند الغروب. في المساء، يريك السالسا الحية في حانات لوريلس حيث يرقص أبناء ميديين (الـ Paisas). هوراسيو شغوف وكثير الحديث، ويحوّل كل زيارة إلى غوص حقيقي في روح هذه المدينة المرِنة."
             }
           }
         }
@@ -174,36 +174,35 @@
     }
   },
   "map": {
-    "title": "Explore the map",
-    "description": "Each marker corresponds to a place where TRIPERS spent time, met trusted guides. These aren't theoretical destinations: they're people we've met, with whom we've traveled, and whom we then introduce to you.",
-    "loading": "Loading map..."
+    "title": "استكشف الخريطة",
+    "description": "كل علامة على الخريطة تمثّل مكاناً قضى فيه فريق TRIPERS وقتاً والتقى فيه بمرشدين موثوقين. هذه ليست وجهات نظرية، بل أشخاص التقينا بهم وسافرنا معهم، ونعرفك عليهم لاحقاً.",
+    "loading": "جاري تحميل الخريطة..."
   },
   "contact": {
-    "title": "Let's talk about your next trip",
-    "description": "Do you have a destination in mind? Dates? An approximate budget? Contact us directly on WhatsApp. We'll ask you a few questions about your desires (nature, culture, food, pace), then we'll build your tailor-made trip with our local guides.",
-    "response": "Personalized response within 24h.",
-    "cta": "Contact us on WhatsApp"
+    "title": "لنَتحدّث عن رحلتك القادمة",
+    "description": "هل لديك وجهة في بالك؟ تواريخ تقريبية؟ ميزانية متوقعة؟ تواصل معنا مباشرة عبر واتساب. سنطرح عليك بعض الأسئلة عن رغباتك (طبيعة، ثقافة، طعام، وتيرة الرحلة)، ثم نبني لك رحلة مخصّصة مع مرشدينا المحليين.",
+    "response": "رد شخصي خلال 24 ساعة.",
+    "cta": "تواصل معنا عبر واتساب"
   },
   "footer": {
-    "tagline": "Live the adventure like a local",
-    "navigation": "Navigation",
-    "destinations": "Destinations",
-    "food": "Food",
-    "travel": "Travel",
-    "contactTitle": "Contact",
-    "whatsapp": "WhatsApp",
-    "whatsappDesc": "Everything goes through WhatsApp for direct contact",
-    "copyright": "All rights reserved."
+    "tagline": "عِش المغامرة كأنك من السكان المحليين.",
+    "navigation": "التصفّح",
+    "destinations": "الوجهات",
+    "food": "الطعام",
+    "travel": "السفر",
+    "contactTitle": "تواصل",
+    "whatsapp": "واتساب",
+    "whatsappDesc": "كل شيء يتم عبر واتساب لتواصل مباشر",
+    "copyright": "جميع الحقوق محفوظة."
   },
   "destinationPage": {
-    "ourCities": "Our cities",
-    "etymology": "Etymology",
-    "guide": "Guide",
-    "guides": "Guides",
+    "ourCities": "مدننا",
+    "etymology": "أصل التسمية",
+    "guide": "مرشد",
+    "guides": "مرشدون",
     "guidesTripers": "TRIPERS",
-    "ctaTitle": "Want to build your trip here?",
-    "ctaDescription": "Contact us on WhatsApp. Tell us your dates, budget, what attracts you. We'll build together a tailor-made trip with our local guides. Personalized response within 24h.",
-    "ctaButton": "Contact us on WhatsApp",
-    "backToDestinations": "Back to destinations"
-  }
-}
+    "ctaTitle": "هل تريد بناء رحلتك هنا؟",
+    "ctaDescription": "تواصل معنا عبر واتساب. أخبرنا بتواريخ سفرك، وميزانيتك، وما يجذبك أكثر. نبني معاً رحلة مخصّصة مع مرشدينا المحليين. رد شخصي خلال 24 ساعة.",
+    "ctaButton": "تواصل معنا عبر واتساب",
+    "backToDestinations": "العودة إلى الوجهات"
+  }}

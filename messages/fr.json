@@ -70,7 +70,7 @@
             }
           }
         },
-        "santoAntao": {
+        "santo-antao": {
           "name": "Santo Antão",
           "description": "Santo Antão, c'est l'île des randonneurs. Des sentiers vertigineux bordent les falaises qui plongent dans l'océan. Des vallées verdoyantes (Paúl, Ribeira Grande) contrastent avec des paysages lunaires. Vous marchez entre bananiers, papayers et champs de canne à sucre, croisant des villageois qui travaillent la terre à la main. Les routes en lacets offrent des panoramas à couper le souffle. Les petits villages perchés vous accueillent pour un grogue (rhum local) et des conversations en créole. Santo Antão, c'est le Cap-Vert nature, brut, généreux. Idéal pour ceux qui aiment marcher, observer, prendre leur temps.",
           "etymology": "Santo Antão signifie Saint Antoine en portugais, en l'honneur de saint Antoine de Padoue."
@@ -82,7 +82,7 @@
       "intro": "L'archipel des Antilles s'étend sur des milliers de kilomètres entre l'Amérique du Nord et l'Amérique du Sud. Entre plages paradisiaques, forêts tropicales et villes colorées, les Caraïbes offrent une diversité culturelle et naturelle unique. Influences africaines, européennes et amérindiennes se mêlent dans la langue, la cuisine, la musique.",
       "story": "C'est ici que TRIPERS construit des voyages sur mesure dans les Antilles. Nous connaissons les îles, les bonnes adresses, les plages secrètes. Nous organisons les traversées en bateau, les hébergements chez l'habitant ou en villa, les sorties avec nos guides locaux. Vous profitez, nous gérons le reste. Les Caraïbes, c'est une mosaïque d'îles. La Martinique, la Guadeloupe, la Dominique, Sainte-Lucie... chacune a son identité créole. Les marchés débordent de fruits exotiques. Les plages alternent entre sable blanc et sable noir volcanique. Le zouk et le reggae accompagnent les fins de journée. On vient pour la mer, on reste pour l'art de vivre.",
       "cities": {
-        "fortDeFrance": {
+        "fort-de-france": {
           "name": "Fort-de-France",
           "description": "Fort-de-France est la capitale de la Martinique. Située au bord d'une large baie, la ville mêle architecture coloniale, marchés animés et quartiers modernes. Le marché couvert déborde de couleurs et d'odeurs : mangues, christophines, épices, rhum arrangé. La bibliothèque Schoelcher, avec sa structure métallique, rappelle l'héritage colonial. Les rues commerçantes vibrent au rythme créole. C'est la porte d'entrée pour explorer le reste de l'île : les plages du sud, la montagne Pelée au nord, les distilleries de rhum à l'est.",
           "etymology": "Le nom vient de l'ancien fort français qui protégeait la baie, baptisé Fort-Royal puis Fort-de-France après la Révolution.",
@@ -93,7 +93,7 @@
             }
           }
         },
-        "autresIles": {
+        "autres-iles": {
           "name": "Autres îles des Antilles",
           "description": "Au-delà de la Martinique, les Antilles regorgent d'îles aux personnalités distinctes. La Guadeloupe, avec ses deux ailes reliées par un pont, mêle plages tranquilles et volcans actifs. La Dominique, surnommée l'île nature, offre des cascades, des sources chaudes, une jungle dense. Sainte-Lucie se distingue par ses pitons rocheux qui plongent dans la mer. Chaque île a sa propre ambiance, sa propre cuisine, son propre rythme. On peut naviguer de l'une à l'autre, ou s'installer sur une seule et prendre son temps."
         }

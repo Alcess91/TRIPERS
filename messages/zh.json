@@ -1,172 +1,172 @@
 {
   "nav": {
-    "contact": "Contact"
+    "contact": "联系"
   },
   "hero": {
-    "title": "We travel first. We introduce you to the right people next.",
-    "cta": "Discover our destinations"
+    "title": "我们先出发旅行，然后再把对的人介绍给你。",
+    "cta": "探索我们的目的地"
   },
   "about": {
-    "title": "Why",
-    "subtitle": "Reinventing travel by putting the right people on your path.",
-    "paragraph1": "It all started over mint tea in Marrakech, in an alley known only to locals. That day, we understood that the best travel moments aren't found in brochures. They emerge from authentic encounters with those who truly live the territory.",
-    "paragraph2": "The TRIPERS team travels first for you. We explore destinations, meet guides, test experiences. Then, we become the architects of your trip: we find accommodations that fit your budget and preferences, we design coherent itineraries, we select meaningful activities. Nothing is standardized, everything is designed for you.",
-    "paragraph3": "Our promise?",
-    "paragraph3Content": "To introduce you only to guides we personally know. No anonymous platform, no cold algorithm. Just humans sharing their territory with authenticity and passion. You contact us on WhatsApp, we build together, and on D-day, your guide awaits you on site.",
-    "card1Title": "Travel differently",
-    "card1Content": "Prioritize quality of encounters over quantity of sites visited. Experience trips built for you, not standardized circuits where 40 people follow the same program. Take time to understand a place through those who truly live there.",
-    "card2Title": "Guarantee trust",
-    "card2Content": "We only reference guides we personally know. We've met them, tested them, validated them. Their integrity, field knowledge, and hospitality are our only criteria. No random profile found online.",
-    "card3Title": "Support local economy",
-    "card3Content": "Every euro spent directly benefits guides and their communities. No anonymous intermediary capturing value, just a direct and fair connection between you and the people who help you discover their territory."
+    "title": "为什么",
+    "subtitle": "用“对的人”重新发明你的旅行方式。",
+    "paragraph1": "一切始于马拉喀什的一杯薄荷茶，在一条只有当地人才知道的小巷里。那一天，我们意识到，旅行中最好的时刻从来不在宣传册里，而是来自与真正生活在这片土地上的人们之间的真诚相遇。",
+    "paragraph2": "TRIPERS 团队会先替你出发。我们亲自探索目的地、结识当地向导、体验各种活动。然后，我们变成你旅行的“建筑师”：为你寻找符合预算和喜好的住宿，设计合理顺畅的行程，挑选真正有意义的体验。没有标准模板，一切都是为你量身打造。",
+    "paragraph3": "我们的承诺？",
+    "paragraph3Content": "只向你推荐我们亲自认识的向导。不是匿名平台，也不是冰冷的算法，而是愿意真诚分享自己家园的人。你通过 WhatsApp 联系我们，一起构建行程；出发当天，你的向导会在当地等你。",
+    "card1Title": "不一样的旅行方式",
+    "card1Content": "把“遇见谁”看得比“去了多少地方”更重要。体验为你而设的旅程，而不是 40 个人走同一条路线的标准团。通过真正生活在当地的人，慢慢去理解一座城、一个国家。",
+    "card2Title": "信任的保障",
+    "card2Content": "我们只推荐亲自认识的向导。我们见过他们、体验过他们的服务，并且认可他们。品行、对当地的了解和待客之道，是我们唯一的标准。绝不存在随便从网上找到的随机账号。",
+    "card3Title": "支持当地经济",
+    "card3Content": "你花出去的每一欧元，都会直接回到向导和他们的社区手中。没有匿名中间商从中抽取价值，而是你与当地人之间直接而公平的连接。"
   },
   "concept": {
-    "title": "Why TRIPERS?",
-    "subtitle": "Tourists take advantage, travelers discover.",
-    "local": "Like a local",
-    "localDesc": "You live like a local, not like a tourist. Authentic experiences guaranteed.",
-    "network": "International network",
-    "networkDesc": "International network of friends → unique experiences everywhere in the world.",
-    "safety": "Safety & trust",
-    "safetyDesc": "Safety + family vibes. We connect you with trusted locals.",
-    "unique": "Unique experiences",
-    "uniqueDesc": "Private parties, cultural immersions, hidden excursions."
+    "title": "为什么选择 TRIPERS？",
+    "subtitle": "游客只是打卡，旅行者在发现。",
+    "local": "像当地人一样",
+    "localDesc": "你体验的是“当地人的生活”，而不是“游客行程”。真实体验，有保证。",
+    "network": "国际网络",
+    "networkDesc": "遍布世界各地的朋友与联系人 → 在任何地方，都能获得独一无二的体验。",
+    "safety": "安全与信任",
+    "safetyDesc": "安全感 + 家人般的氛围。我们只把你交给值得信赖的当地人。",
+    "unique": "独特体验",
+    "uniqueDesc": "私密聚会、文化深度体验、隐藏版线路与秘境小众之旅。"
   },
   "destinations": {
-    "title": "Our destinations",
-    "subtitle": "Tailor-made trips in 4 destinations. Each itinerary is built with you, according to your desires and duration.",
-    "learnMore": "Learn more",
+    "title": "我们的目的地",
+    "subtitle": "在 4 个目的地提供定制旅行。每一条路线，都根据你的兴趣和停留时间与我们共同打造。",
+    "learnMore": "了解更多",
     "maroc": {
-      "name": "Morocco",
-      "description": "Immersion in Marrakech souks, desert nights, Atlas hikes. Ideal for a first trip outside Europe. From 5 days (extended weekend) to 2 weeks (complete immersion)."
+      "name": "摩洛哥",
+      "description": "深入马拉喀什集市、在沙漠中过夜、在阿特拉斯山脉徒步。非常适合作为欧洲以外的第一次旅行。行程可从 5 天（加长周末）到 2 周（深度沉浸）。"
     },
     "capVert": {
-      "name": "Cape Verde",
-      "description": "Sal, Santo Antão... 100% local vibe, music, vertiginous hikes, wild beaches. Perfect for nature lovers and island authenticity. 7 to 12 days."
+      "name": "佛得角",
+      "description": "萨尔岛、圣安唐岛……100% 本地氛围、音乐、惊险山路徒步、原始海滩。非常适合热爱自然和岛屿原真感的人。推荐 7～12 天。"
     },
     "caraibes": {
-      "name": "Caribbean",
-      "description": "Martinique, Guadeloupe, secret beaches, Creole culture, rum and absolute relaxation. Ideal for combining sea and cultural discovery. 5 to 10 days."
+      "name": "加勒比海",
+      "description": "马提尼克岛、瓜德罗普岛、隐秘海滩、克里奥尔文化、朗姆酒与彻底放松。适合想把海岛度假与文化探索结合起来的人。行程 5～10 天。"
     },
     "colombie": {
-      "name": "Colombia",
-      "description": "Cartagena, Medellín, Rosario Islands, street food, total diversity. For those who love strong contrasts: Caribbean coast, colonial cities, coffee mountains. 8 to 16 days."
+      "name": "哥伦比亚",
+      "description": "卡塔赫纳、麦德林、罗萨里奥群岛、街头美食、极致多样性。适合喜欢强烈对比的人：加勒比海岸、殖民风情小城、咖啡山谷。行程 8～16 天。"
     }
   },
   "destinationsData": {
     "capVert": {
-      "countryName": "Cape Verde",
-      "intro": "The Cape Verde archipelago consists of ten volcanic islands located in the Atlantic Ocean, about 570 km from the African coast. Between white sand beaches, lunar landscapes, and green mountains, each island has its own identity.",
-      "story": "This is where TRIPERS builds tailor-made trips. We combine Sal (beaches and kitesurfing) and Santo Antão (vertiginous hikes) according to your duration and desires. We select accommodations, organize days with our guides, manage inter-island transfers. Cape Verde is a unique blend of African, Portuguese, and Creole cultures. Music resonates everywhere: morna and funaná rhythm the evenings. Encounters with locals happen naturally. It's a country where the notion of time takes on another meaning, where you learn to live at the rhythm of the ocean and wind.",
+      "countryName": "佛得角",
+      "intro": "佛得角群岛由 10 座火山岛组成，位于大西洋中部，距离非洲海岸约 570 公里。白沙海滩、如月球表面的地貌、郁郁葱葱的山地，每一座岛都有自己独特的个性。",
+      "story": "在这里，TRIPERS 为你打造真正定制的旅行。我们会根据你的停留时间和喜好，将萨尔岛（海滩与风筝冲浪）和圣安唐岛（悬崖徒步）进行组合。我们挑选合适的住宿，安排与当地向导共度的一天，并负责岛与岛之间的交通。佛得角是非洲、葡萄牙和克里奥尔文化的独特融合。音乐无处不在：莫尔纳（morna）与富纳纳（funaná）为夜晚定下节奏。与当地人的相遇十分自然。这是一个让你重新感知“时间”的国度，在这里，人们按照海浪与海风的节奏生活。",
       "cities": {
         "sal": {
-          "name": "Sal",
-          "description": "Sal island is endless white sand beaches, turquoise waters, and constant wind that attracts kitesurfers from around the world. Santa Maria, the main village, offers a relaxed atmosphere: fresh fish restaurants, seaside bars, fishermen returning in the morning with their catches. Beyond the beach, you discover abandoned salt flats (Pedra de Lume), salt desert mirages, authentic local life far from resorts. Sal is the perfect island to alternate relaxation, water sports, and discovery of a warm Cape Verdean culture.",
-          "etymology": "The name 'Sal' comes from the old salt exploitations that made the island's wealth for centuries.",
+          "name": "萨尔岛（Sal）",
+          "description": "萨尔岛拥有一望无际的白沙滩、碧绿海水和稳定的海风，吸引着来自世界各地的风筝冲浪者。主要村镇圣玛丽亚（Santa Maria）氛围轻松：新鲜海鱼餐厅、海边小酒吧，清晨渔民带着当日的收获归来。除了海滩，你还能看到废弃的盐田（Pedra de Lume）、盐沙漠中的海市蜃楼，以及远离度假村的真实岛民生活。萨尔岛是放松度假、水上运动与感受佛得角热情文化的完美平衡点。",
+          "etymology": "“Sal” 在葡萄牙语中意为“盐”，源于过去曾让岛屿富裕一时的大规模盐业开采。",
           "guides": {
             "ismael-sal": {
               "name": "Ismael",
-              "description": "Ismael was born in Sal. He knows every beach, every kitesurf spot, every restaurant run by locals. He shows you the island differently: fishing villages, kite sessions for beginners or advanced, zouk evenings in bars where tourists never go. Ismael speaks French, English, Portuguese, and Creole. With him, Sal isn't just a postcard, it's a real immersion."
+              "description": "Ismael 出生在萨尔岛，他熟悉每一片沙滩、每一个风筝冲浪点、每一家本地人开的餐馆。他会用不一样的方式带你认识这座岛：渔村、适合新手与高手的风筝课程、游客很少光顾却非常地道的“祖克（zouk）之夜”酒吧。Ismael 会说法语、英语、葡萄牙语和克里奥尔语。有他在，你眼中的萨尔岛绝不只是明信片上的漂亮风景，而是一场真正的沉浸式体验。"
             }
           }
         },
-        "santoAntao": {
-          "name": "Santo Antão",
-          "description": "Santo Antão is the hikers' island. Vertiginous trails border cliffs plunging into the ocean. Green valleys (Paúl, Ribeira Grande) contrast with lunar landscapes. You walk among banana trees, papaya trees, and sugar cane fields, meeting villagers who work the land by hand. Winding roads offer breathtaking panoramas. Small perched villages welcome you for grogue (local rum) and conversations in Creole. Santo Antão is natural, raw, generous Cape Verde. Ideal for those who love walking, observing, taking their time.",
-          "etymology": "Santo Antão means Saint Anthony in Portuguese, in honor of Saint Anthony of Padua."
+        "santo-antao": {
+          "name": "圣安唐岛（Santo Antão）",
+          "description": "圣安唐岛是徒步爱好者的天堂。惊险山路沿着峭壁盘旋，脚下就是拍岸的大西洋。郁郁葱葱的山谷（如 Paúl、Ribeira Grande）与荒凉的火山地貌形成强烈对比。你会在香蕉树、木瓜树和甘蔗地之间行走，遇见至今仍用双手耕作土地的村民。盘山公路一路展开令人屏息的壮丽景色。山间小村会邀请你小酌一杯当地朗姆酒 grogue，用克里奥尔语聊上几句。圣安唐岛展现的是佛得角自然、粗犷又慷慨的一面，非常适合喜欢行走、观察、慢节奏的人。",
+          "etymology": "“Santo Antão” 在葡萄牙语中意为“圣安东尼”，是为了纪念帕多瓦的圣安东尼。"
         }
       }
     },
     "caraibes": {
-      "countryName": "Caribbean",
-      "intro": "The Antilles archipelago extends thousands of kilometers between North and South America. Between paradise beaches, tropical forests, and colorful cities, the Caribbean offers unique cultural and natural diversity. African, European, and Amerindian influences blend in language, cuisine, and music.",
-      "story": "This is where TRIPERS builds tailor-made trips in the Antilles. We know the islands, the good addresses, the secret beaches. We organize boat crossings, accommodations with locals or in villas, outings with our local guides. You enjoy, we handle the rest. The Caribbean is a mosaic of islands. Martinique, Guadeloupe, Dominica, Saint Lucia... each has its Creole identity. Markets overflow with exotic fruits. Beaches alternate between white and black volcanic sand. Zouk and reggae accompany late afternoons. We come for the sea, we stay for the art of living.",
+      "countryName": "加勒比海",
+      "intro": "安的列斯群岛从北美延伸到南美，绵延数千公里。梦幻海滩、热带雨林、色彩斑斓的小城，让加勒比成为自然与文化高度多样的地区。非洲、欧洲与印第安文化在语言、料理和音乐中交织融合。",
+      "story": "在这里，TRIPERS 为你定制安的列斯群岛的专属行程。我们熟悉各座岛屿、隐藏版好去处和秘密海滩。我们安排船只穿梭岛与岛之间，预订民宿或别墅，与当地向导一同设计每天的体验。你只负责享受，其余交给我们。加勒比就像一块块拼图。马提尼克、瓜德罗普、多米尼克、圣卢西亚……每一座岛都有自己的克里奥尔气质。市场上堆满了热带水果。海滩则在白沙与黑色火山沙间变化。傍晚时刻，祖克与雷鬼乐在空气中流淌。人们通常因海水而来，却最终爱上这里的生活方式。",
       "cities": {
-        "fortDeFrance": {
-          "name": "Fort-de-France",
-          "description": "Fort-de-France is the capital of Martinique. Located on the edge of a large bay, the city mixes colonial architecture, lively markets, and modern neighborhoods. The covered market overflows with colors and smells: mangoes, christophines, spices, arranged rum. The Schoelcher library, with its metal structure, recalls the colonial heritage. Shopping streets vibrate to the Creole rhythm. It's the gateway to explore the rest of the island: southern beaches, Mount Pelée to the north, rum distilleries to the east.",
-          "etymology": "The name comes from the old French fort that protected the bay, baptized Fort-Royal then Fort-de-France after the Revolution.",
+        "fort-de-france": {
+          "name": "法兰西堡（Fort-de-France）",
+          "description": "法兰西堡是马提尼克的首府，坐落在宽阔的海湾边。这里既有殖民时期的建筑，也有热闹的市场和现代化街区。室内市场色彩和气味交织：芒果、热带蔬菜、香料和各种调味朗姆酒。金属结构的舍勒舍图书馆是殖民历史的见证。商业街以克里奥尔节奏律动不止。这里也是探索全岛的起点：南部海滩、北部的培雷火山、东部的朗姆酒酒厂，都会从这里出发。",
+          "etymology": "城市名称来源于曾经守卫海湾的法国要塞，先被称为 Fort-Royal，革命后改名为 Fort-de-France。",
           "guides": {
             "patrick-martinique": {
               "name": "Patrick",
-              "description": "Born in Martinique, Patrick speaks French, English, and Creole with equal ease. He knows all the Antilles: Martinique, Guadeloupe, Dominica, Saint Lucia. With him, you discover secret beaches accessible only by boat, family restaurants where we eat colombo and blaff, zouk evenings in bars without tourists. Patrick doesn't follow a fixed program, he adapts according to weather, your mood, local events. He makes you live the Caribbean from the inside."
+              "description": "Patrick 出生于马提尼克，他能自如地使用法语、英语和克里奥尔语。他熟悉整个安的列斯群岛：马提尼克、瓜德罗普、多米尼克、圣卢西亚。和他在一起，你会前往只有乘船才能抵达的隐秘海滩，在家庭式小餐馆里品尝哥伦布咖喱（colombo）和 blaff 鱼汤，在几乎没有游客的酒吧里跟着祖克跳舞。Patrick 不会照本宣科，而是根据天气、你的状态和当地发生的事情来灵活调整行程。他带你体验的，是“从内部看加勒比”的方式。"
             }
           }
         },
-        "autresIles": {
-          "name": "Other Antilles Islands",
-          "description": "Beyond Martinique, the Antilles abound with islands with distinct personalities. Guadeloupe, with its two wings connected by a bridge, mixes tranquil beaches and active volcanoes. Dominica, nicknamed the nature island, offers waterfalls, hot springs, dense jungle. Saint Lucia stands out with its rocky peaks plunging into the sea. Each island has its own atmosphere, its own cuisine, its own rhythm. You can sail from one to another, or settle on one and take your time."
+        "autres-iles": {
+          "name": "安的列斯其他岛屿",
+          "description": "除了马提尼克，安的列斯群岛还有许多个性截然不同的岛屿。瓜德罗普像一只展翅的蝴蝶，两翼由桥相连，一边是宁静海滩，一边是活跃的火山地带。被称为“自然之岛”的多米尼克拥有瀑布、温泉和茂密雨林。圣卢西亚则以直插入海的岩峰闻名。每座岛都有自己独特的氛围、味道与节奏。你可以在岛与岛之间航行，也可以在一座岛上静静停留，慢慢了解它的一切。"
         }
       }
     },
     "maroc": {
-      "countryName": "Morocco",
-      "intro": "Morocco unfolds between the Mediterranean Sea, the Atlantic Ocean, the Atlas Mountains, and the Sahara expanses. Crossroads between Africa and Europe, the country offers diversity of landscapes, cultures, and atmospheres. From thousand-year-old medinas to modern seaside resorts, each region has its identity.",
-      "story": "This is where TRIPERS builds tailor-made trips. We combine Marrakech, Ouzoud waterfalls, and Zagora desert according to your desires and duration. We select accommodations, organize days with our guides, and ensure transitions are smooth. You enjoy, we handle the rest. Traveling to Morocco means moving from a lively medina to desert silences, climbing Atlas valleys and descending to Essaouira beaches. Souk colors, spice smells, calls to prayer, and mint teas rhythm the days. Morocco is a country of contrasts where tradition and modernity coexist.",
+      "countryName": "摩洛哥",
+      "intro": "摩洛哥横跨地中海、大西洋、阿特拉斯山脉与撒哈拉沙漠。作为非洲与欧洲的交汇点，这里拥有极其多样的风景、文化和氛围。从千年古城到现代海滨度假区，每个地区都有自己的气质。",
+      "story": "在这里，TRIPERS 为你定制摩洛哥旅程。我们会根据你的兴趣和行程长短，把马拉喀什、乌祖德瀑布与扎古拉沙漠组合在一起。我们挑选住宿、安排与向导共度的每一天，并确保行程衔接顺畅。你只需享受，其余交给我们。旅行摩洛哥，就是从热闹的老城走向寂静的沙漠，从阿特拉斯山谷登高再回到索维拉的海滩。集市的色彩、香料的气味、祈祷的声响和薄荷茶的甜香，会构成你每日的节奏。摩洛哥是一个对比鲜明的国度，传统与现代并存。",
       "cities": {
         "marrakech": {
-          "name": "Marrakech",
-          "description": "Marrakech is Jemaa el-Fna square coming alive at nightfall: storytellers, musicians, orange juice stands. It's the souks where you get lost among leather, spices, and carpets. Riads hidden behind anonymous doors, surreal blue Majorelle gardens, terraces where you sip mint tea watching the Atlas in the distance. Beyond clichés, Marrakech is also a modern city: Gueliz and Hivernage neighborhoods, fusion restaurants, trendy rooftops. With our guides, you discover both faces: the traditional medina and the contemporary city.",
-          "etymology": "The name Marrakech comes from Berber Mur n Akush (land of God). This city also gave its name to Morocco.",
+          "name": "马拉喀什",
+          "description": "提到马拉喀什，人们会想到在夜幕降临时热闹非凡的杰马夫纳广场：说书人、乐手、橙汁摊比肩而立。蜿蜒的市集里是皮具、香料和地毯的世界。匿名大门后隐藏着安静的里亚德庭院，马若雷勒花园的蓝色仿佛不真实，屋顶露台上，人们一边喝薄荷茶，一边远眺阿特拉斯山脉。除此之外，马拉喀什也是一座现代城市：盖利兹和伊韦尔纳日街区里遍布新式餐厅和潮流天台酒吧。跟着我们的向导，你能同时看到传统老城和当代马拉喀什两张面孔。",
+          "etymology": "“Marrakech（马拉喀什）”这个名字被认为源于柏柏尔语 “Mur n Akush”（神之土地）。“Morocco（摩洛哥）”一词也正是由这座城市演变而来。",
           "guides": {
             "omar-marrakech": {
               "name": "Omar",
-              "description": "Passionate guide who knows Marrakech and the Ouzoud region by heart. In Marrakech, he takes you off the beaten path: artisan workshops (coppersmiths, leather workers), neighborhood bread ovens, tea houses where locals chat for hours. Omar speaks French fluently and adapts to your pace."
+              "description": "Omar 是一位对马拉喀什和乌祖德地区了如指掌的向导。在马拉喀什，他会带你走进游客不常涉足的角落：铜匠和皮匠的作坊、街区公共烤炉、当地人可以聊上几个小时的茶馆。Omar 法语流利，会根据你的节奏和兴趣来安排路线。"
             },
             "tarek-marrakech": {
               "name": "Tarek",
-              "description": "Born in Marrakech, Tarek knows every alley, every secret. He builds tailor-made itineraries: hidden souks where tourists never go, terraces to admire the sunset over the Atlas, artisan workshops he's frequented since childhood. With him, Marrakech becomes a familiar city, not a postcard backdrop."
+              "description": "Tarek 出生在马拉喀什，从小就在这些小巷里长大。他为你设计的是完全量身定制的路线：几乎没有游客光顾的隐秘市集、看日落最美的露台、他从小就常去的手工艺作坊。和他在一起，马拉喀什不再只是明信片上的图像，而会变成一座你愿意一再回来的城市。"
             }
           }
         },
         "ouzoud": {
-          "name": "Ouzoud",
-          "description": "Two hours drive from Marrakech, the Ouzoud valley immerses you in a green Morocco, far from city tumult. Waterfalls cascade 110 meters among olive trees and prickly pears. Below, fresh water invites swimming. Along the path, you meet Barbary macaques living here freely. In the evening, the call to prayer resonates from Berber villages perched on the heights. It's a natural breath just hours from Marrakech.",
-          "etymology": "Ouzoud means mill in Berber, referring to the old grain mills that used water power.",
+          "name": "乌祖德",
+          "description": "从马拉喀什驱车两小时，就会来到乌祖德山谷，这里展现的是远离城市喧嚣的“绿色摩洛哥”。110 米高的瀑布在橄榄树和仙人掌之间奔流而下，山谷底部清凉的水非常适合畅游。沿着小径前行，你会遇见在此自由生活的猕猴。傍晚时分，山上柏柏尔村庄的宣礼声此起彼伏。这是距离马拉喀什仅数小时，却能真正让人深呼吸的大自然。",
+          "etymology": "在柏柏尔语中，“Ouzoud” 意为“磨坊”，指的是曾经利用水力碾磨谷物的古老水磨。",
           "guides": {
             "omar-ouzoud": {
               "name": "Omar",
-              "description": "In Ouzoud, Omar shows you authentic Berber villages where his grandparents grew up. He knows every path along the waterfalls, every artisan still weaving by hand, every family preparing bread in an earthen oven. With him, you don't visit Ouzoud from outside, you enter its daily life. He adapts the pace to your desires: swimming under the falls, meals with locals, or simply walking in silence through the valley."
+              "description": "在乌祖德，Omar 会带你走进他祖辈生活过的真正柏柏尔村庄。他熟悉瀑布沿线的每一条小路、仍在用手工织布的工匠、用土窑烤面包的人家。跟着他，你不是在远远“参观”乌祖德，而是在体验这里的日常。他会按照你的喜好来安排节奏：在瀑布下游泳、在当地人家中吃饭，或者只是安静地走过山谷。"
             }
           }
         },
         "zagora": {
-          "name": "Zagora",
-          "description": "Zagora marks the entry into the Sahara desert. As soon as you leave the city, palm groves give way to ochre expanses. Tinfou dunes appear in the distance. In the evening, you sleep in a bivouac under a sky saturated with stars, without light pollution. In the morning, you wake to desert silence. Between two dunes, you sometimes meet nomadic families still living here with their herds. Zagora is raw immensity, unfiltered, with no added backdrop.",
-          "etymology": "Zagora could come from Berber Tazagourt, meaning summit or hill, referring to Djebel Zagora dominating the region.",
+          "name": "扎古拉",
+          "description": "扎古拉是通往撒哈拉沙漠的入口。一离开城镇，棕榈林便逐渐退去，取而代之的是一望无际的赭色大地。远处是廷夫沙丘的轮廓。夜晚，你将在星空下的营地过夜，几乎没有光污染。清晨，你在沙漠的寂静中醒来。两座沙丘之间，偶尔还能遇见依然过着游牧生活的家庭。扎古拉代表的是未加修饰的广袤与孤寂，没有舞台布景，只有最真实的自然。",
+          "etymology": "“Zagora” 可能源自柏柏尔语 “Tazagourt”，意为“山顶”或“小山”，指的是俯瞰整个地区的扎古拉山（Djebel Zagora）。",
           "guides": {
             "youssef-zagora": {
               "name": "Youssef",
-              "description": "Youssef grew up in Zagora, at the gates of the Sahara. He organizes traditional bivouacs under the stars, far from tourist camps. With him, you share mint tea with nomadic families, sleep in authentic Berber tents, learn to read constellations. Youssef speaks little, but he knows how to listen. He ensures your comfort without ever forcing the experience. The desert with him is inhabited silence, not a show."
+              "description": "Youssef 在扎古拉长大，就在撒哈拉的门口。他组织的是远离游客营地的传统星空营地。和他在一起，你会在游牧家庭的帐篷里喝薄荷茶，在真正的柏柏尔帐篷中过夜，学习辨认星座。Youssef 话不多，却非常会倾听，也会悄悄照顾你的舒适度。跟他一起走进沙漠，迎接你的不是表演，而是一种“有人陪伴的寂静感”。"
             }
           }
         }
       }
     },
     "colombie": {
-      "countryName": "Colombia",
-      "intro": "Colombia extends between two oceans, crosses the Andes mountain range, and plunges into the Amazon rainforest. Caribbean coasts with warm waters, colorful colonial cities, green valleys, vibrant metropolises. It's a country of extreme diversity. Modern Colombia has turned the page on past conflicts and opens to the world with energy.",
-      "story": "This is where TRIPERS builds tailor-made trips in Colombia. We combine Cartagena, Medellín, coffee region, Pacific coast according to your duration and desires. We organize domestic flights, accommodations, days with our local guides. You enjoy, we handle the rest. Cartagena, with its cobbled streets and ochre facades, embodies Caribbean colonial charm. Medellín, nestled in its valley, represents urban transformation and innovation. Bogotá mixes skyscrapers, street art, and historic neighborhoods. Further away, coffee landscapes, Salento villages, and the Pacific coast offer other faces. Salsa, cumbia, and vallenato accompany every moment. The welcome is warm. You leave with stories.",
+      "countryName": "哥伦比亚",
+      "intro": "哥伦比亚一边连着大西洋，一边面向太平洋，跨越安第斯山脉并延伸至亚马逊雨林。温暖的加勒比海岸、多彩的殖民城市、翠绿山谷和活力四射的大都市，让这个国家拥有极致多样的面貌。今天的哥伦比亚正在告别过去的冲突记忆，以充沛的能量向世界敞开大门。",
+      "story": "在这里，TRIPERS 为你量身定制哥伦比亚之旅。我们会根据你的停留时间和喜好，组合卡塔赫纳、麦德林、咖啡产区和太平洋海岸。我们负责预订国内航班、安排住宿和本地向导。你专注体验，其余的交给我们。卡塔赫纳铺着石板路的街巷与赭黄色外墙，是加勒比殖民文化的象征。坐落在山谷中的麦德林则象征着城市转型与创新。波哥大同时拥有高楼大厦、街头涂鸦与历史街区。更远处，是咖啡产区的风景、萨伦托这样的山城，以及原始的太平洋海岸。萨尔萨、昆比亚和瓦耶纳托音乐伴随旅途的每一刻，当地人的热情好客，让你离开时带着许多故事。",
       "cities": {
         "cartagena": {
-          "name": "Cartagena",
-          "description": "Cartagena de Indias is a flamboyant colonial city on the Caribbean Sea. Massive ramparts, flowered balconies, lively squares, colorful alleys: it's one of South America's most photogenic cities. The historic center is a charming labyrinth where every corner reveals a church, a placita, a hidden patio. The Getsemaní neighborhood vibrates to cumbia rhythms, street art, open-air bars. Rosario Islands, 45 minutes by boat, offer postcard beaches and crystalline waters. Cartagena is Caribbean warmth, colonial history, and Colombian energy united in one place.",
-          "etymology": "The city bears the name of Cartagena in Spain, where several of its Spanish founders came from in the 16th century.",
+          "name": "卡塔赫纳（Cartagena）",
+          "description": "卡塔赫纳-德印第亚斯是坐落在加勒比海边的一座绚丽殖民城市。厚重城墙、鲜花点缀的阳台、热闹广场和五彩斑斓的小巷，让它成为南美最具上镜感的城市之一。历史中心是一个迷人的迷宫，每转一个角，就可能遇到一座教堂、一块小广场或一个隐藏的庭院。赫茨马尼（Getsemaní）街区充满昆比亚音乐、街头艺术和露天酒吧。搭船 45 分钟即可到达罗萨里奥群岛，那里有明信片般的白沙滩和清澈海水。卡塔赫纳将加勒比的热情、殖民历史与哥伦比亚的活力浓缩在一座城市之中。",
+          "etymology": "这座城市以西班牙的卡塔赫纳命名——许多 16 世纪来到此地的西班牙开拓者都出身于那里。",
           "guides": {
             "horacio-cartagena": {
               "name": "Horacio",
-              "description": "Horacio was born in Cartagena. He knows every street in the historic center, every Getsemaní artisan, every cantina where we drink ron to cumbia sounds. With him, you don't tour monuments, you enter the city's daily life. He takes you to Bazurto market at 6am, to workshops where hammocks are still made by hand, to salsa bars frequented by Cartagéneros. Horacio speaks fast, laughs loudly, and transforms every outing into a living account of Caribbean history."
+              "description": "Horacio 出生在卡塔赫纳。他熟悉历史中心的每一条小巷、赫茨马尼的每一位工匠、每一家放着昆比亚配朗姆酒的小酒馆。和他一起，你不会只是“看景点”，而是融入城市的日常。他会带你清晨六点去巴苏尔托市场，在仍然用手工织吊床的作坊里停留，晚上再去只有当地人会去的萨尔萨酒吧。Horacio 说话很快、笑声很大，总能把每一次出行讲成一段鲜活的加勒比故事。"
             }
           }
         },
         "medellin": {
-          "name": "Medellín",
-          "description": "Medellín, nicknamed the city of eternal spring for its mild year-round climate, extends in a valley surrounded by mountains. Once marked by a difficult history, the city has transformed into a model of urban and social innovation. El Poblado and Laureles neighborhoods abound with restaurants, cafés, bars, art galleries. Public cable cars climb to peripheral barrios and offer panoramic views of the entire valley. Comuna 13, formerly a forbidden zone, has become a symbol of rebirth with its mechanical stairs, giant frescoes, hip-hop workshops. Medellín is a city in permanent movement, young, modern, resilient.",
-          "etymology": "Medellín owes its name to Medellín in Spain, birthplace of Pedro Portocarrero, governor of the region at its founding in 1616.",
+          "name": "麦德林（Medellín）",
+          "description": "麦德林因全年如春的气候被称为“永恒之春之城”，整座城市沿着一条山谷展开，四周环山。曾经它的名字与动荡历史联系在一起，如今却成为城市与社会创新的典范。El Poblado 和 Laureles 街区遍布餐厅、咖啡馆、酒吧和艺术画廊。公共缆车一路爬上山坡社区，俯瞰整条山谷。曾经的“禁区”——13 区（Comuna 13），现在是重生的象征：户外电梯、巨大的墙绘和嘻哈工作坊比比皆是。麦德林是一座始终在运动中的城市，年轻、现代而且极具韧性。",
+          "etymology": "“Medellín” 这个名字来自西班牙同名小城，这是 1616 年该地区总督 Pedro Portocarrero 的家乡。",
           "guides": {
             "horacio-medellin": {
               "name": "Horacio",
-              "description": "In Medellín, Horacio tells you about the city's transformation through his own memories. He takes you to Comuna 13 where he knows the artists who painted the frescoes, to El Poblado cafés where coffee is still roasted by hand, to panoramic viewpoints at sunset. In the evening, he shows you live salsa in Laureles bars where Paisas (Medellín inhabitants) dance. Horacio is passionate, talkative, and transforms every visit into a dive into this resilient city's soul."
+              "description": "在麦德林，Horacio 通过自己亲身经历，向你讲述这座城市是如何完成转型的。他会带你前往 13 区，与绘制墙画的艺术家打招呼；带你去 El Poblado 的小型咖啡烘焙店，看手工烘焙的过程；再陪你去夕阳时分视野最广的观景点。夜幕降临后，他会带你去 Laureles 的现场萨尔萨酒吧，与当地“Paisa”（麦德林人）一起跳舞。Horacio 热情健谈，让每一次参观都变成走进这座坚韧城市灵魂的机会。"
             }
           }
         }
@@ -174,36 +174,35 @@
     }
   },
   "map": {
-    "title": "Explore the map",
-    "description": "Each marker corresponds to a place where TRIPERS spent time, met trusted guides. These aren't theoretical destinations: they're people we've met, with whom we've traveled, and whom we then introduce to you.",
-    "loading": "Loading map..."
+    "title": "在地图上探索",
+    "description": "地图上的每一个标记，都是 TRIPERS 团队曾经亲自停留、并结识可信赖向导的地方。这些不是纸面上的“潜在目的地”，而是我们亲身旅行后，愿意介绍给你的真实人和真实地点。",
+    "loading": "地图加载中..."
   },
   "contact": {
-    "title": "Let's talk about your next trip",
-    "description": "Do you have a destination in mind? Dates? An approximate budget? Contact us directly on WhatsApp. We'll ask you a few questions about your desires (nature, culture, food, pace), then we'll build your tailor-made trip with our local guides.",
-    "response": "Personalized response within 24h.",
-    "cta": "Contact us on WhatsApp"
+    "title": "聊聊你的下一次旅行",
+    "description": "你已经有心仪的目的地了吗？大概的日期和预算呢？直接在 WhatsApp 上联系我们吧。我们会问你几个简单的问题：更偏爱自然、文化、美食还是节奏慢一些？然后和当地向导一起，为你定制一趟专属旅程。",
+    "response": "我们会在 24 小时内给出一份专属回复。",
+    "cta": "在 WhatsApp 上联系我们"
   },
   "footer": {
-    "tagline": "Live the adventure like a local",
-    "navigation": "Navigation",
-    "destinations": "Destinations",
-    "food": "Food",
-    "travel": "Travel",
-    "contactTitle": "Contact",
+    "tagline": "像当地人一样，去过一场真正的冒险。",
+    "navigation": "导航",
+    "destinations": "目的地",
+    "food": "美食",
+    "travel": "旅行",
+    "contactTitle": "联系",
     "whatsapp": "WhatsApp",
-    "whatsappDesc": "Everything goes through WhatsApp for direct contact",
-    "copyright": "All rights reserved."
+    "whatsappDesc": "所有沟通都通过 WhatsApp 直接进行",
+    "copyright": "版权所有。"
   },
   "destinationPage": {
-    "ourCities": "Our cities",
-    "etymology": "Etymology",
-    "guide": "Guide",
-    "guides": "Guides",
+    "ourCities": "我们的城市",
+    "etymology": "词源",
+    "guide": "向导",
+    "guides": "向导",
     "guidesTripers": "TRIPERS",
-    "ctaTitle": "Want to build your trip here?",
-    "ctaDescription": "Contact us on WhatsApp. Tell us your dates, budget, what attracts you. We'll build together a tailor-made trip with our local guides. Personalized response within 24h.",
-    "ctaButton": "Contact us on WhatsApp",
-    "backToDestinations": "Back to destinations"
-  }
-}
+    "ctaTitle": "想在这里定制一趟属于你的旅行吗？",
+    "ctaDescription": "通过 WhatsApp 联系我们。告诉我们你的日期、预算以及最吸引你的地方。我们会和当地向导一起，为你打造一趟专属行程，并在 24 小时内给出个性化回复。",
+    "ctaButton": "在 WhatsApp 上联系我们",
+    "backToDestinations": "返回目的地列表"
+  }}
