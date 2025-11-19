@@ -19,12 +19,12 @@ export default function WhatsAppButton() {
         onClick={handleClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        className="group relative flex items-center justify-center w-16 h-16 bg-[#25D366] rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
+        className="relative flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
         aria-label="Contact WhatsApp"
       >
         {/* WhatsApp Icon */}
         <svg
-          className="w-8 h-8 text-white"
+          className="w-7 h-7 text-white"
           fill="currentColor"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
@@ -44,9 +44,6 @@ export default function WhatsAppButton() {
             <div className="w-0 h-0 border-t-8 border-t-transparent border-b-8 border-b-transparent border-l-8 border-l-white"></div>
           </div>
         </div>
-
-        {/* Ripple effect on hover */}
-        <span className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-75 group-hover:animate-ping"></span>
       </button>
     </div>
   );
