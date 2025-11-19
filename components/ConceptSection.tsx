@@ -3,7 +3,7 @@ export default function ConceptSection() {
     {
       title: 'Comme un local',
       description:
-        "Tu vis comme un local, pas comme un touriste. Expériences authentiques garanties.",
+        "Vous vivez comme un local, pas comme un touriste. Expériences authentiques garanties.",
       icon: (
         <svg
           className="w-10 h-10 text-gray-900"
@@ -39,7 +39,7 @@ export default function ConceptSection() {
     {
       title: 'Sécurité & confiance',
       description:
-        'Sécurité + vibes familiales. On te met en lien avec des locaux de confiance.',
+        'Sécurité + vibes familiales. Nous vous mettons en lien avec des locaux de confiance.',
       icon: (
         <svg
           className="w-10 h-10 text-gray-900"

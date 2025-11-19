@@ -23,7 +23,9 @@ export default function MapSection() {
             Explorez la carte
           </h2>
           <p className="text-lg text-gray-600">
-            Découvrez où se trouvent nos guides locaux à travers le monde.
+            Chaque repère correspond à un endroit où TRIPERS a passé du temps, rencontré des guides de confiance. 
+            Ce ne sont pas des destinations théoriques : ce sont des personnes que nous avons rencontrées, 
+            avec qui nous avons voyagé, et que nous vous présentons ensuite.
           </p>
         </div>
 

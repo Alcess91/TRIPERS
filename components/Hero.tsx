@@ -1,6 +1,21 @@
 'use client';
 
+import { useEffect, useState } from 'react';
+import { useTranslations } from 'next-intl';
+
 export default function Hero() {
+  const t = useTranslations('hero');
+  const [currentVideo, setCurrentVideo] = useState(0);
+  const videos = ['/destinations/IMG_4003.mp4', '/destinations/IMG_4040.mp4'];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentVideo((prev) => (prev + 1) % videos.length);
+    }, 15000); // Change toutes les 15 secondes
+
+    return () => clearInterval(interval);
+  }, []);
+
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -9,22 +24,62 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative bg-gradient-to-r from-yellow-400 via-orange-400 to-yellow-500 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
-        <div className="max-w-4xl mx-auto text-center">
-          {/* Titre principal */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-normal text-gray-900 leading-tight mb-12">
-            Nous voyageons d'abord. Nous vous présentons les bonnes personnes ensuite.
-          </h1>
+    <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
+      {/* Conteneur des vidéos avec animation de glissement */}
+      <div
+        className="absolute inset-0 flex h-full w-full transition-transform duration-[2000ms] ease-in-out"
+        style={{ transform: `translateX(-${currentVideo * 100}%)` }}
+      >
+        {videos.map((video, index) => (
+          <div key={video} className="flex-shrink-0 w-full h-full relative">
+            <video
+              autoPlay={index === currentVideo}
+              loop
+              muted
+              playsInline
+              className="absolute inset-0 w-full h-full object-cover"
+              ref={(videoElement) => {
+                if (videoElement) {
+                  if (index === currentVideo) {
+                    videoElement.currentTime = 0;
+                    videoElement.play();
+                  } else {
+                    videoElement.pause();
+                  }
+                }
+              }}
+              onLoadedMetadata={(e) => {
+                const video = e.currentTarget;
+                video.playbackRate = 0.50;
+              }}
+            >
+              <source src={video} type="video/mp4" />
+            </video>
+          </div>
+        ))}
+      </div>
 
-          {/* Bouton CTA */}
-          <button
-            onClick={() => scrollToSection('destinations')}
-            className="px-8 py-3 bg-gray-900 text-white font-medium hover:bg-gray-800 transition-colors border-2 border-gray-900"
-            aria-label="Découvrir toutes nos destinations de voyage"
-          >
-            Découvrez nos destinations
-          </button>
+      {/* Overlay sombre pour la lisibilité */}
+      <div className="absolute inset-0 bg-black/40 z-10" />
+
+      {/* Contenu */}
+      <div className="relative h-full flex items-center justify-center z-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto text-center">
+            {/* Titre principal */}
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-normal text-white leading-tight mb-8 drop-shadow-lg">
+              {t('title')}
+            </h1>
+
+            {/* Bouton CTA */}
+            <button
+              onClick={() => scrollToSection('destinations')}
+              className="px-8 py-3 bg-white text-gray-900 font-medium hover:bg-gray-100 transition-colors border-2 border-white shadow-lg"
+              aria-label={t('cta')}
+            >
+              {t('cta')}
+            </button>
+          </div>
         </div>
       </div>
     </section>

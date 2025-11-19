@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "We travel first. We introduce you to the right people next.",
+    "cta": "Discover our destinations"
+  },
+  "about": {
+    "title": "Why",
+    "subtitle": "Reinventing travel by putting the right people on your path.",
+    "paragraph1": "It all started over mint tea in Marrakech, in an alley only locals know. That day, we understood that the best travel moments aren't found in brochures. They're born from authentic encounters with those who truly live the territory.",
+    "paragraph2": "The TRIPERS team travels first for you. We explore destinations, meet guides, test experiences. Then we become the architects of your journey: we find accommodations suited to your budget and desires, we draw coherent itineraries, we select activities that make sense. Nothing is standardized, everything is designed for you.",
+    "paragraph3": "Our promise?",
+    "paragraph3Content": "To introduce you only to guides we know personally. No anonymous platform, no cold algorithm. Just humans sharing their territory with authenticity and passion. You contact us on WhatsApp, we build together, and on D-day, your guide awaits you on site.",
+    "card1Title": "Travel differently",
+    "card1Content": "Favor the quality of encounters over the quantity of sites visited. Live experiences built for you, not standardized tours where 40 people follow the same program. Take time to understand a place through those who truly live there.",
+    "card2Title": "Guarantee trust",
+    "card2Content": "We only list guides we know personally. We've met them, tested them, validated them. Their integrity, their knowledge of the terrain, and their way of welcoming are our only criterion. No random profile found online.",
+    "card3Title": "Support local economy",
+    "card3Content": "Every euro spent directly benefits the guides and their communities. No anonymous intermediary capturing value, just a direct and fair link between you and the people showing you their territory."
+  },
+  "concept": {
+    "title": "Why TRIPERS?",
+    "subtitle": "The tourist enjoys, the traveler discovers.",
+    "local": "Like a local",
+    "localDesc": "You live like a local, not like a tourist. Authentic experiences guaranteed.",
+    "network": "International network",
+    "networkDesc": "International network of friends → unique experiences worldwide.",
+    "safety": "Safety & trust",
+    "safetyDesc": "Safety + family vibes. We connect you with trusted locals.",
+    "unique": "Unique experiences",
+    "uniqueDesc": "Private parties, cultural immersions, hidden excursions."
+  },
+  "destinations": {
+    "title": "Our destinations",
+    "subtitle": "Tailor-made trips in 4 destinations. Each itinerary is built with you, according to your wishes and duration."
+  },
+  "contact": {
+    "title": "Let's talk about your next trip",
+    "description": "Do you have a destination in mind? Dates? An approximate budget? Contact us directly on WhatsApp. We'll ask you a few questions about your wishes (nature, culture, food, pace), then we'll build your tailor-made trip with our local guides.",
+    "response": "Personalized response within 24h.",
+    "cta": "Contact us on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Live adventure like a local",
+    "navigation": "Navigation",
+    "destinations": "Destinations",
+    "food": "Food",
+    "travel": "Travel",
+    "contactTitle": "Contact",
+    "whatsapp": "WhatsApp",
+    "whatsappDesc": "Everything goes through WhatsApp for direct contact",
+    "copyright": "All rights reserved."
+  },
+  "destinationPage": {
+    "ourCities": "Our cities",
+    "etymology": "Etymology",
+    "guide": "Guide",
+    "guides": "Guides",
+    "guidesTripers": "TRIPERS",
+    "ctaTitle": "Want to build your trip here?",
+    "ctaDescription": "Contact us on WhatsApp. Indicate your dates, your budget, what attracts you. We build together a tailor-made trip with our local guides. Personalized response within 24h.",
+    "ctaButton": "Contact us on WhatsApp",
+    "backToDestinations": "Back to destinations"
+  }
+}

@@ -1,13 +1,18 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 export default function DestinationsSection() {
+  const t = useTranslations('destinations');
+  
   const destinations = [
     {
       name: 'Maroc',
       slug: 'maroc',
       description:
-        "Immersion dans les souks, Marrakech by night, soirées privées, culture & sable chaud.",
+        "Immersion dans les souks de Marrakech, nuits dans le désert, randonnées dans l'Atlas. Idéal pour un premier voyage hors Europe. De 5 jours (weekend prolongé) à 2 semaines (immersion complète).",
       image: '/destinations/maroc-home.jpg',
       imageAlt: 'Pavillon sur l\'eau au Maroc au coucher de soleil',
     },
@@ -15,7 +20,7 @@ export default function DestinationsSection() {
       name: 'Cap-Vert',
       slug: 'cap-vert',
       description:
-        "Sal, Santiago, Santo Antão... vibe 100% locale, musique, nature, rencontres réelles.",
+        "Sal, Santo Antão... vibe 100% locale, musique, randonnées vertigineuses, plages sauvages. Parfait pour les amateurs de nature et d'authenticité insulaire. De 7 à 12 jours.",
       image: '/destinations/cap-vert-home.jpg',
       imageAlt: 'Falaises et chemin côtier du Cap-Vert',
     },
@@ -23,7 +28,7 @@ export default function DestinationsSection() {
       name: 'Caraïbes',
       slug: 'caraibes',
       description:
-        "Martinique, Guadeloupe, plages secrètes, culture créole, rhum & détente absolue.",
+        "Martinique, Guadeloupe, plages secrètes, culture créole, rhum et détente absolue. Idéal pour combiner mer et découverte culturelle. De 5 à 10 jours.",
       image: '/destinations/caraibes-home.jpg',
       imageAlt: 'Plage paradisiaque des Caraïbes avec palmiers',
     },
@@ -31,7 +36,7 @@ export default function DestinationsSection() {
       name: 'Colombie',
       slug: 'colombie',
       description:
-        "Cartagena, Medellín vibes, îles Rosario, street food, découvertes locales.",
+        "Cartagena, Medellín, îles Rosario, street food, diversité totale. Pour ceux qui aiment les contrastes forts : côte caraïbe, villes coloniales, montagnes de café. De 8 à 16 jours.",
       image: '/destinations/colombie-home.jpg',
       imageAlt: 'Rues colorées de Carthagène, Colombie',
     },
@@ -43,10 +48,10 @@ export default function DestinationsSection() {
         {/* En-tête */}
         <div className="mb-16 text-center">
           <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-4">
-            Nos destinations
+            {t('title')}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Quatre régions, des expériences authentiques avec des guides locaux pour la Saison 1.
+            {t('subtitle')}
           </p>
         </div>
 

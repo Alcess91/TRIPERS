@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Nous voyageons d'abord. Nous vous présentons les bonnes personnes ensuite.",
+    "cta": "Découvrez nos destinations"
+  },
+  "about": {
+    "title": "Pourquoi",
+    "subtitle": "Réinventer le voyage en mettant les bonnes personnes sur votre chemin.",
+    "paragraph1": "Tout a commencé autour d'un thé à la menthe à Marrakech, dans une ruelle que seuls les locaux connaissent. Ce jour-là, nous avons compris que les meilleurs moments de voyage ne se trouvent pas dans les brochures. Ils naissent des rencontres authentiques avec ceux qui vivent vraiment le territoire.",
+    "paragraph2": "L'équipe TRIPERS voyage d'abord pour vous. Nous explorons les destinations, rencontrons les guides, testons les expériences. Ensuite, nous devenons les architectes de votre voyage : nous recherchons les hébergements adaptés à votre budget et vos envies, nous dessinons des itinéraires cohérents, nous sélectionnons les activités qui ont du sens. Rien n'est standardisé, tout est pensé pour vous.",
+    "paragraph3": "Notre promesse ?",
+    "paragraph3Content": "Ne vous présenter que des guides que nous connaissons personnellement. Pas de plateforme anonyme, pas d'algorithme froid. Juste des humains qui partagent leur territoire avec authenticité et passion. Vous nous contactez sur WhatsApp, nous construisons ensemble, et le jour J, votre guide vous attend sur place.",
+    "card1Title": "Voyager autrement",
+    "card1Content": "Privilégier la qualité des rencontres à la quantité de sites visités. Vivre des expériences construites pour vous, pas des circuits standardisés où 40 personnes suivent le même programme. Prendre le temps de comprendre un lieu à travers ceux qui y vivent vraiment.",
+    "card2Title": "Garantir la confiance",
+    "card2Content": "Nous ne référençons que des guides que nous connaissons personnellement. Nous les avons rencontrés, testés, validés. Leur intégrité, leur connaissance du terrain et leur façon d'accueillir sont notre seul critère. Pas de profil aléatoire trouvé en ligne.",
+    "card3Title": "Soutenir l'économie locale",
+    "card3Content": "Chaque euro dépensé profite directement aux guides et à leurs communautés. Pas d'intermédiaire anonyme qui capte la valeur, juste un lien direct et équitable entre vous et les personnes qui vous font découvrir leur territoire."
+  },
+  "concept": {
+    "title": "Pourquoi TRIPERS ?",
+    "subtitle": "Le touriste profite, le voyageur découvre.",
+    "local": "Comme un local",
+    "localDesc": "Vous vivez comme un local, pas comme un touriste. Expériences authentiques garanties.",
+    "network": "Réseau international",
+    "networkDesc": "Réseau international d'amis → expériences uniques partout dans le monde.",
+    "safety": "Sécurité & confiance",
+    "safetyDesc": "Sécurité + vibes familiales. Nous vous mettons en lien avec des locaux de confiance.",
+    "unique": "Expériences uniques",
+    "uniqueDesc": "Soirées privées, immersions culturelles, excursions cachées."
+  },
+  "destinations": {
+    "title": "Nos destinations",
+    "subtitle": "Des voyages sur mesure dans 4 destinations. Chaque itinéraire est construit avec vous, selon vos envies et votre durée."
+  },
+  "contact": {
+    "title": "Parlons de votre prochain voyage",
+    "description": "Vous avez une destination en tête ? Des dates ? Un budget approximatif ? Contactez-nous directement sur WhatsApp. Nous vous poserons quelques questions sur vos envies (nature, culture, food, rythme), puis nous construirons votre voyage sur mesure avec nos guides locaux.",
+    "response": "Réponse personnalisée sous 24h.",
+    "cta": "Contactez-nous sur WhatsApp"
+  },
+  "footer": {
+    "tagline": "Vivez l'aventure comme un local",
+    "navigation": "Navigation",
+    "destinations": "Destinations",
+    "food": "Nourriture",
+    "travel": "Voyage",
+    "contactTitle": "Contact",
+    "whatsapp": "WhatsApp",
+    "whatsappDesc": "Tout passe par WhatsApp pour un contact direct",
+    "copyright": "Tous droits réservés."
+  },
+  "destinationPage": {
+    "ourCities": "Nos villes",
+    "etymology": "Étymologie",
+    "guide": "Guide",
+    "guides": "Guides",
+    "guidesTripers": "TRIPERS",
+    "ctaTitle": "Vous voulez construire votre voyage ici ?",
+    "ctaDescription": "Contactez-nous sur WhatsApp. Indiquez vos dates, votre budget, ce qui vous attire. Nous construisons ensemble un voyage sur mesure avec nos guides locaux. Réponse personnalisée sous 24h.",
+    "ctaButton": "Contactez-nous sur WhatsApp",
+    "backToDestinations": "Retour aux destinations"
+  }
+}
