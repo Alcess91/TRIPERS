@@ -3,32 +3,33 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import type { DestinationCard } from '@/lib/types';
+
+const DESTINATION_CARDS: DestinationCard[] = [
+  {
+    slug: 'maroc',
+    image: '/destinations/maroc-home.jpg',
+    imageAlt: 'Pavillon sur l\'eau au Maroc au coucher de soleil',
+  },
+  {
+    slug: 'cap-vert',
+    image: '/destinations/cap-vert-home.jpg',
+    imageAlt: 'Falaises et chemin côtier du Cap-Vert',
+  },
+  {
+    slug: 'caraibes',
+    image: '/destinations/caraibes-home.jpg',
+    imageAlt: 'Plage paradisiaque des Caraïbes avec palmiers',
+  },
+  {
+    slug: 'colombie',
+    image: '/destinations/colombie-home.jpg',
+    imageAlt: 'Rues colorées de Carthagène, Colombie',
+  },
+];
 
 export default function DestinationsSection() {
   const t = useTranslations('destinations');
-  
-  const destinations = [
-    {
-      slug: 'maroc',
-      image: '/destinations/maroc-home.jpg',
-      imageAlt: 'Pavillon sur l\'eau au Maroc au coucher de soleil',
-    },
-    {
-      slug: 'cap-vert',
-      image: '/destinations/cap-vert-home.jpg',
-      imageAlt: 'Falaises et chemin côtier du Cap-Vert',
-    },
-    {
-      slug: 'caraibes',
-      image: '/destinations/caraibes-home.jpg',
-      imageAlt: 'Plage paradisiaque des Caraïbes avec palmiers',
-    },
-    {
-      slug: 'colombie',
-      image: '/destinations/colombie-home.jpg',
-      imageAlt: 'Rues colorées de Carthagène, Colombie',
-    },
-  ];
 
   return (
     <section id="destinations" className="py-20 md:py-24 bg-stone-100">
@@ -45,7 +46,7 @@ export default function DestinationsSection() {
 
         {/* Blocs destinations */}
         <div className="space-y-20">
-          {destinations.map((destination, index) => (
+          {DESTINATION_CARDS.map((destination, index) => (
             <div
               key={destination.slug}
               className={`flex flex-col ${
@@ -87,6 +88,7 @@ export default function DestinationsSection() {
                     src={destination.image}
                     alt={destination.imageAlt}
                     fill
+                    sizes="(max-width: 768px) 100vw, 448px"
                     className="object-cover transition-transform duration-500 ease-out hover:scale-110"
                   />
                 </div>

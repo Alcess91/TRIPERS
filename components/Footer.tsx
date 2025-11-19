@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { WHATSAPP_URL } from '@/lib/constants';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -67,10 +68,11 @@ export default function Footer() {
             </h3>
             <div className="space-y-3">
               <a
-                href="https://wa.me/212608836531"
+                href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-sm hover:text-white transition-colors group"
+                aria-label={t('whatsapp')}
               >
                 <svg
                   className="w-5 h-5 text-gray-400 group-hover:text-white"

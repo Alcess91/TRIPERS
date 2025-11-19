@@ -87,12 +87,14 @@ export default function ConceptSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* En-tête */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6" dir="ltr">
+          <h2 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             {isRTL ? (
               <>
-                <span className="font-bold" dir="ltr">TRIPERS</span>
+                {'\u202A'}
+                <span className="font-bold">TRIPERS</span>
                 {' '}
-                <span dir="rtl">{t('title')}</span>
+                <span>{t('title')}</span>
+                {'\u202C'}
               </>
             ) : (
               t('title')

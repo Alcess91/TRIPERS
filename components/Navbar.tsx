@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { usePathname, useRouter } from '@/lib/navigation';
 import { Link } from '@/lib/navigation';
+import { WHATSAPP_URL } from '@/lib/constants';
 
 const LANGUAGES = {
   fr: { name: 'Français', flag: '🇫🇷' },
@@ -85,10 +86,11 @@ export default function Navbar() {
             </div>
 
             <a
-              href="https://wa.me/212608836531"
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="relative text-sm text-gray-900 pb-1 group"
+              aria-label={t('contact')}
             >
               {t('contact')}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-900 transition-all duration-300 group-hover:w-full"></span>
@@ -143,11 +145,12 @@ export default function Navbar() {
             </div>
 
             <a
-              href="https://wa.me/212608836531"
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="block px-4 py-2 text-gray-900 border-b-2 border-gray-900 hover:bg-gray-50"
               onClick={() => setIsMenuOpen(false)}
+              aria-label={t('contact')}
             >
               {t('contact')}
             </a>

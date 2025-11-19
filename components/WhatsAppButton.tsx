@@ -1,16 +1,17 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { useState } from 'react';
+import { WHATSAPP_NUMBER, DEFAULT_WHATSAPP_MESSAGE } from '@/lib/constants';
 
 export default function WhatsAppButton() {
   const t = useTranslations('whatsappButton');
+  const locale = useLocale();
   const [isHovered, setIsHovered] = useState(false);
 
   const handleClick = () => {
-    const phoneNumber = '+33614343271';
-    const message = encodeURIComponent('Bonjour, je souhaite en savoir plus sur vos destinations.');
-    window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+    const message = DEFAULT_WHATSAPP_MESSAGE(locale);
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
   };
 
   return (

@@ -3,13 +3,17 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 
+const HERO_VIDEOS = [
+  '/destinations/IMG_4003.mp4',
+  '/destinations/IMG_4040.mp4',
+] as const;
+
 export default function Hero() {
   const t = useTranslations('hero');
   const [currentVideo, setCurrentVideo] = useState(0);
-  const videos = ['/destinations/IMG_4003.mp4', '/destinations/IMG_4040.mp4'];
 
   const handleVideoEnd = () => {
-    setCurrentVideo((prev) => (prev + 1) % videos.length);
+    setCurrentVideo((prev) => (prev + 1) % HERO_VIDEOS.length);
   };
 
   const scrollToSection = (id: string) => {
@@ -26,7 +30,7 @@ export default function Hero() {
         className="absolute inset-0 flex h-full w-full transition-transform duration-[2000ms] ease-in-out"
         style={{ transform: `translateX(-${currentVideo * 100}%)` }}
       >
-        {videos.map((video, index) => (
+        {HERO_VIDEOS.map((video, index) => (
           <div key={video} className="flex-shrink-0 w-full h-full relative">
             <video
               autoPlay={index === currentVideo}
