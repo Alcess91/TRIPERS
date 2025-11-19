@@ -1,67 +1,67 @@
 {
   "nav": {
-    "contact": "Contact"
+    "contact": "お問い合わせ"
   },
   "hero": {
-    "title": "Nous voyageons d'abord. Nous vous présentons les bonnes personnes ensuite.",
-    "cta": "Découvrez nos destinations"
+    "title": "私たちがまず旅をします。そして、適切な人々をご紹介します。",
+    "cta": "目的地を見る"
   },
   "about": {
-    "title": "Pourquoi",
-    "subtitle": "Réinventer le voyage en mettant les bonnes personnes sur votre chemin.",
-    "paragraph1": "Tout a commencé autour d'un thé à la menthe à Marrakech, dans une ruelle que seuls les locaux connaissent. Ce jour-là, nous avons compris que les meilleurs moments de voyage ne se trouvent pas dans les brochures. Ils naissent des rencontres authentiques avec ceux qui vivent vraiment le territoire.",
-    "paragraph2": "L'équipe TRIPERS voyage d'abord pour vous. Nous explorons les destinations, rencontrons les guides, testons les expériences. Ensuite, nous devenons les architectes de votre voyage : nous recherchons les hébergements adaptés à votre budget et vos envies, nous dessinons des itinéraires cohérents, nous sélectionnons les activités qui ont du sens. Rien n'est standardisé, tout est pensé pour vous.",
-    "paragraph3": "Notre promesse ?",
-    "paragraph3Content": "Ne vous présenter que des guides que nous connaissons personnellement. Pas de plateforme anonyme, pas d'algorithme froid. Juste des humains qui partagent leur territoire avec authenticité et passion. Vous nous contactez sur WhatsApp, nous construisons ensemble, et le jour J, votre guide vous attend sur place.",
-    "card1Title": "Voyager autrement",
-    "card1Content": "Privilégier la qualité des rencontres à la quantité de sites visités. Vivre des expériences construites pour vous, pas des circuits standardisés où 40 personnes suivent le même programme. Prendre le temps de comprendre un lieu à travers ceux qui y vivent vraiment.",
-    "card2Title": "Garantir la confiance",
-    "card2Content": "Nous ne référençons que des guides que nous connaissons personnellement. Nous les avons rencontrés, testés, validés. Leur intégrité, leur connaissance du terrain et leur façon d'accueillir sont notre seul critère. Pas de profil aléatoire trouvé en ligne.",
-    "card3Title": "Soutenir l'économie locale",
-    "card3Content": "Chaque euro dépensé profite directement aux guides et à leurs communautés. Pas d'intermédiaire anonyme qui capte la valeur, juste un lien direct et équitable entre vous et les personnes qui vous font découvrir leur territoire."
+    "title": "なぜ",
+    "subtitle": "適切な人々をあなたの道に置くことで、旅を再発明します。",
+    "paragraph1": "すべては、地元の人だけが知るマラケシュの路地でミントティーを囲んで始まりました。その日、私たちは最高の旅の瞬間がパンフレットには載っていないことを理解しました。それらは、その土地を本当に生きている人々との本物の出会いから生まれます。",
+    "paragraph2": "TRIPERSチームはまずあなたのために旅をします。私たちは目的地を探索し、ガイドに会い、経験をテストします。そして、あなたの旅の設計者になります：予算と希望に合った宿泊施設を探し、一貫した旅程を描き、意味のある活動を選択します。標準化されたものは何もなく、すべてがあなたのために考えられています。",
+    "paragraph3": "私たちの約束は？",
+    "paragraph3Content": "個人的に知っているガイドのみをご紹介すること。匿名のプラットフォームも、冷たいアルゴリズムもありません。ただ、本物と情熱を持って自分の土地を共有する人々です。WhatsAppで私たちに連絡し、一緒に構築し、当日、あなたのガイドが現地であなたを待っています。",
+    "card1Title": "違う方法で旅する",
+    "card1Content": "訪れた場所の量よりも出会いの質を優先します。あなたのために構築された経験を生きる、40人が同じプログラムに従う標準化されたツアーではありません。そこに本当に住んでいる人々を通して場所を理解する時間を取ります。",
+    "card2Title": "信頼を保証する",
+    "card2Content": "私たちは個人的に知っているガイドのみをリストします。私たちは彼らに会い、テストし、検証しました。彼らの誠実さ、地形の知識、そして歓迎の仕方が私たちの唯一の基準です。オンラインで見つかったランダムなプロフィールはありません。",
+    "card3Title": "地域経済を支援する",
+    "card3Content": "使われたすべてのユーロはガイドとそのコミュニティに直接利益をもたらします。価値を捕らえる匿名の仲介者はなく、あなたと自分の土地を見せてくれる人々との間の直接的で公正なつながりだけです。"
   },
   "concept": {
-    "title": "Pourquoi TRIPERS ?",
-    "subtitle": "Le touriste profite, le voyageur découvre.",
-    "local": "Comme un local",
-    "localDesc": "Vous vivez comme un local, pas comme un touriste. Expériences authentiques garanties.",
-    "network": "Réseau international",
-    "networkDesc": "Réseau international d'amis → expériences uniques partout dans le monde.",
-    "safety": "Sécurité & confiance",
-    "safetyDesc": "Sécurité + vibes familiales. Nous vous mettons en lien avec des locaux de confiance.",
-    "unique": "Expériences uniques",
-    "uniqueDesc": "Soirées privées, immersions culturelles, excursions cachées."
+    "title": "なぜTRIPERS？",
+    "subtitle": "観光客は楽しみ、旅行者は発見します。",
+    "local": "地元の人のように",
+    "localDesc": "あなたは観光客ではなく、地元の人のように生きます。本物の経験が保証されています。",
+    "network": "国際ネットワーク",
+    "networkDesc": "友人の国際ネットワーク → 世界中でユニークな経験。",
+    "safety": "安全と信頼",
+    "safetyDesc": "安全＋家族の雰囲気。私たちはあなたを信頼できる地元の人々と結びつけます。",
+    "unique": "ユニークな経験",
+    "uniqueDesc": "プライベートパーティー、文化的没入、隠れた遠足。"
   },
   "destinations": {
-    "title": "Nos destinations",
-    "subtitle": "Des voyages sur mesure dans 4 destinations. Chaque itinéraire est construit avec vous, selon vos envies et votre durée."
+    "title": "私たちの目的地",
+    "subtitle": "4つの目的地でのオーダーメイドの旅。各旅程はあなたと一緒に、あなたの希望と期間に応じて構築されます。"
   },
   "contact": {
-    "title": "Parlons de votre prochain voyage",
-    "description": "Vous avez une destination en tête ? Des dates ? Un budget approximatif ? Contactez-nous directement sur WhatsApp. Nous vous poserons quelques questions sur vos envies (nature, culture, food, rythme), puis nous construirons votre voyage sur mesure avec nos guides locaux.",
-    "response": "Réponse personnalisée sous 24h.",
-    "cta": "Contactez-nous sur WhatsApp"
+    "title": "次の旅について話しましょう",
+    "description": "目的地はありますか？日程は？概算の予算は？WhatsAppで直接お問い合わせください。あなたの希望（自然、文化、食事、ペース）についていくつか質問し、地元のガイドと一緒にオーダーメイドの旅を構築します。",
+    "response": "24時間以内に個別の返信。",
+    "cta": "WhatsAppでお問い合わせ"
   },
   "footer": {
-    "tagline": "Vivez l'aventure comme un local",
-    "navigation": "Navigation",
-    "destinations": "Destinations",
-    "food": "Nourriture",
-    "travel": "Voyage",
-    "contactTitle": "Contact",
+    "tagline": "地元の人のように冒険を生きる",
+    "navigation": "ナビゲーション",
+    "destinations": "目的地",
+    "food": "食事",
+    "travel": "旅行",
+    "contactTitle": "お問い合わせ",
     "whatsapp": "WhatsApp",
-    "whatsappDesc": "Tout passe par WhatsApp pour un contact direct",
-    "copyright": "Tous droits réservés."
+    "whatsappDesc": "直接連絡のためにすべてがWhatsAppを通過します",
+    "copyright": "全著作権所有。"
   },
   "destinationPage": {
-    "ourCities": "Nos villes",
-    "etymology": "Étymologie",
-    "guide": "Guide",
-    "guides": "Guides",
+    "ourCities": "私たちの都市",
+    "etymology": "語源",
+    "guide": "ガイド",
+    "guides": "ガイド",
     "guidesTripers": "TRIPERS",
-    "ctaTitle": "Vous voulez construire votre voyage ici ?",
-    "ctaDescription": "Contactez-nous sur WhatsApp. Indiquez vos dates, votre budget, ce qui vous attire. Nous construisons ensemble un voyage sur mesure avec nos guides locaux. Réponse personnalisée sous 24h.",
-    "ctaButton": "Contactez-nous sur WhatsApp",
-    "backToDestinations": "Retour aux destinations"
+    "ctaTitle": "ここで旅を構築したいですか？",
+    "ctaDescription": "WhatsAppでお問い合わせください。日程、予算、何があなたを惹きつけるかを示してください。地元のガイドと一緒にオーダーメイドの旅を構築します。24時間以内に個別の返信。",
+    "ctaButton": "WhatsAppでお問い合わせ",
+    "backToDestinations": "目的地に戻る"
   }
 }

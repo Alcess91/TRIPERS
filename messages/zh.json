@@ -1,67 +1,67 @@
 {
   "nav": {
-    "contact": "Contact"
+    "contact": "联系我们"
   },
   "hero": {
-    "title": "Nous voyageons d'abord. Nous vous présentons les bonnes personnes ensuite.",
-    "cta": "Découvrez nos destinations"
+    "title": "我们先旅行。然后我们为您介绍合适的人。",
+    "cta": "探索我们的目的地"
   },
   "about": {
-    "title": "Pourquoi",
-    "subtitle": "Réinventer le voyage en mettant les bonnes personnes sur votre chemin.",
-    "paragraph1": "Tout a commencé autour d'un thé à la menthe à Marrakech, dans une ruelle que seuls les locaux connaissent. Ce jour-là, nous avons compris que les meilleurs moments de voyage ne se trouvent pas dans les brochures. Ils naissent des rencontres authentiques avec ceux qui vivent vraiment le territoire.",
-    "paragraph2": "L'équipe TRIPERS voyage d'abord pour vous. Nous explorons les destinations, rencontrons les guides, testons les expériences. Ensuite, nous devenons les architectes de votre voyage : nous recherchons les hébergements adaptés à votre budget et vos envies, nous dessinons des itinéraires cohérents, nous sélectionnons les activités qui ont du sens. Rien n'est standardisé, tout est pensé pour vous.",
-    "paragraph3": "Notre promesse ?",
-    "paragraph3Content": "Ne vous présenter que des guides que nous connaissons personnellement. Pas de plateforme anonyme, pas d'algorithme froid. Juste des humains qui partagent leur territoire avec authenticité et passion. Vous nous contactez sur WhatsApp, nous construisons ensemble, et le jour J, votre guide vous attend sur place.",
-    "card1Title": "Voyager autrement",
-    "card1Content": "Privilégier la qualité des rencontres à la quantité de sites visités. Vivre des expériences construites pour vous, pas des circuits standardisés où 40 personnes suivent le même programme. Prendre le temps de comprendre un lieu à travers ceux qui y vivent vraiment.",
-    "card2Title": "Garantir la confiance",
-    "card2Content": "Nous ne référençons que des guides que nous connaissons personnellement. Nous les avons rencontrés, testés, validés. Leur intégrité, leur connaissance du terrain et leur façon d'accueillir sont notre seul critère. Pas de profil aléatoire trouvé en ligne.",
-    "card3Title": "Soutenir l'économie locale",
-    "card3Content": "Chaque euro dépensé profite directement aux guides et à leurs communautés. Pas d'intermédiaire anonyme qui capte la valeur, juste un lien direct et équitable entre vous et les personnes qui vous font découvrir leur territoire."
+    "title": "为什么",
+    "subtitle": "通过将合适的人放在您的道路上来重新定义旅行。",
+    "paragraph1": "一切都始于马拉喀什一条只有当地人知道的小巷里的薄荷茶。那一天，我们明白了最好的旅行时刻不在小册子中。它们源于与真正生活在这片土地上的人的真实相遇。",
+    "paragraph2": "TRIPERS团队首先为您旅行。我们探索目的地，会见导游，测试体验。然后我们成为您旅程的建筑师：我们寻找适合您预算和愿望的住宿，我们绘制连贯的行程，我们选择有意义的活动。没有任何标准化，一切都为您设计。",
+    "paragraph3": "我们的承诺？",
+    "paragraph3Content": "只为您介绍我们个人认识的导游。没有匿名平台，没有冷酷的算法。只有以真实和热情分享他们土地的人。您通过WhatsApp联系我们，我们一起构建，到了那一天，您的导游在现场等您。",
+    "card1Title": "以不同的方式旅行",
+    "card1Content": "优先考虑相遇的质量而不是参观地点的数量。体验为您构建的经历，而不是40人遵循相同程序的标准化旅游。花时间通过真正生活在那里的人来理解一个地方。",
+    "card2Title": "保证信任",
+    "card2Content": "我们只列出我们个人认识的导游。我们见过他们，测试过他们，验证过他们。他们的诚信、对地形的了解和欢迎方式是我们唯一的标准。没有在线找到的随机个人资料。",
+    "card3Title": "支持当地经济",
+    "card3Content": "每一欧元的支出都直接使导游和他们的社区受益。没有捕获价值的匿名中介，只有您与向您展示他们土地的人之间的直接和公平的联系。"
   },
   "concept": {
-    "title": "Pourquoi TRIPERS ?",
-    "subtitle": "Le touriste profite, le voyageur découvre.",
-    "local": "Comme un local",
-    "localDesc": "Vous vivez comme un local, pas comme un touriste. Expériences authentiques garanties.",
-    "network": "Réseau international",
-    "networkDesc": "Réseau international d'amis → expériences uniques partout dans le monde.",
-    "safety": "Sécurité & confiance",
-    "safetyDesc": "Sécurité + vibes familiales. Nous vous mettons en lien avec des locaux de confiance.",
-    "unique": "Expériences uniques",
-    "uniqueDesc": "Soirées privées, immersions culturelles, excursions cachées."
+    "title": "为什么选择TRIPERS？",
+    "subtitle": "游客享受，旅行者发现。",
+    "local": "像当地人一样",
+    "localDesc": "您像当地人一样生活，而不是像游客。保证真实体验。",
+    "network": "国际网络",
+    "networkDesc": "朋友的国际网络 → 全球独特体验。",
+    "safety": "安全与信任",
+    "safetyDesc": "安全 + 家庭氛围。我们将您与值得信赖的当地人联系起来。",
+    "unique": "独特体验",
+    "uniqueDesc": "私人派对，文化沉浸，隐藏的游览。"
   },
   "destinations": {
-    "title": "Nos destinations",
-    "subtitle": "Des voyages sur mesure dans 4 destinations. Chaque itinéraire est construit avec vous, selon vos envies et votre durée."
+    "title": "我们的目的地",
+    "subtitle": "4个目的地的量身定制旅行。每个行程都与您一起构建，根据您的愿望和持续时间。"
   },
   "contact": {
-    "title": "Parlons de votre prochain voyage",
-    "description": "Vous avez une destination en tête ? Des dates ? Un budget approximatif ? Contactez-nous directement sur WhatsApp. Nous vous poserons quelques questions sur vos envies (nature, culture, food, rythme), puis nous construirons votre voyage sur mesure avec nos guides locaux.",
-    "response": "Réponse personnalisée sous 24h.",
-    "cta": "Contactez-nous sur WhatsApp"
+    "title": "让我们谈谈您的下一次旅行",
+    "description": "您心中有目的地吗？日期？大概的预算？直接通过WhatsApp联系我们。我们会问您一些关于您愿望的问题（自然、文化、美食、节奏），然后我们将与当地导游一起构建您的量身定制旅行。",
+    "response": "24小时内个性化回复。",
+    "cta": "通过WhatsApp联系我们"
   },
   "footer": {
-    "tagline": "Vivez l'aventure comme un local",
-    "navigation": "Navigation",
-    "destinations": "Destinations",
-    "food": "Nourriture",
-    "travel": "Voyage",
-    "contactTitle": "Contact",
+    "tagline": "像当地人一样体验冒险",
+    "navigation": "导航",
+    "destinations": "目的地",
+    "food": "美食",
+    "travel": "旅行",
+    "contactTitle": "联系我们",
     "whatsapp": "WhatsApp",
-    "whatsappDesc": "Tout passe par WhatsApp pour un contact direct",
-    "copyright": "Tous droits réservés."
+    "whatsappDesc": "一切都通过WhatsApp进行直接联系",
+    "copyright": "版权所有。"
   },
   "destinationPage": {
-    "ourCities": "Nos villes",
-    "etymology": "Étymologie",
-    "guide": "Guide",
-    "guides": "Guides",
+    "ourCities": "我们的城市",
+    "etymology": "词源",
+    "guide": "导游",
+    "guides": "导游",
     "guidesTripers": "TRIPERS",
-    "ctaTitle": "Vous voulez construire votre voyage ici ?",
-    "ctaDescription": "Contactez-nous sur WhatsApp. Indiquez vos dates, votre budget, ce qui vous attire. Nous construisons ensemble un voyage sur mesure avec nos guides locaux. Réponse personnalisée sous 24h.",
-    "ctaButton": "Contactez-nous sur WhatsApp",
-    "backToDestinations": "Retour aux destinations"
+    "ctaTitle": "您想在这里构建您的旅行吗？",
+    "ctaDescription": "通过WhatsApp联系我们。告诉我们您的日期、预算、吸引您的东西。我们与当地导游一起构建量身定制的旅行。24小时内个性化回复。",
+    "ctaButton": "通过WhatsApp联系我们",
+    "backToDestinations": "返回目的地"
   }
 }

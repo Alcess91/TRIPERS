@@ -1,67 +1,67 @@
 {
   "nav": {
-    "contact": "Contact"
+    "contact": "Контакт"
   },
   "hero": {
-    "title": "Nous voyageons d'abord. Nous vous présentons les bonnes personnes ensuite.",
-    "cta": "Découvrez nos destinations"
+    "title": "Мы путешествуем первыми. Затем мы представляем вам нужных людей.",
+    "cta": "Откройте наши направления"
   },
   "about": {
-    "title": "Pourquoi",
-    "subtitle": "Réinventer le voyage en mettant les bonnes personnes sur votre chemin.",
-    "paragraph1": "Tout a commencé autour d'un thé à la menthe à Marrakech, dans une ruelle que seuls les locaux connaissent. Ce jour-là, nous avons compris que les meilleurs moments de voyage ne se trouvent pas dans les brochures. Ils naissent des rencontres authentiques avec ceux qui vivent vraiment le territoire.",
-    "paragraph2": "L'équipe TRIPERS voyage d'abord pour vous. Nous explorons les destinations, rencontrons les guides, testons les expériences. Ensuite, nous devenons les architectes de votre voyage : nous recherchons les hébergements adaptés à votre budget et vos envies, nous dessinons des itinéraires cohérents, nous sélectionnons les activités qui ont du sens. Rien n'est standardisé, tout est pensé pour vous.",
-    "paragraph3": "Notre promesse ?",
-    "paragraph3Content": "Ne vous présenter que des guides que nous connaissons personnellement. Pas de plateforme anonyme, pas d'algorithme froid. Juste des humains qui partagent leur territoire avec authenticité et passion. Vous nous contactez sur WhatsApp, nous construisons ensemble, et le jour J, votre guide vous attend sur place.",
-    "card1Title": "Voyager autrement",
-    "card1Content": "Privilégier la qualité des rencontres à la quantité de sites visités. Vivre des expériences construites pour vous, pas des circuits standardisés où 40 personnes suivent le même programme. Prendre le temps de comprendre un lieu à travers ceux qui y vivent vraiment.",
-    "card2Title": "Garantir la confiance",
-    "card2Content": "Nous ne référençons que des guides que nous connaissons personnellement. Nous les avons rencontrés, testés, validés. Leur intégrité, leur connaissance du terrain et leur façon d'accueillir sont notre seul critère. Pas de profil aléatoire trouvé en ligne.",
-    "card3Title": "Soutenir l'économie locale",
-    "card3Content": "Chaque euro dépensé profite directement aux guides et à leurs communautés. Pas d'intermédiaire anonyme qui capte la valeur, juste un lien direct et équitable entre vous et les personnes qui vous font découvrir leur territoire."
+    "title": "Почему",
+    "subtitle": "Переосмысление путешествий, помещая нужных людей на ваш путь.",
+    "paragraph1": "Все началось за мятным чаем в Марракеше, в переулке, который знают только местные. В тот день мы поняли, что лучшие моменты путешествия не найдешь в брошюрах. Они рождаются из подлинных встреч с теми, кто действительно живет на этой территории.",
+    "paragraph2": "Команда TRIPERS сначала путешествует для вас. Мы исследуем направления, встречаемся с гидами, тестируем опыт. Затем мы становимся архитекторами вашего путешествия: мы ищем жилье, подходящее для вашего бюджета и желаний, мы рисуем связные маршруты, мы выбираем значимые мероприятия. Ничего не стандартизировано, все продумано для вас.",
+    "paragraph3": "Наше обещание?",
+    "paragraph3Content": "Представить вам только тех гидов, которых мы знаем лично. Никаких анонимных платформ, никаких холодных алгоритмов. Только люди, которые делятся своей территорией с искренностью и страстью. Вы связываетесь с нами в WhatsApp, мы строим вместе, и в назначенный день ваш гид ждет вас на месте.",
+    "card1Title": "Путешествовать по-другому",
+    "card1Content": "Отдавать приоритет качеству встреч перед количеством посещенных мест. Жить опытом, построенным для вас, а не стандартизированными турами, где 40 человек следуют одной программе. Найти время, чтобы понять место через тех, кто действительно там живет.",
+    "card2Title": "Гарантировать доверие",
+    "card2Content": "Мы перечисляем только тех гидов, которых знаем лично. Мы встречались с ними, тестировали их, проверяли их. Их честность, их знание местности и их способ приема - наш единственный критерий. Никаких случайных профилей, найденных в интернете.",
+    "card3Title": "Поддержать местную экономику",
+    "card3Content": "Каждый потраченный евро напрямую приносит пользу гидам и их сообществам. Никаких анонимных посредников, которые захватывают ценность, только прямая и справедливая связь между вами и людьми, которые показывают вам свою территорию."
   },
   "concept": {
-    "title": "Pourquoi TRIPERS ?",
-    "subtitle": "Le touriste profite, le voyageur découvre.",
-    "local": "Comme un local",
-    "localDesc": "Vous vivez comme un local, pas comme un touriste. Expériences authentiques garanties.",
-    "network": "Réseau international",
-    "networkDesc": "Réseau international d'amis → expériences uniques partout dans le monde.",
-    "safety": "Sécurité & confiance",
-    "safetyDesc": "Sécurité + vibes familiales. Nous vous mettons en lien avec des locaux de confiance.",
-    "unique": "Expériences uniques",
-    "uniqueDesc": "Soirées privées, immersions culturelles, excursions cachées."
+    "title": "Почему TRIPERS?",
+    "subtitle": "Турист наслаждается, путешественник открывает.",
+    "local": "Как местный",
+    "localDesc": "Вы живете как местный, а не как турист. Гарантированный аутентичный опыт.",
+    "network": "Международная сеть",
+    "networkDesc": "Международная сеть друзей → уникальный опыт по всему миру.",
+    "safety": "Безопасность и доверие",
+    "safetyDesc": "Безопасность + семейная атмосфера. Мы связываем вас с проверенными местными жителями.",
+    "unique": "Уникальный опыт",
+    "uniqueDesc": "Частные вечеринки, культурное погружение, скрытые экскурсии."
   },
   "destinations": {
-    "title": "Nos destinations",
-    "subtitle": "Des voyages sur mesure dans 4 destinations. Chaque itinéraire est construit avec vous, selon vos envies et votre durée."
+    "title": "Наши направления",
+    "subtitle": "Индивидуальные путешествия в 4 направления. Каждый маршрут строится вместе с вами, согласно вашим желаниям и продолжительности."
   },
   "contact": {
-    "title": "Parlons de votre prochain voyage",
-    "description": "Vous avez une destination en tête ? Des dates ? Un budget approximatif ? Contactez-nous directement sur WhatsApp. Nous vous poserons quelques questions sur vos envies (nature, culture, food, rythme), puis nous construirons votre voyage sur mesure avec nos guides locaux.",
-    "response": "Réponse personnalisée sous 24h.",
-    "cta": "Contactez-nous sur WhatsApp"
+    "title": "Давайте поговорим о вашем следующем путешествии",
+    "description": "У вас есть направление на уме? Даты? Приблизительный бюджет? Свяжитесь с нами напрямую в WhatsApp. Мы зададим вам несколько вопросов о ваших желаниях (природа, культура, еда, темп), затем мы построим ваше индивидуальное путешествие с нашими местными гидами.",
+    "response": "Персонализированный ответ в течение 24 часов.",
+    "cta": "Свяжитесь с нами в WhatsApp"
   },
   "footer": {
-    "tagline": "Vivez l'aventure comme un local",
-    "navigation": "Navigation",
-    "destinations": "Destinations",
-    "food": "Nourriture",
-    "travel": "Voyage",
-    "contactTitle": "Contact",
+    "tagline": "Живите приключением как местный",
+    "navigation": "Навигация",
+    "destinations": "Направления",
+    "food": "Еда",
+    "travel": "Путешествие",
+    "contactTitle": "Контакт",
     "whatsapp": "WhatsApp",
-    "whatsappDesc": "Tout passe par WhatsApp pour un contact direct",
-    "copyright": "Tous droits réservés."
+    "whatsappDesc": "Все проходит через WhatsApp для прямого контакта",
+    "copyright": "Все права защищены."
   },
   "destinationPage": {
-    "ourCities": "Nos villes",
-    "etymology": "Étymologie",
-    "guide": "Guide",
-    "guides": "Guides",
+    "ourCities": "Наши города",
+    "etymology": "Этимология",
+    "guide": "Гид",
+    "guides": "Гиды",
     "guidesTripers": "TRIPERS",
-    "ctaTitle": "Vous voulez construire votre voyage ici ?",
-    "ctaDescription": "Contactez-nous sur WhatsApp. Indiquez vos dates, votre budget, ce qui vous attire. Nous construisons ensemble un voyage sur mesure avec nos guides locaux. Réponse personnalisée sous 24h.",
-    "ctaButton": "Contactez-nous sur WhatsApp",
-    "backToDestinations": "Retour aux destinations"
+    "ctaTitle": "Хотите построить свое путешествие здесь?",
+    "ctaDescription": "Свяжитесь с нами в WhatsApp. Укажите ваши даты, ваш бюджет, что вас привлекает. Мы строим вместе индивидуальное путешествие с нашими местными гидами. Персонализированный ответ в течение 24 часов.",
+    "ctaButton": "Свяжитесь с нами в WhatsApp",
+    "backToDestinations": "Вернуться к направлениям"
   }
 }
